@@ -1,4 +1,2 @@
-javascript/node_modules
-typescript/node_modules
-javascript
-typescript
+*/node_modules
+node_modules
