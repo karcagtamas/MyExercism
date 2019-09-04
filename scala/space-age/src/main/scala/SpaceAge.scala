@@ -1,10 +1,19 @@
 object SpaceAge {
-    def onEarth(seconds: Double) = seconds / 60 / 60 / 24 / 365.25 
-    def onMercury(seconds: Double) = onEarth(seconds) / 0.2408467
-    def onVenus(seconds: Double) = onEarth(seconds) / 0.61519726 
-    def onMars(seconds: Double) = onEarth(seconds) / 1.8808158 
-    def onJupiter(seconds: Double) = onEarth(seconds) / 11.862615 
-    def onSaturn(seconds: Double) = onEarth(seconds) / 29.447498
-    def onUranus(seconds: Double) = onEarth(seconds) / 84.016846
-    def onNeptune(seconds: Double) = onEarth(seconds) / 164.79132 
+    val divider = 60 * 60 * 24 * 365.25
+    val mercuryPeriod = 0.2408467
+    val venusPeriod = 0.61519726
+    val marsPeriod = 1.8808158
+    val jupiterPeriod = 11.862615
+    val saturnPeriod = 29.447498
+    val uranusPeriod = 84.016846
+    val neptunePeriod = 164.79132
+
+    def onEarth(seconds: Double): Double = seconds / divider 
+    def onMercury(seconds: Double): Double = onEarth(seconds) / mercuryPeriod
+    def onVenus(seconds: Double): Double = onEarth(seconds) / venusPeriod
+    def onMars(seconds: Double): Double = onEarth(seconds) / marsPeriod
+    def onJupiter(seconds: Double): Double = onEarth(seconds) / jupiterPeriod 
+    def onSaturn(seconds: Double): Double = onEarth(seconds) / saturnPeriod
+    def onUranus(seconds: Double): Double = onEarth(seconds) / uranusPeriod
+    def onNeptune(seconds: Double): Double = onEarth(seconds) / neptunePeriod
 }
