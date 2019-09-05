@@ -5,11 +5,11 @@ import "errors"
 
 // Distance function calculates the hamming distance between two string value
 func Distance(a, b string) (int, error) {
-	count := 0
 	if len(a) != len(b) {
-		err := errors.New("Length of A and B is not equal")
-		return count, err
+		err := errors.New("length of A and B is not equal")
+		return 0, err
 	}
+	count := 0
 	for index := 0; index < len(a); index++ {
 		if a[index] != b[index] {
 			count++
