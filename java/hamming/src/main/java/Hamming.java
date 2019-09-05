@@ -3,13 +3,13 @@ class Hamming {
     String right;
 
     Hamming(String leftStrand, String rightStrand) {
-        if (this.validate(leftStrand, rightStrand)) {
-            this.left = leftStrand;
-            this.right = rightStrand;
-        }
+        this.validate(leftStrand, rightStrand);
+        this.left = leftStrand;
+        this.right = rightStrand;
+
     }
 
-    boolean validate(String leftStrand, String rightStrand) throws IllegalArgumentException {
+    void validate(String leftStrand, String rightStrand) throws IllegalArgumentException {
         if (leftStrand.isEmpty() && !rightStrand.isEmpty()) {
             throw new IllegalArgumentException("left strand must not be empty.");
         }
@@ -19,7 +19,6 @@ class Hamming {
         if (leftStrand.length() != rightStrand.length()) {
             throw new IllegalArgumentException("leftStrand and rightStrand must be of equal length.");
         }
-        return true;
     }
 
     int getHammingDistance() throws IllegalArgumentException {

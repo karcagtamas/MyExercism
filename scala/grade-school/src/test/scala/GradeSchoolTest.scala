@@ -21,14 +21,12 @@ class GradeSchoolTest extends FunSuite with Matchers with OneInstancePerTest {
   }
 
   test ("add students to different grades") {
-    pending
     school.add("Chelsea", 3)
     school.add("Logan", 7)
     school.db should be (Map(3 -> Seq("Chelsea"), 7 -> Seq("Logan")))
   }
 
   test ("get students in a grade") {
-    pending
     school.add("Franklin", 5)
     school.add("Bradley", 5)
     school.add("Jeff", 1)
@@ -36,12 +34,10 @@ class GradeSchoolTest extends FunSuite with Matchers with OneInstancePerTest {
   }
 
   test ("get students in a non-existant grade") {
-    pending
     school.grade(1) should be (Seq())
   }
 
   test ("sort school") {
-    pending
     school.add("Jennifer", 4)
     school.add("Kareem", 6)
     school.add("Christopher", 4)
