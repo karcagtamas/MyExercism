@@ -1,38 +1,24 @@
+import scala.collection.immutable.SortedMap
 class School {
   type DB = Map[Int, Seq[String]]
 
-  var database: DB = Map()
+  private var database: DB = Map()
 
   def add(name: String, g: Int) = {
-    var el: Seq[String] = Seq(name)
-    if (database.contains(g)){
-      el = database(g)
-      el = el :+ name
-    }
-    database = database + (g -> el)
+    var el: Seq[String] = database.getOrElse(g, Seq())
+    database = database + (g -> (el :+ name))
   }
 
   def db: DB = database
 
   def grade(g: Int): Seq[String] = {
-    if (database.contains(g)){
-      database(g)
-    }
-    else{
-      Seq()
-    }
+    database.getOrElse(g, Seq())
   }
 
   def sorted: DB = {
     var toSort: DB = db
-    var sorted: DB = Map()
-    for (i <- toSort.keys.toSeq.sorted){
-      if (toSort.contains(i)){
-        var el: Seq[String] = toSort(i)
-        el = el.sorted
-        sorted = sorted + (i -> el)
-      }
-    }
+    var sorted = SortedMap[Int, Seq[String]]() ++ toSort
+    sorted = sorted.mapValues(x => x.sorted)
     sorted
   }
 }
