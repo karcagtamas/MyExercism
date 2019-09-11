@@ -12,3 +12,6 @@ def personal_best(scores):
 
 
 def personal_top_three(scores):
+    scores.sort(reverse=True)
+    del scores[3: len(scores)]
+    return scores
