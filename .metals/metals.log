@@ -57,3 +57,8 @@ WARN  no build tool detected in workspace 'C:\Users\Lenovo\Exercism'. The most c
 WARN  no build tool detected in workspace 'C:\Users\Lenovo\Exercism'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 WARN  no build target: C:\Users\Lenovo\Exercism\scala\bob\src\main\scala\Bob.scala
 WARN  no build target: C:\Users\Lenovo\Exercism\scala\bob\src\test\scala\BobTest.scala
+INFO  time: initialize in 5.96s
+WARN  no build tool detected in workspace 'C:\Users\Lenovo\Exercism'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: C:\Users\Lenovo\Exercism\scala\bob\src\test\scala\BobTest.scala
+Sep 12, 2019 1:08:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
