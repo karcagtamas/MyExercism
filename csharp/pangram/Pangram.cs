@@ -6,14 +6,10 @@ public static class Pangram
     {
         int codeA = 97;
         int codeZ = 122;
-        string newValue = input.ToLower().Trim().Replace(" ", "");
-        /*         if (newValue.Length != 26)
-                {
-                    return false;
-                } */
+        string newValue = input.ToLower();
         for (int i = codeA; i <= codeZ; i++)
         {
-            if (Count(newValue, (char)i) != 1)
+            if (Count(newValue, (char)i) == 0)
             {
                 return false;
             }
