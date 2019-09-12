@@ -3,6 +3,13 @@
 // convenience to get you started writing code faster.
 //
 
-export const toRna = () => {
-  throw new Error("Remove this statement and implement this function");
+const DNA = "ACGT";
+const RNA = "UGCA";
+
+export const toRna = dna => {
+  let rna = "";
+  for (const i of dna) {
+    rna += RNA[DNA.indexOf(i)];
+  }
+  return rna;
 };
