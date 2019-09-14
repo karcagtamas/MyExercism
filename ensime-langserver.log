@@ -1,0 +1,8 @@
+[2019-09-14 20:25:06,815] INFO org.github.dragos.vscode.Main$ - Starting server in /home/karcagtamas/exercism
+[2019-09-14 20:25:06,815] INFO org.github.dragos.vscode.Main$ - Starting server in /home/karcagtamas/exercism
+[2019-09-14 20:25:06,824] INFO org.github.dragos.vscode.Main$ - Classpath: /home/karcagtamas/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2019-09-14 20:25:06,824] INFO org.github.dragos.vscode.Main$ - Classpath: /home/karcagtamas/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2019-09-14 20:25:06,874] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2019-09-14 20:25:06,874] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2019-09-14 20:25:06,932] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2019-09-14 20:25:06,932] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
