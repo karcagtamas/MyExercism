@@ -26,22 +26,16 @@ public class Meetup
         {
             case Schedule.Teenth:
                 return GetTeenthDay(dayOfWeek);
-                break;
             case Schedule.First:
                 return GetFirstDay(dayOfWeek);
-                break;
             case Schedule.Second:
                 return GetFirstDay(dayOfWeek, 2);
-                break;
             case Schedule.Third:
                 return GetFirstDay(dayOfWeek, 3);
-                break;
             case Schedule.Fourth:
                 return GetFirstDay(dayOfWeek, 4);
-                break;
             case Schedule.Last:
                 return GetLastDay(dayOfWeek);
-                break;
             default:
                 return new DateTime();
         }
