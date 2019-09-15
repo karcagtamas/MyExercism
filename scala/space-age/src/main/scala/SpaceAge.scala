@@ -8,7 +8,7 @@ object SpaceAge {
     val uranusPeriod = 84.016846
     val neptunePeriod = 164.79132
 
-    def onEarth(seconds: Double): Double = seconds / divider 
+    def onEarth(seconds: Double): Double = seconds / divid/home/karcagtamas/exercism/javaer
     def onMercury(seconds: Double): Double = onEarth(seconds) / mercuryPeriod
     def onVenus(seconds: Double): Double = onEarth(seconds) / venusPeriod
     def onMars(seconds: Double): Double = onEarth(seconds) / marsPeriod
