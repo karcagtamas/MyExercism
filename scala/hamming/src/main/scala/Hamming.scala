@@ -5,8 +5,7 @@ object Hamming {
       return None
     }
     for (i <- 0 to left.length() - 1) {
-
-      if (left.charAt(i) != right.charAt(i)) {
+      if (left.charAt(i).equals(right.charAt(i))) {
         dist += 1;
       }
     }
