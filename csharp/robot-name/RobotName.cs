@@ -4,15 +4,11 @@ using System.Collections.Generic;
 public class Robot
 {
     private string name = "";
-    private static string LETTERS = "QWERTZUIOPASDFGHJKLYXCVBNM";
-    private static List<string> NAMES = new List<string>();
-    public string Name
-    {
-        get
-        {
-            return name;
-        }
-    }
+    private const string LETTERS = "QWERTZUIOPASDFGHJKLYXCVBNM";
+    private static HashSet<string> NAMES = new HashSet<string>();
+    public string Name => name;
+
+    private static Random rnd = new Random();
 
     public Robot()
     {
@@ -22,14 +18,13 @@ public class Robot
     public void Reset()
     {
         string newName = "";
-        Random r = new Random();
         do
         {
-            newName += LETTERS[r.Next(0, LETTERS.Length)];
-            newName += LETTERS[r.Next(0, LETTERS.Length)];
-            newName += r.Next(0, 10);
-            newName += r.Next(0, 10);
-            newName += r.Next(0, 10);
+            newName += LETTERS[rnd.Next(0, LETTERS.Length)];
+            newName += LETTERS[rnd.Next(0, LETTERS.Length)];
+            newName += rnd.Next(0, 10);
+            newName += rnd.Next(0, 10);
+            newName += rnd.Next(0, 10);
         } while (NAMES.Contains(newName));
         NAMES.Add(newName);
         this.name = newName;

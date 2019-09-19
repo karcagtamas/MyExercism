@@ -1,7 +1,7 @@
 // Package scrabble contains the solution of Scrable score task
 package scrabble
 
-import "strings"
+import "unicode"
 
 var letters = map[rune]int{
 	'A': 1,
@@ -34,8 +34,8 @@ var letters = map[rune]int{
 // Score function calculate of the score of the given word
 func Score(input string) int {
 	score := 0
-	for index := 0; index < len(input); index++ {
-		score += letters[rune((strings.ToUpper(input)[index]))]
+	for _, r := range input {
+		score += letters[unicode.ToUpper(r)]
 	}
 	return score
 }
