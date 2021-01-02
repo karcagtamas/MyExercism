@@ -3,52 +3,36 @@ using System.Collections.Generic;
 
 public enum Allergen
 {
-    Eggs,
-    Peanuts,
-    Shellfish,
-    Strawberries,
-    Tomatoes,
-    Chocolate,
-    Pollen,
-    Cats
+    Eggs = 1,
+    Peanuts = 2,
+    Shellfish = 4,
+    Strawberries = 8,
+    Tomatoes = 16,
+    Chocolate = 32,
+    Pollen = 64,
+    Cats = 128
 }
 
 public class Allergies
 {
-    private List<Allergen> allergens = new List<Allergen>();
+    private List<Allergen> _allergens = new List<Allergen>();
+    private readonly int _mask;
     public Allergies(int mask)
     {
-        int k = 0;
+        this._mask = mask;
+        this.DetermineAllergens();
+    }
+
+    private void DetermineAllergens()
+    {
+        int mask = this._mask;
+        this._allergens = new List<Allergen>();
         while (mask != 0)
         {
             int num = this.findBiggest(mask);
-            switch (num)
+            if (num <= 128)
             {
-                case 1:
-                    this.allergens.Insert(0, Allergen.Eggs);
-                    break;
-                case 2:
-                    this.allergens.Insert(0, Allergen.Peanuts);
-                    break;
-                case 4:
-                    this.allergens.Insert(0, Allergen.Shellfish);
-                    break;
-                case 8:
-                    this.allergens.Insert(0, Allergen.Strawberries);
-                    break;
-                case 16:
-                    this.allergens.Insert(0, Allergen.Tomatoes);
-                    break;
-                case 32:
-                    this.allergens.Insert(0, Allergen.Chocolate);
-                    break;
-                case 64:
-                    this.allergens.Insert(0, Allergen.Pollen);
-                    break;
-                case 128:
-                    this.allergens.Insert(0, Allergen.Cats);
-                    break;
-
+                this._allergens.Insert(0, (Allergen)num);
             }
             mask -= num;
         }
@@ -68,13 +52,7 @@ public class Allergies
         return 0;
     }
 
-    public bool IsAllergicTo(Allergen allergen)
-    {
-        return this.allergens.Contains(allergen);
-    }
+    public bool IsAllergicTo(Allergen allergen) => this._allergens.Contains(allergen);
 
-    public Allergen[] List()
-    {
-        return this.allergens.ToArray();
-    }
+    public Allergen[] List() => this._allergens.ToArray();
 }
