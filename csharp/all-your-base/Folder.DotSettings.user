@@ -1,0 +1,28 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bd3d6864_002Dd51d_002D4317_002Dae86_002D7a533a9c2150/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Single_bit_one_to_decimal" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Single_bit_one_to_decimal&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Binary_to_single_decimal&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Single_decimal_to_binary&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Binary_to_multiple_decimal&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Decimal_to_binary&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Trinary_to_hexadecimal&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Hexadecimal_to_trinary&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Number_15_bit_integer&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Empty_list&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Single_zero&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Multiple_zeros&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Leading_zeros&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Input_base_is_one&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Input_base_is_zero&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Input_base_is_negative&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Negative_digit&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Invalid_positive_digit&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests.Output_base_is_one&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fd6cb0a0_002Da13d_002D4b1e_002D8fac_002D970bd7555fc7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Output_base_is_one" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::83F34956-C8BD-8EFD-5327-CA606808ADA4::.NETCoreApp,Version=v3.0::AllYourBaseTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
