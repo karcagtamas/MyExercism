@@ -1,11 +1,11 @@
 #include "reverse_string.h"
-#include <bits/stdc++.h>
+#include <algorithm>
 
 namespace reverse_string
 {
     std::string reverse_string(std::string text)
     {
-        reverse(text.begin(), text.end());
+        std::reverse(text.begin(), text.end());
         return text;
     }
 } // namespace reverse_string
