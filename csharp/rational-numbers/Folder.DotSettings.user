@@ -1,0 +1,36 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1b1f0cab_002Dd818_002D45e8_002D8271_002D491d3e813296/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Reduce_a_negative_rational_number_to_lowest_terms" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::9E5297B5-DA43-89C8-B581-DEEF1AAF45CC::.NETCoreApp,Version=v3.0::RationalNumbersTests.Reduce_a_negative_rational_number_to_lowest_terms&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5bfcbf0a_002D05f3_002D4a88_002Daced_002Da3f84cd088f4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Add_two_positive_rational_numbers #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::9E5297B5-DA43-89C8-B581-DEEF1AAF45CC::.NETCoreApp,Version=v3.0::RationalNumbersTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5cd60616_002D2bad_002D4880_002D90b7_002Dffecc3d84d72/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Add_two_positive_rational_numbers" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::9E5297B5-DA43-89C8-B581-DEEF1AAF45CC::.NETCoreApp,Version=v3.0::RationalNumbersTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6265a5c6_002D827d_002D47db_002Da919_002D5f54c2ef76fc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Reduce_a_rational_number_with_a_negative_denominator_to_lowest_terms" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::9E5297B5-DA43-89C8-B581-DEEF1AAF45CC::.NETCoreApp,Version=v3.0::RationalNumbersTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7478be38_002Dd807_002D4b16_002Db2ab_002D00584aaf0ad7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Add_a_positive_rational_number_and_a_negative_rational_number" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::9E5297B5-DA43-89C8-B581-DEEF1AAF45CC::.NETCoreApp,Version=v3.0::RationalNumbersTests.Add_a_positive_rational_number_and_a_negative_rational_number&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bcca1efe_002Dfb72_002D4493_002Da5b1_002D7c0992697e4e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RationalNumbersTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::9E5297B5-DA43-89C8-B581-DEEF1AAF45CC::.NETCoreApp,Version=v3.0::RationalNumbersTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ed109dc1_002Db8c0_002D4d6d_002D8ee5_002D8d9eb99a5c94/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Add_two_positive_rational_numbers #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::9E5297B5-DA43-89C8-B581-DEEF1AAF45CC::.NETCoreApp,Version=v3.0::RationalNumbersTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
