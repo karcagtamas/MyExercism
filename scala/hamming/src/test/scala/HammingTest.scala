@@ -1,7 +1,8 @@
-import org.scalatest.{Matchers, FunSuite}
+import org.scalatest.matchers.should.Matchers
+import org.scalatest.funsuite.AnyFunSuite
 
 /** @version 2.1.0 */
-class HammingTest extends FunSuite with Matchers {
+class HammingTest extends AnyFunSuite with Matchers {
 
   test("empty strands") {
     Hamming.distance("", "") should be(Some(0))
