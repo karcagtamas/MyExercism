@@ -4,26 +4,45 @@ class Scrabble {
 
     private final String word;
 
-    private static final List<Point> POINTS = Arrays.asList(
-            new Point(1, "AEIOULNRST"),
-            new Point(2, "DG"),
-            new Point(3, "BCMP"),
-            new Point(4, "FHVWY"),
-            new Point(5, "K"),
-            new Point(8, "JX"),
-            new Point(10, "QZ"));
+    private static final List<LetterScores> LETTER_SCORES = Arrays.asList(
+            new LetterScores(1, "AEIOULNRST"),
+            new LetterScores(2, "DG"),
+            new LetterScores(3, "BCMP"),
+            new LetterScores(4, "FHVWY"),
+            new LetterScores(5, "K"),
+            new LetterScores(8, "JX"),
+            new LetterScores(10, "QZ"));
 
     Scrabble(String word) {
         this.word = word.toUpperCase();
     }
 
     int getScore() {
-        int score = 0;
-        for (int i = 0; i < this.word.length(); i++) {
-            char current = this.word.charAt(i);
-            score += POINTS.stream().filter(x -> x.isContains(current)).findFirst().orElse(new Point(0, "")).getPoint();
+        return this.word.chars()
+                .map(this::scoreForLetter)
+                .sum();
+    }
+
+    int scoreForLetter(int letter) {
+        return LETTER_SCORES.stream().filter(scores -> scores.isContains((char)letter)).findFirst().orElse(new LetterScores(0, "")).getPoint();
+    }
+
+    private static class LetterScores {
+        private final int point;
+        private final String chars;
+
+        public LetterScores(int point, String chars) {
+            this.point = point;
+            this.chars = chars;
         }
-        return score;
+
+        public int getPoint() {
+            return this.point;
+        }
+
+        public boolean isContains(Character character) {
+            return chars.contains(character.toString());
+        }
     }
 
 }
