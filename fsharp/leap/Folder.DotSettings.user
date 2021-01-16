@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=258c7d18_002D141d_002D4ebf_002D84ec_002Dbc90e6fe832d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Year not divisible by 4 in common year" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::B9E1AF32-E911-C7AB-6D11-021C3C618871::.NETCoreApp,Version=v3.0::LeapTests.Year not divisible by 4 in common year&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B9E1AF32-E911-C7AB-6D11-021C3C618871::.NETCoreApp,Version=v3.0::LeapTests.Year divisible by 2, not divisible by 4 in common year&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B9E1AF32-E911-C7AB-6D11-021C3C618871::.NETCoreApp,Version=v3.0::LeapTests.Year divisible by 4, not divisible by 100 in leap year&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B9E1AF32-E911-C7AB-6D11-021C3C618871::.NETCoreApp,Version=v3.0::LeapTests.Year divisible by 4 and 5 is still a leap year&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B9E1AF32-E911-C7AB-6D11-021C3C618871::.NETCoreApp,Version=v3.0::LeapTests.Year divisible by 100, not divisible by 400 in common year&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B9E1AF32-E911-C7AB-6D11-021C3C618871::.NETCoreApp,Version=v3.0::LeapTests.Year divisible by 100 but not by 3 is still not a leap year&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B9E1AF32-E911-C7AB-6D11-021C3C618871::.NETCoreApp,Version=v3.0::LeapTests.Year divisible by 400 but not by 125 is still a leap year&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B9E1AF32-E911-C7AB-6D11-021C3C618871::.NETCoreApp,Version=v3.0::LeapTests.Year divisible by 200, not divisible by 400 in common year&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
