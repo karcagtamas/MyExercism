@@ -1,6 +1,6 @@
 ﻿module TwoFer
 
-let name (input: string option): string = if input.IsNone then "you" else input.Value;
+let defaultVal: string = "you";
 
-let twoFer (input: string option): string = $"One for {name input}, one for me."
+let twoFer (input: string option): string = $"One for {input |> Option.defaultValue defaultVal}, one for me."
 
