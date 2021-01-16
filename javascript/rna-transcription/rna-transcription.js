@@ -3,13 +3,12 @@
 // convenience to get you started writing code faster.
 //
 
-const DNA = "ACGT";
-const RNA = "UGCA";
+const TABLE = { DNA: "ACGT", RNA: "UGCA" };
 
-export const toRna = dna => {
-  let rna = "";
-  for (const i of dna) {
-    rna += RNA[DNA.indexOf(i)];
-  }
-  return rna;
+export const toRna = (dna) => {
+  return Array.from(dna)
+    .map((x) => {
+      return TABLE.RNA[TABLE.DNA.indexOf(x)];
+    })
+    .join("");
 };
