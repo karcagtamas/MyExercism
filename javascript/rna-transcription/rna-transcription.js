@@ -3,12 +3,15 @@
 // convenience to get you started writing code faster.
 //
 
-const TABLE = { DNA: "ACGT", RNA: "UGCA" };
+const TRANSCRIPTION = {
+  C: "G",
+  G: "C",
+  A: "U",
+  T: "A",
+};
 
 export const toRna = (dna) => {
   return Array.from(dna)
-    .map((x) => {
-      return TABLE.RNA[TABLE.DNA.indexOf(x)];
-    })
+    .map((x) => TRANSCRIPTION[x.toUpperCase()])
     .join("");
 };

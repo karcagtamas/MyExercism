@@ -9,3 +9,5 @@ project
 build
 .metals
 vendor
+*.xml
+*.attach*
