@@ -4,23 +4,59 @@
 //
 
 export class Clock {
-  constructor() {
-    throw new Error('Remove this statement and implement this function');
+
+  constructor(hour, min = 0) {
+    this.hour = 0;
+    this.addHours(hour);
+    this.min = 0;
+    this.addMins(min);
   }
 
   toString() {
-    throw new Error('Remove this statement and implement this function');
+    return `${this.hour.toString().padStart(2, "0")}:${this.min.toString().padStart(2, "0")}`;
   }
 
-  plus() {
-    throw new Error('Remove this statement and implement this function');
+  plus(min) {
+    this.addMins(min);
+    return this;
   }
 
-  minus() {
-    throw new Error('Remove this statement and implement this function');
+  minus(min) {
+    this.addMins(-min);
+    return this;
   }
 
-  equals() {
-    throw new Error('Remove this statement and implement this function');
+  equals(clock) {
+    return this.hour == clock.getHour() && this.min == clock.getMin();
+  }
+
+  addHours(hour) {
+    this.hour = (this.hour + hour) % 24;
+    if (this.hour < 0) {
+      this.hour = 24 + this.hour;
+    }
+  }
+
+  addMins(min) {
+    let sum = this.min + min;
+
+    this.min = sum % 60;
+
+    let hour = (sum - this.min) / 60;
+
+    this.addHours(hour);
+
+    if (this.min < 0) {
+      this.min += 60;
+      this.addHours(-1);
+    }
+  }
+
+  getMin() {
+    return this.min;
+  }
+
+  getHour() {
+    return this.hour;
   }
 }
