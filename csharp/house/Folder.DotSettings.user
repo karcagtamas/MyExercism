@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=13edcc65_002D0fff_002D4396_002D9ca2_002D4a945db7964c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Verse_one_the_house_that_jack_built" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_one_the_house_that_jack_built&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_two_the_malt_that_lay&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_three_the_rat_that_ate&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_four_the_cat_that_killed&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_five_the_dog_that_worried&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_six_the_cow_with_the_crumpled_horn&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_seven_the_maiden_all_forlorn&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_eight_the_man_all_tattered_and_torn&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_nine_the_priest_all_shaven_and_shorn&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_10_the_rooster_that_crowed_in_the_morn&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_11_the_farmer_sowing_his_corn&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Verse_12_the_horse_and_the_hound_and_the_horn&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Multiple_verses&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BA4587DC-BE30-A5EF-D028-F85BA9B11599::net5.0::HouseTests.Full_rhyme&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
