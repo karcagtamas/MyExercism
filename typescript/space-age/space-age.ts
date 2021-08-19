@@ -1,46 +1,53 @@
+enum PlanetPeriod {
+  Mercury = 0.2408467,
+  Venus = 0.61519726,
+  Mars = 1.8808158,
+  Jupiter = 11.862615,
+  Saturn = 29.447498,
+  Uranus = 84.016846,
+  Neptune = 164.79132,
+}
+
+const EARTH_YEAR_SECONDS = 31557600;
+
 export default class SpaceAge {
   constructor(public seconds: number) {}
 
-  public onEarth(): number {
-    return this.round(this.seconds / 31557600, 2);
+  onEarth(fixed: boolean = true): number {
+    return fixed
+      ? Number((this.seconds / EARTH_YEAR_SECONDS).toFixed(2))
+      : this.seconds / EARTH_YEAR_SECONDS;
   }
 
-  public onMercury(): number {
-    return this.onPlanet(0.2408467);
+  onMercury(): number {
+    return this.onPlanet(PlanetPeriod.Mercury);
   }
 
-  public onVenus(): number {
-    return this.onPlanet(0.61519726);
+  onVenus(): number {
+    return this.onPlanet(PlanetPeriod.Venus);
   }
 
-  public onMars(): number {
-    return this.onPlanet(1.8808158);
+  onMars(): number {
+    return this.onPlanet(PlanetPeriod.Mars);
   }
 
-  public onJupiter(): number {
-    return this.onPlanet(11.862615);
+  onJupiter(): number {
+    return this.onPlanet(PlanetPeriod.Jupiter);
   }
 
-  public onSaturn(): number {
-    return this.onPlanet(29.447498);
+  onSaturn(): number {
+    return this.onPlanet(PlanetPeriod.Saturn);
   }
 
-  public onUranus(): number {
-    return this.onPlanet(84.016846);
+  onUranus(): number {
+    return this.onPlanet(PlanetPeriod.Uranus);
   }
 
-  public onNeptune(): number {
-    return this.onPlanet(164.79132);
+  onNeptune(): number {
+    return this.onPlanet(PlanetPeriod.Neptune);
   }
 
   private onPlanet(yearPeriod: number): number {
-    return this.round(this.onEarth() / yearPeriod, 2);
-  }
-
-  private round(num: number, decimalPlaces: number): number {
-    return (
-      Math.round(num * Math.pow(10, decimalPlaces)) /
-      Math.pow(10, decimalPlaces)
-    );
+    return Number((this.onEarth(false) / yearPeriod).toFixed(2));
   }
 }
