@@ -11,3 +11,5 @@ build
 vendor
 *.xml
 *.attach*
+.dart_tool
+.packages
