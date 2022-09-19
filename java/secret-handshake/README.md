@@ -1,5 +1,10 @@
 # Secret Handshake
 
+Welcome to Secret Handshake on Exercism's Java Track.
+If you need help running the tests or submitting your code, check out `HELP.md`.
+
+## Instructions
+
 > There are 10 types of people in the world: Those who understand
 > binary, and those who don't.
 
@@ -28,31 +33,30 @@ Given the input 19, the function would return the array
 Notice that the addition of 16 (10000 in binary)
 has caused the array to be reversed.
 
-## Setup
-
-Go through the setup instructions for Java to install the necessary
-dependencies:
-
-[https://exercism.io/tracks/java/installation](https://exercism.io/tracks/java/installation)
-
-# Running the tests
-
-You can run all the tests for an exercise by entering the following in your
-terminal:
-
-```sh
-$ gradle test
-```
-
-In the test suites all tests but the first have been skipped.
-
-Once you get a test passing, you can enable the next one by removing the
-`@Ignore("Remove to run test")` annotation.
-
 ## Source
 
-Bert, in Mary Poppins [http://www.imdb.com/title/tt0058331/quotes/qt0437047](http://www.imdb.com/title/tt0058331/quotes/qt0437047)
+### Created by
 
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have
-completed the exercise.
+- @stkent
+
+### Contributed to by
+
+- @c-thornton
+- @FridaTveit
+- @jmrunkle
+- @kytrinyx
+- @lemoncurry
+- @morrme
+- @msomji
+- @muzimuzhi
+- @sjwarner-bp
+- @SleeplessByte
+- @Smarticles101
+- @sshine
+- @vasouv
+- @vivshaw
+- @Zaldrick
+
+### Based on
+
+Bert, in Mary Poppins - http://www.imdb.com/title/tt0058331/quotes/qt0437047
