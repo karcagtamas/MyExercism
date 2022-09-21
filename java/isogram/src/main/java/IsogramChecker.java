@@ -1,7 +1,13 @@
+import java.util.Arrays;
+
+import static java.util.function.Predicate.not;
+import static java.util.stream.Collectors.toSet;
+
 class IsogramChecker {
 
     boolean isIsogram(String phrase) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        var modified = phrase.replaceAll("[- ]", "").toLowerCase();
+        return Arrays.stream(modified.split("")).filter(not(String::isEmpty)).collect(toSet()).size() == modified.length();
     }
 
 }
