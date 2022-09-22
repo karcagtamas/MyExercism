@@ -1,27 +1,41 @@
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
-/*
-
-Since this exercise has a difficulty of > 4 it doesn't come
-with any starter implementation.
-This is so that you get to practice creating classes and methods
-which is an important part of programming in Java.
-
-Please remove this comment when submitting your solution.
-
-*/
 public class Anagram {
-	private String text;
+	private final String text;
 
 	public Anagram(String text) {
 		this.text = text;
 	}
 
-	public List<String> match(String[] ...texts) {
-		
+	public List<String> match(List<String> texts) {
+		final Map<String, Integer> textMap = GetTextMap(text);
+
+		return texts.stream()
+				.filter(x -> !text.equalsIgnoreCase(x))
+				.filter(x -> {
+					final var mapping = GetTextMap(x);
+
+					return textMap.equals(mapping);
+				})
+				.collect(Collectors.toList());
 	}
 
-	private int characterCount() {
-        return 0;
+	private Map<String, Integer> GetTextMap(String text) {
+		final Map<String, Integer> textMap = new HashMap<>();
+
+		Arrays.stream(text.toLowerCase().split(""))
+				.forEach(c -> {
+					if (textMap.containsKey(c)) {
+						textMap.put(c, textMap.get(c) + 1);
+					} else {
+						textMap.put(c, 1);
+					}
+				});
+
+		return textMap;
 	}
 }
