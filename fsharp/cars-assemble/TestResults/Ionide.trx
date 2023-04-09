@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="25a1bd1c-ccdc-4f5b-8f88-c8b41600c50d" name="karcagtamas@KARCAG-PC 2023-04-09 13:42:17" runUser="KARCAG-PC\karcagtamas" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-04-09T13:42:17.2989070+02:00" queuing="2023-04-09T13:42:17.2989081+02:00" start="2023-04-09T13:42:16.5930507+02:00" finish="2023-04-09T13:42:17.3452763+02:00" />
+  <TestSettings name="default" id="9552d298-d194-457a-be5d-131b8f120287">
+    <Deployment runDeploymentRoot="karcagtamas_KARCAG-PC_2023-04-09_13_42_17" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="1dde38fb-0ad1-48b2-a83d-b23c4bb9dad2" testId="7878dc24-a14a-d8c3-d9b2-abae2840f372" testName="CarsAssembleTests.Production rate per hour for speed 4" computerName="KARCAG-PC" duration="00:00:00.0003598" startTime="2023-04-09T13:42:17.2526836+02:00" endTime="2023-04-09T13:42:17.2526837+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1dde38fb-0ad1-48b2-a83d-b23c4bb9dad2" />
+    <UnitTestResult executionId="aa75e760-b03b-46ba-b50e-ea8ec1213e9f" testId="0d17fe71-8e75-b91a-b85a-f3ccec3d0731" testName="CarsAssembleTests.Success rate for speed 1" computerName="KARCAG-PC" duration="00:00:00.0002539" startTime="2023-04-09T13:42:17.2535703+02:00" endTime="2023-04-09T13:42:17.2535704+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa75e760-b03b-46ba-b50e-ea8ec1213e9f" />
+    <UnitTestResult executionId="d88dc563-7f16-4ab1-8e74-5470eb3fc25c" testId="9f9a03c7-59ac-a449-c6d2-1430f29d6e50" testName="CarsAssembleTests.Success rate for speed 10" computerName="KARCAG-PC" duration="00:00:00.0003355" startTime="2023-04-09T13:42:17.2761921+02:00" endTime="2023-04-09T13:42:17.2761921+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d88dc563-7f16-4ab1-8e74-5470eb3fc25c" />
+    <UnitTestResult executionId="e813678a-a4fa-4a85-983b-a316cbd6d514" testId="d9395efb-9763-ef6d-7cbe-8a0484222fc8" testName="CarsAssembleTests.Working items per minute for speed 10" computerName="KARCAG-PC" duration="00:00:00.0003060" startTime="2023-04-09T13:42:17.2761700+02:00" endTime="2023-04-09T13:42:17.2761701+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e813678a-a4fa-4a85-983b-a316cbd6d514" />
+    <UnitTestResult executionId="3e9e5179-d563-4b3d-a019-f9f07ba13d1d" testId="8a07b0ea-d3c2-5105-b9fd-57fbc9186df4" testName="CarsAssembleTests.Success rate for speed 5" computerName="KARCAG-PC" duration="00:00:00.0003428" startTime="2023-04-09T13:42:17.2762741+02:00" endTime="2023-04-09T13:42:17.2762742+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e9e5179-d563-4b3d-a019-f9f07ba13d1d" />
+    <UnitTestResult executionId="989feb69-50a0-455a-81dc-1dcf11d0c087" testId="005d18f1-3911-a031-f6fa-407309ee4e90" testName="CarsAssembleTests.Success rate for speed 4" computerName="KARCAG-PC" duration="00:00:00.0003128" startTime="2023-04-09T13:42:17.2762628+02:00" endTime="2023-04-09T13:42:17.2762628+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="989feb69-50a0-455a-81dc-1dcf11d0c087" />
+    <UnitTestResult executionId="2b903c67-f858-4c94-a4fd-80031db658cc" testId="7f2d4664-1480-f8b2-2e5d-3944c1796ebf" testName="CarsAssembleTests.Working items per minute for speed 1" computerName="KARCAG-PC" duration="00:00:00.0002544" startTime="2023-04-09T13:42:17.2760875+02:00" endTime="2023-04-09T13:42:17.2760876+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b903c67-f858-4c94-a4fd-80031db658cc" />
+    <UnitTestResult executionId="56a2d4a4-6c80-403f-9d7e-4e496e0994c3" testId="3907c8d7-a687-ef5b-5b4d-25452b556707" testName="CarsAssembleTests.Production rate per hour for speed 7" computerName="KARCAG-PC" duration="00:00:00.0002851" startTime="2023-04-09T13:42:17.2529985+02:00" endTime="2023-04-09T13:42:17.2529986+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56a2d4a4-6c80-403f-9d7e-4e496e0994c3" />
+    <UnitTestResult executionId="86548280-eb62-453c-b7a9-45766abcc504" testId="db19eee6-a9c3-e2fd-2cbb-c4b0309eaf8b" testName="CarsAssembleTests.Production rate per hour for speed 1" computerName="KARCAG-PC" duration="00:00:00.0002457" startTime="2023-04-09T13:42:17.2538435+02:00" endTime="2023-04-09T13:42:17.2538436+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86548280-eb62-453c-b7a9-45766abcc504" />
+    <UnitTestResult executionId="344484ef-6f47-444b-ae60-9538e4740954" testId="263bd816-1b02-605c-9093-a5f50305efb9" testName="CarsAssembleTests.Working items per minute for speed 9" computerName="KARCAG-PC" duration="00:00:00.0002833" startTime="2023-04-09T13:42:17.2762331+02:00" endTime="2023-04-09T13:42:17.2762331+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="344484ef-6f47-444b-ae60-9538e4740954" />
+    <UnitTestResult executionId="aca108e2-d175-4288-b7fc-5a7ca9230318" testId="59d5f120-4e50-484c-43bb-f6ddabdac42f" testName="CarsAssembleTests.Success rate for speed 8" computerName="KARCAG-PC" duration="00:00:00.0002881" startTime="2023-04-09T13:42:17.2762867+02:00" endTime="2023-04-09T13:42:17.2762867+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aca108e2-d175-4288-b7fc-5a7ca9230318" />
+    <UnitTestResult executionId="58488278-6544-4317-a48f-f3ea25ac61b1" testId="2a73dae9-0b27-1239-d43e-12f76e6b7730" testName="CarsAssembleTests.Production rate per hour for speed 9" computerName="KARCAG-PC" duration="00:00:00.0217509" startTime="2023-04-09T13:42:17.2494538+02:00" endTime="2023-04-09T13:42:17.2494682+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58488278-6544-4317-a48f-f3ea25ac61b1" />
+    <UnitTestResult executionId="d7e1ae7e-fb70-4f51-9dd9-b97d0ddd355a" testId="3922127f-e448-e476-b260-a148dbbeab20" testName="CarsAssembleTests.Working items per minute for speed 8" computerName="KARCAG-PC" duration="00:00:00.0004827" startTime="2023-04-09T13:42:17.2524467+02:00" endTime="2023-04-09T13:42:17.2524468+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7e1ae7e-fb70-4f51-9dd9-b97d0ddd355a" />
+    <UnitTestResult executionId="53de1ce6-c848-491a-8419-1b6754312d5c" testId="45a01448-171e-b52b-eb91-55dc73130906" testName="CarsAssembleTests.Production rate per hour for speed 10" computerName="KARCAG-PC" duration="00:00:00.0003204" startTime="2023-04-09T13:42:17.2762219+02:00" endTime="2023-04-09T13:42:17.2762219+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53de1ce6-c848-491a-8419-1b6754312d5c" />
+    <UnitTestResult executionId="c57a7a4c-12d1-4850-a3d3-469d03df519e" testId="2f577568-0c59-c896-89f3-c80dec92e438" testName="CarsAssembleTests.Working items per minute for speed 0" computerName="KARCAG-PC" duration="00:00:00.0021977" startTime="2023-04-09T13:42:17.2521018+02:00" endTime="2023-04-09T13:42:17.2521018+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c57a7a4c-12d1-4850-a3d3-469d03df519e" />
+    <UnitTestResult executionId="1c7b4ef7-b948-4790-823b-b9e7a69d6051" testId="c474ad4a-01aa-c12b-3d77-2db35f046282" testName="CarsAssembleTests.Success rate for speed 9" computerName="KARCAG-PC" duration="00:00:00.0003044" startTime="2023-04-09T13:42:17.2762517+02:00" endTime="2023-04-09T13:42:17.2762517+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c7b4ef7-b948-4790-823b-b9e7a69d6051" />
+    <UnitTestResult executionId="ef172f1d-e165-4332-aa97-09b93c4f5ae7" testId="c4a87f6f-ddbb-5d02-44c1-2bd60924ff7c" testName="CarsAssembleTests.Working items per minute for speed 5" computerName="KARCAG-PC" duration="00:00:00.0004527" startTime="2023-04-09T13:42:17.2524656+02:00" endTime="2023-04-09T13:42:17.2524656+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef172f1d-e165-4332-aa97-09b93c4f5ae7" />
+    <UnitTestResult executionId="4d71fa9e-3143-45d6-8cb4-bc517eceb83e" testId="b328a47f-0140-8304-a15c-abb05b8d50cb" testName="CarsAssembleTests.Production rate per hour for speed 0" computerName="KARCAG-PC" duration="00:00:00.0002647" startTime="2023-04-09T13:42:17.2532928+02:00" endTime="2023-04-09T13:42:17.2532929+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d71fa9e-3143-45d6-8cb4-bc517eceb83e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CarsAssembleTests.Working items per minute for speed 5" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="c4a87f6f-ddbb-5d02-44c1-2bd60924ff7c">
+      <Execution id="ef172f1d-e165-4332-aa97-09b93c4f5ae7" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Working items per minute for speed 5" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Production rate per hour for speed 1" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="db19eee6-a9c3-e2fd-2cbb-c4b0309eaf8b">
+      <Execution id="86548280-eb62-453c-b7a9-45766abcc504" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Production rate per hour for speed 1" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Working items per minute for speed 8" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="3922127f-e448-e476-b260-a148dbbeab20">
+      <Execution id="d7e1ae7e-fb70-4f51-9dd9-b97d0ddd355a" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Working items per minute for speed 8" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Working items per minute for speed 0" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="2f577568-0c59-c896-89f3-c80dec92e438">
+      <Execution id="c57a7a4c-12d1-4850-a3d3-469d03df519e" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Working items per minute for speed 0" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Success rate for speed 9" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="c474ad4a-01aa-c12b-3d77-2db35f046282">
+      <Execution id="1c7b4ef7-b948-4790-823b-b9e7a69d6051" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Success rate for speed 9" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Production rate per hour for speed 9" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="2a73dae9-0b27-1239-d43e-12f76e6b7730">
+      <Execution id="58488278-6544-4317-a48f-f3ea25ac61b1" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Production rate per hour for speed 9" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Working items per minute for speed 10" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="d9395efb-9763-ef6d-7cbe-8a0484222fc8">
+      <Execution id="e813678a-a4fa-4a85-983b-a316cbd6d514" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Working items per minute for speed 10" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Success rate for speed 8" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="59d5f120-4e50-484c-43bb-f6ddabdac42f">
+      <Execution id="aca108e2-d175-4288-b7fc-5a7ca9230318" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Success rate for speed 8" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Success rate for speed 1" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="0d17fe71-8e75-b91a-b85a-f3ccec3d0731">
+      <Execution id="aa75e760-b03b-46ba-b50e-ea8ec1213e9f" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Success rate for speed 1" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Production rate per hour for speed 4" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="7878dc24-a14a-d8c3-d9b2-abae2840f372">
+      <Execution id="1dde38fb-0ad1-48b2-a83d-b23c4bb9dad2" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Production rate per hour for speed 4" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Success rate for speed 4" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="005d18f1-3911-a031-f6fa-407309ee4e90">
+      <Execution id="989feb69-50a0-455a-81dc-1dcf11d0c087" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Success rate for speed 4" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Working items per minute for speed 9" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="263bd816-1b02-605c-9093-a5f50305efb9">
+      <Execution id="344484ef-6f47-444b-ae60-9538e4740954" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Working items per minute for speed 9" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Production rate per hour for speed 7" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="3907c8d7-a687-ef5b-5b4d-25452b556707">
+      <Execution id="56a2d4a4-6c80-403f-9d7e-4e496e0994c3" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Production rate per hour for speed 7" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Working items per minute for speed 1" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="7f2d4664-1480-f8b2-2e5d-3944c1796ebf">
+      <Execution id="2b903c67-f858-4c94-a4fd-80031db658cc" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Working items per minute for speed 1" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Production rate per hour for speed 10" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="45a01448-171e-b52b-eb91-55dc73130906">
+      <Execution id="53de1ce6-c848-491a-8419-1b6754312d5c" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Production rate per hour for speed 10" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Success rate for speed 10" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="9f9a03c7-59ac-a449-c6d2-1430f29d6e50">
+      <Execution id="d88dc563-7f16-4ab1-8e74-5470eb3fc25c" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Success rate for speed 10" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Production rate per hour for speed 0" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="b328a47f-0140-8304-a15c-abb05b8d50cb">
+      <Execution id="4d71fa9e-3143-45d6-8cb4-bc517eceb83e" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Production rate per hour for speed 0" />
+    </UnitTest>
+    <UnitTest name="CarsAssembleTests.Success rate for speed 5" storage="t:\repositories\myexercism\fsharp\cars-assemble\bin\debug\net7.0\carsassemble.dll" id="8a07b0ea-d3c2-5105-b9fd-57fbc9186df4">
+      <Execution id="3e9e5179-d563-4b3d-a019-f9f07ba13d1d" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\cars-assemble\bin\Debug\net7.0\CarsAssemble.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CarsAssembleTests" name="Success rate for speed 5" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="7878dc24-a14a-d8c3-d9b2-abae2840f372" executionId="1dde38fb-0ad1-48b2-a83d-b23c4bb9dad2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d17fe71-8e75-b91a-b85a-f3ccec3d0731" executionId="aa75e760-b03b-46ba-b50e-ea8ec1213e9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f9a03c7-59ac-a449-c6d2-1430f29d6e50" executionId="d88dc563-7f16-4ab1-8e74-5470eb3fc25c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9395efb-9763-ef6d-7cbe-8a0484222fc8" executionId="e813678a-a4fa-4a85-983b-a316cbd6d514" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a07b0ea-d3c2-5105-b9fd-57fbc9186df4" executionId="3e9e5179-d563-4b3d-a019-f9f07ba13d1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="005d18f1-3911-a031-f6fa-407309ee4e90" executionId="989feb69-50a0-455a-81dc-1dcf11d0c087" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f2d4664-1480-f8b2-2e5d-3944c1796ebf" executionId="2b903c67-f858-4c94-a4fd-80031db658cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3907c8d7-a687-ef5b-5b4d-25452b556707" executionId="56a2d4a4-6c80-403f-9d7e-4e496e0994c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db19eee6-a9c3-e2fd-2cbb-c4b0309eaf8b" executionId="86548280-eb62-453c-b7a9-45766abcc504" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="263bd816-1b02-605c-9093-a5f50305efb9" executionId="344484ef-6f47-444b-ae60-9538e4740954" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59d5f120-4e50-484c-43bb-f6ddabdac42f" executionId="aca108e2-d175-4288-b7fc-5a7ca9230318" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a73dae9-0b27-1239-d43e-12f76e6b7730" executionId="58488278-6544-4317-a48f-f3ea25ac61b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3922127f-e448-e476-b260-a148dbbeab20" executionId="d7e1ae7e-fb70-4f51-9dd9-b97d0ddd355a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45a01448-171e-b52b-eb91-55dc73130906" executionId="53de1ce6-c848-491a-8419-1b6754312d5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f577568-0c59-c896-89f3-c80dec92e438" executionId="c57a7a4c-12d1-4850-a3d3-469d03df519e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c474ad4a-01aa-c12b-3d77-2db35f046282" executionId="1c7b4ef7-b948-4790-823b-b9e7a69d6051" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4a87f6f-ddbb-5d02-44c1-2bd60924ff7c" executionId="ef172f1d-e165-4332-aa97-09b93c4f5ae7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b328a47f-0140-8304-a15c-abb05b8d50cb" executionId="4d71fa9e-3143-45d6-8cb4-bc517eceb83e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="18" executed="18" passed="18" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 7.0.4)&#xD;
+[xUnit.net 00:00:00.26]   Discovering: CarsAssemble&#xD;
+[xUnit.net 00:00:00.27]   Discovered:  CarsAssemble&#xD;
+[xUnit.net 00:00:00.28]   Starting:    CarsAssemble&#xD;
+[xUnit.net 00:00:00.36]   Finished:    CarsAssemble&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
