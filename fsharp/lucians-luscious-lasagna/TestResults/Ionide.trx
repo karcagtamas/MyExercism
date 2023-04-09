@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="8aeca9fc-55fa-4cec-9968-b7d1c1b96aba" name="karcagtamas@KARCAG-PC 2023-04-08 23:53:18" runUser="KARCAG-PC\karcagtamas" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-04-08T23:53:18.7718044+02:00" queuing="2023-04-08T23:53:18.7718046+02:00" start="2023-04-08T23:53:18.0150692+02:00" finish="2023-04-08T23:53:18.7793356+02:00" />
+  <TestSettings name="default" id="9e33c800-60c4-4990-92bb-ac5074d797b8">
+    <Deployment runDeploymentRoot="karcagtamas_KARCAG-PC_2023-04-08_23_53_18" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a77bfbe8-825b-4127-87b2-6b27b6226e79" testId="666fdfff-5d4b-fcdf-d079-e9305715aa53" testName="LuciansLusciousLasagnaTests.Elapsed time in minutes for one layer" computerName="KARCAG-PC" duration="00:00:00.0008007" startTime="2023-04-08T23:53:18.6808456+02:00" endTime="2023-04-08T23:53:18.6808456+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a77bfbe8-825b-4127-87b2-6b27b6226e79" />
+    <UnitTestResult executionId="648ddcec-2076-4cbf-88c3-7edf9ab2cbfc" testId="a0ad1fb8-9737-1a32-0cf1-f0a3653d89a8" testName="LuciansLusciousLasagnaTests.Remaining minutes in oven" computerName="KARCAG-PC" duration="00:00:00.0002530" startTime="2023-04-08T23:53:18.6812284+02:00" endTime="2023-04-08T23:53:18.6812285+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="648ddcec-2076-4cbf-88c3-7edf9ab2cbfc" />
+    <UnitTestResult executionId="c05aaa85-bdd0-4926-93bd-234246e245d0" testId="217212e6-89b3-38ba-2fe6-dbe404392ce0" testName="LuciansLusciousLasagnaTests.Expected minutes in oven" computerName="KARCAG-PC" duration="00:00:00.0002777" startTime="2023-04-08T23:53:18.6812124+02:00" endTime="2023-04-08T23:53:18.6812124+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c05aaa85-bdd0-4926-93bd-234246e245d0" />
+    <UnitTestResult executionId="bdc57394-6ddf-421a-a1bc-9d1e8dc6ad72" testId="d9032ff3-ec43-1325-e24f-0585c999f099" testName="LuciansLusciousLasagnaTests.Elapsed time in minutes for multiple layers" computerName="KARCAG-PC" duration="00:00:00.0003815" startTime="2023-04-08T23:53:18.6812018+02:00" endTime="2023-04-08T23:53:18.6812018+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdc57394-6ddf-421a-a1bc-9d1e8dc6ad72" />
+    <UnitTestResult executionId="69473dce-d175-4cb8-940a-6dbaaa8080b7" testId="c6cad715-584d-730a-04e0-71feef174642" testName="LuciansLusciousLasagnaTests.Preparation time in minutes for multiple layers" computerName="KARCAG-PC" duration="00:00:00.0003182" startTime="2023-04-08T23:53:18.6811782+02:00" endTime="2023-04-08T23:53:18.6811783+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69473dce-d175-4cb8-940a-6dbaaa8080b7" />
+    <UnitTestResult executionId="72605a23-7f70-443e-931a-f72fb5fd8d52" testId="9f2f7f06-f381-d8ee-4708-7885f800f151" testName="LuciansLusciousLasagnaTests.Preparation time in minutes for one layer" computerName="KARCAG-PC" duration="00:00:00.0204738" startTime="2023-04-08T23:53:18.6784524+02:00" endTime="2023-04-08T23:53:18.6784670+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72605a23-7f70-443e-931a-f72fb5fd8d52" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="LuciansLusciousLasagnaTests.Remaining minutes in oven" storage="t:\repositories\myexercism\fsharp\lucians-luscious-lasagna\bin\debug\net7.0\lucianslusciouslasagna.dll" id="a0ad1fb8-9737-1a32-0cf1-f0a3653d89a8">
+      <Execution id="648ddcec-2076-4cbf-88c3-7edf9ab2cbfc" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\lucians-luscious-lasagna\bin\Debug\net7.0\LuciansLusciousLasagna.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LuciansLusciousLasagnaTests" name="Remaining minutes in oven" />
+    </UnitTest>
+    <UnitTest name="LuciansLusciousLasagnaTests.Elapsed time in minutes for one layer" storage="t:\repositories\myexercism\fsharp\lucians-luscious-lasagna\bin\debug\net7.0\lucianslusciouslasagna.dll" id="666fdfff-5d4b-fcdf-d079-e9305715aa53">
+      <Execution id="a77bfbe8-825b-4127-87b2-6b27b6226e79" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\lucians-luscious-lasagna\bin\Debug\net7.0\LuciansLusciousLasagna.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LuciansLusciousLasagnaTests" name="Elapsed time in minutes for one layer" />
+    </UnitTest>
+    <UnitTest name="LuciansLusciousLasagnaTests.Preparation time in minutes for multiple layers" storage="t:\repositories\myexercism\fsharp\lucians-luscious-lasagna\bin\debug\net7.0\lucianslusciouslasagna.dll" id="c6cad715-584d-730a-04e0-71feef174642">
+      <Execution id="69473dce-d175-4cb8-940a-6dbaaa8080b7" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\lucians-luscious-lasagna\bin\Debug\net7.0\LuciansLusciousLasagna.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LuciansLusciousLasagnaTests" name="Preparation time in minutes for multiple layers" />
+    </UnitTest>
+    <UnitTest name="LuciansLusciousLasagnaTests.Preparation time in minutes for one layer" storage="t:\repositories\myexercism\fsharp\lucians-luscious-lasagna\bin\debug\net7.0\lucianslusciouslasagna.dll" id="9f2f7f06-f381-d8ee-4708-7885f800f151">
+      <Execution id="72605a23-7f70-443e-931a-f72fb5fd8d52" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\lucians-luscious-lasagna\bin\Debug\net7.0\LuciansLusciousLasagna.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LuciansLusciousLasagnaTests" name="Preparation time in minutes for one layer" />
+    </UnitTest>
+    <UnitTest name="LuciansLusciousLasagnaTests.Elapsed time in minutes for multiple layers" storage="t:\repositories\myexercism\fsharp\lucians-luscious-lasagna\bin\debug\net7.0\lucianslusciouslasagna.dll" id="d9032ff3-ec43-1325-e24f-0585c999f099">
+      <Execution id="bdc57394-6ddf-421a-a1bc-9d1e8dc6ad72" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\lucians-luscious-lasagna\bin\Debug\net7.0\LuciansLusciousLasagna.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LuciansLusciousLasagnaTests" name="Elapsed time in minutes for multiple layers" />
+    </UnitTest>
+    <UnitTest name="LuciansLusciousLasagnaTests.Expected minutes in oven" storage="t:\repositories\myexercism\fsharp\lucians-luscious-lasagna\bin\debug\net7.0\lucianslusciouslasagna.dll" id="217212e6-89b3-38ba-2fe6-dbe404392ce0">
+      <Execution id="c05aaa85-bdd0-4926-93bd-234246e245d0" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\lucians-luscious-lasagna\bin\Debug\net7.0\LuciansLusciousLasagna.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LuciansLusciousLasagnaTests" name="Expected minutes in oven" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="666fdfff-5d4b-fcdf-d079-e9305715aa53" executionId="a77bfbe8-825b-4127-87b2-6b27b6226e79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0ad1fb8-9737-1a32-0cf1-f0a3653d89a8" executionId="648ddcec-2076-4cbf-88c3-7edf9ab2cbfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="217212e6-89b3-38ba-2fe6-dbe404392ce0" executionId="c05aaa85-bdd0-4926-93bd-234246e245d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9032ff3-ec43-1325-e24f-0585c999f099" executionId="bdc57394-6ddf-421a-a1bc-9d1e8dc6ad72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6cad715-584d-730a-04e0-71feef174642" executionId="69473dce-d175-4cb8-940a-6dbaaa8080b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f2f7f06-f381-d8ee-4708-7885f800f151" executionId="72605a23-7f70-443e-931a-f72fb5fd8d52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 7.0.4)&#xD;
+[xUnit.net 00:00:00.26]   Discovering: LuciansLusciousLasagna&#xD;
+[xUnit.net 00:00:00.28]   Discovered:  LuciansLusciousLasagna&#xD;
+[xUnit.net 00:00:00.28]   Starting:    LuciansLusciousLasagna&#xD;
+[xUnit.net 00:00:00.34]   Finished:    LuciansLusciousLasagna&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e2af07b3-8a8a-45f4-8e3d-a785069917f8" name="karcagtamas@KARCAG-PC 2023-04-09 00:00:54" runUser="KARCAG-PC\karcagtamas" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-04-09T00:00:54.8464482+02:00" queuing="2023-04-09T00:00:54.8464483+02:00" start="2023-04-09T00:00:54.1331508+02:00" finish="2023-04-09T00:00:54.9015351+02:00" />
+  <TestSettings name="default" id="3956b6e3-9933-4cbc-8596-110e9fe46213">
+    <Deployment runDeploymentRoot="karcagtamas_KARCAG-PC_2023-04-09_00_00_54" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="62c5a3d4-e48f-477c-bf1c-34d43bba2828" testId="4e3c9982-c1f3-e99c-4a91-c4d81ed0ce76" testName="AnnalynsInfiltrationTests.Cannot execute fast attack if knight is awake" computerName="KARCAG-PC" duration="00:00:00.0002999" startTime="2023-04-09T00:00:54.7988003+02:00" endTime="2023-04-09T00:00:54.7988003+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62c5a3d4-e48f-477c-bf1c-34d43bba2828" />
+    <UnitTestResult executionId="d8960c42-aeb8-46b2-81ac-85e42011f45e" testId="8200b0a2-7098-cd80-aa64-f60324d1c80c" testName="AnnalynsInfiltrationTests.Cannot free prisoner if only prisoner is asleep and pet dog is absent" computerName="KARCAG-PC" duration="00:00:00.0002553" startTime="2023-04-09T00:00:54.8262255+02:00" endTime="2023-04-09T00:00:54.8262256+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8960c42-aeb8-46b2-81ac-85e42011f45e" />
+    <UnitTestResult executionId="77c234bf-07a8-4e05-879c-f197cf8c5f9f" testId="565b8143-34dc-985b-5aaf-7012db20e76a" testName="AnnalynsInfiltrationTests.Cannot free prisoner if everyone is awake and pet dog is present" computerName="KARCAG-PC" duration="00:00:00.0002737" startTime="2023-04-09T00:00:54.8247965+02:00" endTime="2023-04-09T00:00:54.8247965+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77c234bf-07a8-4e05-879c-f197cf8c5f9f" />
+    <UnitTestResult executionId="02943959-a49a-45ea-b5ba-6735543f093d" testId="730f0b06-6f3a-570c-b248-f550b5f64c4c" testName="AnnalynsInfiltrationTests.Cannot free prisoner if only knight is asleep and pet dog is absent" computerName="KARCAG-PC" duration="00:00:00.0002939" startTime="2023-04-09T00:00:54.8248302+02:00" endTime="2023-04-09T00:00:54.8248302+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02943959-a49a-45ea-b5ba-6735543f093d" />
+    <UnitTestResult executionId="ba72ac9a-df18-4622-8e04-e54fa7ff6ab0" testId="db21bdfa-1921-dfcf-fd75-58c63e7504c8" testName="AnnalynsInfiltrationTests.Can free prisoner if only archer is asleep and pet dog is present" computerName="KARCAG-PC" duration="00:00:00.0005751" startTime="2023-04-09T00:00:54.7983108+02:00" endTime="2023-04-09T00:00:54.7983108+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba72ac9a-df18-4622-8e04-e54fa7ff6ab0" />
+    <UnitTestResult executionId="276b6945-1342-472e-a654-2f5508d5c875" testId="caa7d62c-fe5b-3391-a7b0-14dae6c6de7a" testName="AnnalynsInfiltrationTests.Cannot spy if everyone is sleeping" computerName="KARCAG-PC" duration="00:00:00.0003757" startTime="2023-04-09T00:00:54.8262431+02:00" endTime="2023-04-09T00:00:54.8262432+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="276b6945-1342-472e-a654-2f5508d5c875" />
+    <UnitTestResult executionId="6dcf1ae0-161d-4769-852b-ac4cad2fec63" testId="75d7202b-f477-c01c-3769-58c38ac7f459" testName="AnnalynsInfiltrationTests.Cannot free prisoner if only prisoner is asleep and pet dog is present" computerName="KARCAG-PC" duration="00:00:00.0002791" startTime="2023-04-09T00:00:54.7988480+02:00" endTime="2023-04-09T00:00:54.7988480+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6dcf1ae0-161d-4769-852b-ac4cad2fec63" />
+    <UnitTestResult executionId="fda5de00-d6e1-425e-9a48-3d6828fe7a58" testId="c3bf22c4-9451-44d2-76b2-ec23550533c8" testName="AnnalynsInfiltrationTests.Can free prisoner if everyone is asleep and pet dog is present" computerName="KARCAG-PC" duration="00:00:00.0003264" startTime="2023-04-09T00:00:54.8248431+02:00" endTime="2023-04-09T00:00:54.8248432+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fda5de00-d6e1-425e-9a48-3d6828fe7a58" />
+    <UnitTestResult executionId="47955446-4865-44d7-bdd1-516992de5617" testId="6a156070-37d1-81c9-5bd4-cd544bec5705" testName="AnnalynsInfiltrationTests.Can free prisoner if only prisoner is awake and pet dog is absent" computerName="KARCAG-PC" duration="00:00:00.0002821" startTime="2023-04-09T00:00:54.8249092+02:00" endTime="2023-04-09T00:00:54.8249092+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47955446-4865-44d7-bdd1-516992de5617" />
+    <UnitTestResult executionId="c1dfeaa7-3a77-4cf6-9f62-2ce8ca7fff13" testId="2528af7e-da41-701c-684a-b00358e33f33" testName="AnnalynsInfiltrationTests.Can execute fast attack if knight is sleeping" computerName="KARCAG-PC" duration="00:00:00.0004967" startTime="2023-04-09T00:00:54.7987242+02:00" endTime="2023-04-09T00:00:54.7987242+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1dfeaa7-3a77-4cf6-9f62-2ce8ca7fff13" />
+    <UnitTestResult executionId="4bae9183-d6d1-4482-818b-fc7cf093dd47" testId="b5d03600-e436-f316-cedf-0758e53e5eb8" testName="AnnalynsInfiltrationTests.Cannot free prisoner if everyone is asleep and pet dog is absent" computerName="KARCAG-PC" duration="00:00:00.0002586" startTime="2023-04-09T00:00:54.8230439+02:00" endTime="2023-04-09T00:00:54.8230439+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bae9183-d6d1-4482-818b-fc7cf093dd47" />
+    <UnitTestResult executionId="7214a302-9987-478f-a6d4-5b394b1cf66c" testId="9e06e31a-5dc9-ffa0-d5a8-a9ef92b3ba57" testName="AnnalynsInfiltrationTests.Cannot signal prisoner if archer is awake and prisoner is sleeping" computerName="KARCAG-PC" duration="00:00:00.0002706" startTime="2023-04-09T00:00:54.8248159+02:00" endTime="2023-04-09T00:00:54.8248159+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7214a302-9987-478f-a6d4-5b394b1cf66c" />
+    <UnitTestResult executionId="809b0d1d-565a-433a-bd40-ce0b2b9bd227" testId="9f559699-5a28-0b52-2ad2-5def8487eae7" testName="AnnalynsInfiltrationTests.Cannot signal prisoner if archer and prisoner are both sleeping" computerName="KARCAG-PC" duration="00:00:00.0003400" startTime="2023-04-09T00:00:54.8262571+02:00" endTime="2023-04-09T00:00:54.8262571+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="809b0d1d-565a-433a-bd40-ce0b2b9bd227" />
+    <UnitTestResult executionId="19c96024-1489-43d8-a5aa-3359eda40417" testId="e029232b-db56-e6dd-d4ed-acbc044bc837" testName="AnnalynsInfiltrationTests.Cannot free prisoner if everyone is awake and pet dog is absent" computerName="KARCAG-PC" duration="00:00:00.0002786" startTime="2023-04-09T00:00:54.8230788+02:00" endTime="2023-04-09T00:00:54.8230789+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19c96024-1489-43d8-a5aa-3359eda40417" />
+    <UnitTestResult executionId="611b402a-d157-41e3-a3d0-fedd82e22d48" testId="5ade145b-0a80-686a-e47f-127036ca578d" testName="AnnalynsInfiltrationTests.Cannot free prisoner if only knight is awake and pet dog is absent" computerName="KARCAG-PC" duration="00:00:00.0003375" startTime="2023-04-09T00:00:54.8229065+02:00" endTime="2023-04-09T00:00:54.8229066+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="611b402a-d157-41e3-a3d0-fedd82e22d48" />
+    <UnitTestResult executionId="18c82502-2ca2-4b87-936b-af2084f053f1" testId="3ad13e61-e007-9a73-8e13-284dd75139c2" testName="AnnalynsInfiltrationTests.Can spy if only archer is sleeping" computerName="KARCAG-PC" duration="00:00:00.0002798" startTime="2023-04-09T00:00:54.8230606+02:00" endTime="2023-04-09T00:00:54.8230606+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18c82502-2ca2-4b87-936b-af2084f053f1" />
+    <UnitTestResult executionId="0079d2d8-4f16-4b5e-b925-f5ee7db9a126" testId="4e43e099-fcb9-1c04-9948-ac161ab7fdec" testName="AnnalynsInfiltrationTests.Cannot free prisoner if only knight is asleep and pet dog is present" computerName="KARCAG-PC" duration="00:00:00.0003114" startTime="2023-04-09T00:00:54.8231081+02:00" endTime="2023-04-09T00:00:54.8231081+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0079d2d8-4f16-4b5e-b925-f5ee7db9a126" />
+    <UnitTestResult executionId="3351b92a-a074-4447-add1-f17d8d5bccf8" testId="f4aaf479-4a67-e44c-7029-3e01c2db5d3b" testName="AnnalynsInfiltrationTests.Can spy if everyone is awake" computerName="KARCAG-PC" duration="00:00:00.0002822" startTime="2023-04-09T00:00:54.7987603+02:00" endTime="2023-04-09T00:00:54.7987603+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3351b92a-a074-4447-add1-f17d8d5bccf8" />
+    <UnitTestResult executionId="57b5a629-3523-44c6-a5dd-641908dcb38a" testId="036de7be-14aa-c6c8-35c9-0cdfff2c6851" testName="AnnalynsInfiltrationTests.Cannot signal prisoner if archer and prisoner are both awake" computerName="KARCAG-PC" duration="00:00:00.0003307" startTime="2023-04-09T00:00:54.8248826+02:00" endTime="2023-04-09T00:00:54.8248827+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57b5a629-3523-44c6-a5dd-641908dcb38a" />
+    <UnitTestResult executionId="bdd5fd76-42f4-4104-aed4-39c47a8a113f" testId="37c2f517-70f6-2627-db32-dfe944d8388f" testName="AnnalynsInfiltrationTests.Can spy if only knight is sleeping" computerName="KARCAG-PC" duration="00:00:00.0002992" startTime="2023-04-09T00:00:54.8248955+02:00" endTime="2023-04-09T00:00:54.8248955+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdd5fd76-42f4-4104-aed4-39c47a8a113f" />
+    <UnitTestResult executionId="36ce1159-e282-42e1-bb17-33ac6e0c56fe" testId="0d6aa11b-9165-0270-751e-7bf7825ed610" testName="AnnalynsInfiltrationTests.Can free prisoner if only knight is awake and pet dog is present" computerName="KARCAG-PC" duration="00:00:00.0002557" startTime="2023-04-09T00:00:54.8230298+02:00" endTime="2023-04-09T00:00:54.8230298+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36ce1159-e282-42e1-bb17-33ac6e0c56fe" />
+    <UnitTestResult executionId="a83216a2-d24f-405a-8054-32e819241361" testId="ccd639b9-620c-713f-0936-9f6cf1be724f" testName="AnnalynsInfiltrationTests.Cannot free prisoner if only archer is asleep and pet dog is absent" computerName="KARCAG-PC" duration="00:00:00.0240137" startTime="2023-04-09T00:00:54.7956991+02:00" endTime="2023-04-09T00:00:54.7957530+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a83216a2-d24f-405a-8054-32e819241361" />
+    <UnitTestResult executionId="a39e9cf4-99d9-4714-875c-4e50d5eb86c8" testId="f95e8c2b-7cac-4b12-70ab-7858751015c2" testName="AnnalynsInfiltrationTests.Cannot free prisoner if only archer is awake and pet dog is present" computerName="KARCAG-PC" duration="00:00:00.0003121" startTime="2023-04-09T00:00:54.8248564+02:00" endTime="2023-04-09T00:00:54.8248565+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a39e9cf4-99d9-4714-875c-4e50d5eb86c8" />
+    <UnitTestResult executionId="e1ea39ea-2a3b-4fe5-80b7-7d465deeb1c2" testId="caf94ddf-19c8-5794-b7ce-66c62e248e9b" testName="AnnalynsInfiltrationTests.Can spy if everyone but knight is sleeping" computerName="KARCAG-PC" duration="00:00:00.0003390" startTime="2023-04-09T00:00:54.8248697+02:00" endTime="2023-04-09T00:00:54.8248697+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1ea39ea-2a3b-4fe5-80b7-7d465deeb1c2" />
+    <UnitTestResult executionId="d6cae772-9eab-4aa5-a26b-f77394f40648" testId="9cb54a4c-b06b-6e88-bb3c-9f27f6aebd4a" testName="AnnalynsInfiltrationTests.Can signal prisoner if archer is sleeping and prisoner is awake" computerName="KARCAG-PC" duration="00:00:00.0003401" startTime="2023-04-09T00:00:54.7987784+02:00" endTime="2023-04-09T00:00:54.7987785+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cae772-9eab-4aa5-a26b-f77394f40648" />
+    <UnitTestResult executionId="d04907a1-5d6f-4aa2-9e4c-05e2f0a3a6d5" testId="7047a579-0a31-891c-732a-b0b27e37735c" testName="AnnalynsInfiltrationTests.Can spy if only prisoner is sleeping" computerName="KARCAG-PC" duration="00:00:00.0004353" startTime="2023-04-09T00:00:54.7987454+02:00" endTime="2023-04-09T00:00:54.7987455+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d04907a1-5d6f-4aa2-9e4c-05e2f0a3a6d5" />
+    <UnitTestResult executionId="ac7b62cb-0dbe-4060-b510-6d9528a46202" testId="3df9feb6-1e71-811c-02df-0b3d86504453" testName="AnnalynsInfiltrationTests.Can spy if everyone but archer is sleeping" computerName="KARCAG-PC" duration="00:00:00.0003230" startTime="2023-04-09T00:00:54.8229989+02:00" endTime="2023-04-09T00:00:54.8229990+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac7b62cb-0dbe-4060-b510-6d9528a46202" />
+    <UnitTestResult executionId="621fc102-1a85-4014-96c5-3b5730c3828e" testId="dc06a12d-000e-efd4-add9-8ad28dce311b" testName="AnnalynsInfiltrationTests.Cannot free prisoner if only archer is awake and pet dog is absent" computerName="KARCAG-PC" duration="00:00:00.0002432" startTime="2023-04-09T00:00:54.8230157+02:00" endTime="2023-04-09T00:00:54.8230157+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="621fc102-1a85-4014-96c5-3b5730c3828e" />
+    <UnitTestResult executionId="06c3b939-8858-4245-8a03-7f11ca0df197" testId="355e4ffe-d717-8b59-98c4-a84a6aa8d367" testName="AnnalynsInfiltrationTests.Can free prisoner if only prisoner is awake and pet dog is present" computerName="KARCAG-PC" duration="00:00:00.0002973" startTime="2023-04-09T00:00:54.8230922+02:00" endTime="2023-04-09T00:00:54.8230923+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06c3b939-8858-4245-8a03-7f11ca0df197" />
+    <UnitTestResult executionId="3864a7cc-50c4-4e66-a8ac-bf2e888cedd9" testId="8e67a02c-3fea-31f0-eba2-71ea436a5011" testName="AnnalynsInfiltrationTests.Can spy if everyone but prisoner is sleeping" computerName="KARCAG-PC" duration="00:00:00.0003433" startTime="2023-04-09T00:00:54.7988341+02:00" endTime="2023-04-09T00:00:54.7988341+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3864a7cc-50c4-4e66-a8ac-bf2e888cedd9" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot free prisoner if everyone is asleep and pet dog is absent" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="b5d03600-e436-f316-cedf-0758e53e5eb8">
+      <Execution id="4bae9183-d6d1-4482-818b-fc7cf093dd47" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot free prisoner if everyone is asleep and pet dog is absent" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can spy if everyone but prisoner is sleeping" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="8e67a02c-3fea-31f0-eba2-71ea436a5011">
+      <Execution id="3864a7cc-50c4-4e66-a8ac-bf2e888cedd9" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can spy if everyone but prisoner is sleeping" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot free prisoner if everyone is awake and pet dog is present" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="565b8143-34dc-985b-5aaf-7012db20e76a">
+      <Execution id="77c234bf-07a8-4e05-879c-f197cf8c5f9f" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot free prisoner if everyone is awake and pet dog is present" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot free prisoner if only archer is awake and pet dog is absent" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="dc06a12d-000e-efd4-add9-8ad28dce311b">
+      <Execution id="621fc102-1a85-4014-96c5-3b5730c3828e" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot free prisoner if only archer is awake and pet dog is absent" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot free prisoner if everyone is awake and pet dog is absent" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="e029232b-db56-e6dd-d4ed-acbc044bc837">
+      <Execution id="19c96024-1489-43d8-a5aa-3359eda40417" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot free prisoner if everyone is awake and pet dog is absent" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can spy if everyone but knight is sleeping" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="caf94ddf-19c8-5794-b7ce-66c62e248e9b">
+      <Execution id="e1ea39ea-2a3b-4fe5-80b7-7d465deeb1c2" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can spy if everyone but knight is sleeping" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can spy if only knight is sleeping" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="37c2f517-70f6-2627-db32-dfe944d8388f">
+      <Execution id="bdd5fd76-42f4-4104-aed4-39c47a8a113f" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can spy if only knight is sleeping" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot spy if everyone is sleeping" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="caa7d62c-fe5b-3391-a7b0-14dae6c6de7a">
+      <Execution id="276b6945-1342-472e-a654-2f5508d5c875" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot spy if everyone is sleeping" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot free prisoner if only archer is asleep and pet dog is absent" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="ccd639b9-620c-713f-0936-9f6cf1be724f">
+      <Execution id="a83216a2-d24f-405a-8054-32e819241361" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot free prisoner if only archer is asleep and pet dog is absent" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can free prisoner if only prisoner is awake and pet dog is absent" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="6a156070-37d1-81c9-5bd4-cd544bec5705">
+      <Execution id="47955446-4865-44d7-bdd1-516992de5617" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can free prisoner if only prisoner is awake and pet dog is absent" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot free prisoner if only archer is awake and pet dog is present" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="f95e8c2b-7cac-4b12-70ab-7858751015c2">
+      <Execution id="a39e9cf4-99d9-4714-875c-4e50d5eb86c8" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot free prisoner if only archer is awake and pet dog is present" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can spy if everyone but archer is sleeping" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="3df9feb6-1e71-811c-02df-0b3d86504453">
+      <Execution id="ac7b62cb-0dbe-4060-b510-6d9528a46202" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can spy if everyone but archer is sleeping" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot free prisoner if only prisoner is asleep and pet dog is present" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="75d7202b-f477-c01c-3769-58c38ac7f459">
+      <Execution id="6dcf1ae0-161d-4769-852b-ac4cad2fec63" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot free prisoner if only prisoner is asleep and pet dog is present" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot signal prisoner if archer and prisoner are both awake" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="036de7be-14aa-c6c8-35c9-0cdfff2c6851">
+      <Execution id="57b5a629-3523-44c6-a5dd-641908dcb38a" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot signal prisoner if archer and prisoner are both awake" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can spy if only prisoner is sleeping" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="7047a579-0a31-891c-732a-b0b27e37735c">
+      <Execution id="d04907a1-5d6f-4aa2-9e4c-05e2f0a3a6d5" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can spy if only prisoner is sleeping" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can spy if only archer is sleeping" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="3ad13e61-e007-9a73-8e13-284dd75139c2">
+      <Execution id="18c82502-2ca2-4b87-936b-af2084f053f1" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can spy if only archer is sleeping" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot signal prisoner if archer and prisoner are both sleeping" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="9f559699-5a28-0b52-2ad2-5def8487eae7">
+      <Execution id="809b0d1d-565a-433a-bd40-ce0b2b9bd227" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot signal prisoner if archer and prisoner are both sleeping" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can free prisoner if everyone is asleep and pet dog is present" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="c3bf22c4-9451-44d2-76b2-ec23550533c8">
+      <Execution id="fda5de00-d6e1-425e-9a48-3d6828fe7a58" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can free prisoner if everyone is asleep and pet dog is present" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can free prisoner if only prisoner is awake and pet dog is present" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="355e4ffe-d717-8b59-98c4-a84a6aa8d367">
+      <Execution id="06c3b939-8858-4245-8a03-7f11ca0df197" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can free prisoner if only prisoner is awake and pet dog is present" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot free prisoner if only knight is awake and pet dog is absent" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="5ade145b-0a80-686a-e47f-127036ca578d">
+      <Execution id="611b402a-d157-41e3-a3d0-fedd82e22d48" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot free prisoner if only knight is awake and pet dog is absent" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot free prisoner if only knight is asleep and pet dog is present" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="4e43e099-fcb9-1c04-9948-ac161ab7fdec">
+      <Execution id="0079d2d8-4f16-4b5e-b925-f5ee7db9a126" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot free prisoner if only knight is asleep and pet dog is present" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot free prisoner if only knight is asleep and pet dog is absent" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="730f0b06-6f3a-570c-b248-f550b5f64c4c">
+      <Execution id="02943959-a49a-45ea-b5ba-6735543f093d" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot free prisoner if only knight is asleep and pet dog is absent" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot free prisoner if only prisoner is asleep and pet dog is absent" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="8200b0a2-7098-cd80-aa64-f60324d1c80c">
+      <Execution id="d8960c42-aeb8-46b2-81ac-85e42011f45e" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot free prisoner if only prisoner is asleep and pet dog is absent" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can signal prisoner if archer is sleeping and prisoner is awake" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="9cb54a4c-b06b-6e88-bb3c-9f27f6aebd4a">
+      <Execution id="d6cae772-9eab-4aa5-a26b-f77394f40648" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can signal prisoner if archer is sleeping and prisoner is awake" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can free prisoner if only archer is asleep and pet dog is present" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="db21bdfa-1921-dfcf-fd75-58c63e7504c8">
+      <Execution id="ba72ac9a-df18-4622-8e04-e54fa7ff6ab0" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can free prisoner if only archer is asleep and pet dog is present" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can spy if everyone is awake" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="f4aaf479-4a67-e44c-7029-3e01c2db5d3b">
+      <Execution id="3351b92a-a074-4447-add1-f17d8d5bccf8" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can spy if everyone is awake" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot execute fast attack if knight is awake" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="4e3c9982-c1f3-e99c-4a91-c4d81ed0ce76">
+      <Execution id="62c5a3d4-e48f-477c-bf1c-34d43bba2828" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot execute fast attack if knight is awake" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Cannot signal prisoner if archer is awake and prisoner is sleeping" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="9e06e31a-5dc9-ffa0-d5a8-a9ef92b3ba57">
+      <Execution id="7214a302-9987-478f-a6d4-5b394b1cf66c" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Cannot signal prisoner if archer is awake and prisoner is sleeping" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can execute fast attack if knight is sleeping" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="2528af7e-da41-701c-684a-b00358e33f33">
+      <Execution id="c1dfeaa7-3a77-4cf6-9f62-2ce8ca7fff13" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can execute fast attack if knight is sleeping" />
+    </UnitTest>
+    <UnitTest name="AnnalynsInfiltrationTests.Can free prisoner if only knight is awake and pet dog is present" storage="t:\repositories\myexercism\fsharp\annalyns-infiltration\bin\debug\net7.0\annalynsinfiltration.dll" id="0d6aa11b-9165-0270-751e-7bf7825ed610">
+      <Execution id="36ce1159-e282-42e1-bb17-33ac6e0c56fe" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\annalyns-infiltration\bin\Debug\net7.0\AnnalynsInfiltration.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AnnalynsInfiltrationTests" name="Can free prisoner if only knight is awake and pet dog is present" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="4e3c9982-c1f3-e99c-4a91-c4d81ed0ce76" executionId="62c5a3d4-e48f-477c-bf1c-34d43bba2828" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8200b0a2-7098-cd80-aa64-f60324d1c80c" executionId="d8960c42-aeb8-46b2-81ac-85e42011f45e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="565b8143-34dc-985b-5aaf-7012db20e76a" executionId="77c234bf-07a8-4e05-879c-f197cf8c5f9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="730f0b06-6f3a-570c-b248-f550b5f64c4c" executionId="02943959-a49a-45ea-b5ba-6735543f093d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db21bdfa-1921-dfcf-fd75-58c63e7504c8" executionId="ba72ac9a-df18-4622-8e04-e54fa7ff6ab0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="caa7d62c-fe5b-3391-a7b0-14dae6c6de7a" executionId="276b6945-1342-472e-a654-2f5508d5c875" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75d7202b-f477-c01c-3769-58c38ac7f459" executionId="6dcf1ae0-161d-4769-852b-ac4cad2fec63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3bf22c4-9451-44d2-76b2-ec23550533c8" executionId="fda5de00-d6e1-425e-9a48-3d6828fe7a58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a156070-37d1-81c9-5bd4-cd544bec5705" executionId="47955446-4865-44d7-bdd1-516992de5617" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2528af7e-da41-701c-684a-b00358e33f33" executionId="c1dfeaa7-3a77-4cf6-9f62-2ce8ca7fff13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5d03600-e436-f316-cedf-0758e53e5eb8" executionId="4bae9183-d6d1-4482-818b-fc7cf093dd47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e06e31a-5dc9-ffa0-d5a8-a9ef92b3ba57" executionId="7214a302-9987-478f-a6d4-5b394b1cf66c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f559699-5a28-0b52-2ad2-5def8487eae7" executionId="809b0d1d-565a-433a-bd40-ce0b2b9bd227" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e029232b-db56-e6dd-d4ed-acbc044bc837" executionId="19c96024-1489-43d8-a5aa-3359eda40417" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ade145b-0a80-686a-e47f-127036ca578d" executionId="611b402a-d157-41e3-a3d0-fedd82e22d48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ad13e61-e007-9a73-8e13-284dd75139c2" executionId="18c82502-2ca2-4b87-936b-af2084f053f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e43e099-fcb9-1c04-9948-ac161ab7fdec" executionId="0079d2d8-4f16-4b5e-b925-f5ee7db9a126" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4aaf479-4a67-e44c-7029-3e01c2db5d3b" executionId="3351b92a-a074-4447-add1-f17d8d5bccf8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="036de7be-14aa-c6c8-35c9-0cdfff2c6851" executionId="57b5a629-3523-44c6-a5dd-641908dcb38a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37c2f517-70f6-2627-db32-dfe944d8388f" executionId="bdd5fd76-42f4-4104-aed4-39c47a8a113f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d6aa11b-9165-0270-751e-7bf7825ed610" executionId="36ce1159-e282-42e1-bb17-33ac6e0c56fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ccd639b9-620c-713f-0936-9f6cf1be724f" executionId="a83216a2-d24f-405a-8054-32e819241361" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f95e8c2b-7cac-4b12-70ab-7858751015c2" executionId="a39e9cf4-99d9-4714-875c-4e50d5eb86c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="caf94ddf-19c8-5794-b7ce-66c62e248e9b" executionId="e1ea39ea-2a3b-4fe5-80b7-7d465deeb1c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cb54a4c-b06b-6e88-bb3c-9f27f6aebd4a" executionId="d6cae772-9eab-4aa5-a26b-f77394f40648" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7047a579-0a31-891c-732a-b0b27e37735c" executionId="d04907a1-5d6f-4aa2-9e4c-05e2f0a3a6d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3df9feb6-1e71-811c-02df-0b3d86504453" executionId="ac7b62cb-0dbe-4060-b510-6d9528a46202" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc06a12d-000e-efd4-add9-8ad28dce311b" executionId="621fc102-1a85-4014-96c5-3b5730c3828e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="355e4ffe-d717-8b59-98c4-a84a6aa8d367" executionId="06c3b939-8858-4245-8a03-7f11ca0df197" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e67a02c-3fea-31f0-eba2-71ea436a5011" executionId="3864a7cc-50c4-4e66-a8ac-bf2e888cedd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="30" executed="30" passed="30" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 7.0.4)&#xD;
+[xUnit.net 00:00:00.26]   Discovering: AnnalynsInfiltration&#xD;
+[xUnit.net 00:00:00.28]   Discovered:  AnnalynsInfiltration&#xD;
+[xUnit.net 00:00:00.28]   Starting:    AnnalynsInfiltration&#xD;
+[xUnit.net 00:00:00.37]   Finished:    AnnalynsInfiltration&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
