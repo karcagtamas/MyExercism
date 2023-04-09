@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e6394165-7f96-4632-ae40-9db0234f7013" name="karcagtamas@KARCAG-PC 2023-04-09 13:08:32" runUser="KARCAG-PC\karcagtamas" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-04-09T13:08:32.5912009+02:00" queuing="2023-04-09T13:08:32.5912013+02:00" start="2023-04-09T13:08:31.6554081+02:00" finish="2023-04-09T13:08:32.6382678+02:00" />
+  <TestSettings name="default" id="6c34d752-68de-4bd3-b3d6-2cfa1a6a56af">
+    <Deployment runDeploymentRoot="karcagtamas_KARCAG-PC_2023-04-09_13_08_32" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="8a1ea630-6f4c-426a-aa28-655b468fc473" testId="395ebd10-a26f-adc4-3b1a-75599377ccf6" testName="ValentinesDayTests.Rate chilling" computerName="KARCAG-PC" duration="00:00:00.0006058" startTime="2023-04-09T13:08:32.5421292+02:00" endTime="2023-04-09T13:08:32.5421293+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a1ea630-6f4c-426a-aa28-655b468fc473" />
+    <UnitTestResult executionId="629ceb80-fc32-4a26-8599-42668487db11" testId="a293173a-581b-1322-9676-2bd25a5cf116" testName="ValentinesDayTests.Rate romance movie" computerName="KARCAG-PC" duration="00:00:00.0005960" startTime="2023-04-09T13:08:32.5433481+02:00" endTime="2023-04-09T13:08:32.5433482+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="629ceb80-fc32-4a26-8599-42668487db11" />
+    <UnitTestResult executionId="ced803e2-989f-48a4-b949-d172c579678f" testId="5600403c-053d-80dd-b0ed-25b14acec8e4" testName="ValentinesDayTests.Rate Turkish restaurant" computerName="KARCAG-PC" duration="00:00:00.0008024" startTime="2023-04-09T13:08:32.5668996+02:00" endTime="2023-04-09T13:08:32.5668997+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ced803e2-989f-48a4-b949-d172c579678f" />
+    <UnitTestResult executionId="a811565d-5af1-48f0-a86c-b4fa6e31631b" testId="ecd00fde-3a5c-c5e1-a70a-af41263dd8ca" testName="ValentinesDayTests.Rate crime movie" computerName="KARCAG-PC" duration="00:00:00.0007054" startTime="2023-04-09T13:08:32.5420798+02:00" endTime="2023-04-09T13:08:32.5420798+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a811565d-5af1-48f0-a86c-b4fa6e31631b" />
+    <UnitTestResult executionId="66c443e8-f449-4236-b620-3ea36145f1ab" testId="eb78a280-d9ba-3299-b304-aa4ba7b80ad3" testName="ValentinesDayTests.Rate walk over 5 kilometers" computerName="KARCAG-PC" duration="00:00:00.0282409" startTime="2023-04-09T13:08:32.5382024+02:00" endTime="2023-04-09T13:08:32.5382187+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66c443e8-f449-4236-b620-3ea36145f1ab" />
+    <UnitTestResult executionId="42612a55-f7dd-47e1-96ac-3e658b3f3a1a" testId="a5926dde-360f-68e9-5e41-a167f8fc96ce" testName="ValentinesDayTests.Rate walk of 4 kilometers" computerName="KARCAG-PC" duration="00:00:00.0003263" startTime="2023-04-09T13:08:32.5427890+02:00" endTime="2023-04-09T13:08:32.5427894+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42612a55-f7dd-47e1-96ac-3e658b3f3a1a" />
+    <UnitTestResult executionId="16074150-a034-4e60-be07-87f2d8ce812d" testId="cbb8a0fc-bc4a-a5de-8834-63c4589d0f60" testName="ValentinesDayTests.Rate thriller movie" computerName="KARCAG-PC" duration="00:00:00.0004189" startTime="2023-04-09T13:08:32.5670014+02:00" endTime="2023-04-09T13:08:32.5670014+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16074150-a034-4e60-be07-87f2d8ce812d" />
+    <UnitTestResult executionId="2e81bef4-505a-4e2a-9ccc-8394e29929b8" testId="ccbcb7c1-43d7-83d3-ea5b-83c55d87a277" testName="ValentinesDayTests.Rate walk of 2 kilometers" computerName="KARCAG-PC" duration="00:00:00.0003576" startTime="2023-04-09T13:08:32.5423715+02:00" endTime="2023-04-09T13:08:32.5423716+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e81bef4-505a-4e2a-9ccc-8394e29929b8" />
+    <UnitTestResult executionId="a2a99a64-1048-426f-ba2a-e10fa812b0c8" testId="862fef45-c7b2-c091-ee8d-4b569060741f" testName="ValentinesDayTests.Rate Korean restaurant" computerName="KARCAG-PC" duration="00:00:00.0003894" startTime="2023-04-09T13:08:32.5669716+02:00" endTime="2023-04-09T13:08:32.5669717+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2a99a64-1048-426f-ba2a-e10fa812b0c8" />
+    <UnitTestResult executionId="0eed7916-3ede-48d1-9223-eaf592c6116b" testId="c35a3084-bbb6-41a5-1584-5cc86344223b" testName="ValentinesDayTests.Rate horror movie" computerName="KARCAG-PC" duration="00:00:00.0004513" startTime="2023-04-09T13:08:32.5670140+02:00" endTime="2023-04-09T13:08:32.5670140+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0eed7916-3ede-48d1-9223-eaf592c6116b" />
+    <UnitTestResult executionId="d8ea39e6-fbd9-47c9-883e-75166515911a" testId="99fc3147-73b6-8293-bff9-a4b44047db1b" testName="ValentinesDayTests.Rate walk of 1 kilometer" computerName="KARCAG-PC" duration="00:00:00.0007272" startTime="2023-04-09T13:08:32.5421160+02:00" endTime="2023-04-09T13:08:32.5421160+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8ea39e6-fbd9-47c9-883e-75166515911a" />
+    <UnitTestResult executionId="2a8f120b-62e6-45a3-9be6-d59324d4e977" testId="28ae8385-bec4-fc6b-ee7f-a23b4f6eca4c" testName="ValentinesDayTests.Rate walk of 5 kilometers" computerName="KARCAG-PC" duration="00:00:00.0012306" startTime="2023-04-09T13:08:32.5417150+02:00" endTime="2023-04-09T13:08:32.5417150+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a8f120b-62e6-45a3-9be6-d59324d4e977" />
+    <UnitTestResult executionId="1e999fd0-8c98-4a6f-8f30-3d94dc802862" testId="89028f87-cca5-1fb1-7e21-32b99afb000e" testName="ValentinesDayTests.Rate board game" computerName="KARCAG-PC" duration="00:00:00.0006517" startTime="2023-04-09T13:08:32.5421011+02:00" endTime="2023-04-09T13:08:32.5421012+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e999fd0-8c98-4a6f-8f30-3d94dc802862" />
+    <UnitTestResult executionId="317ea094-3eeb-497d-be26-c16938babb86" testId="e8b50448-c87c-5cb7-79d0-8de77ea69b05" testName="ValentinesDayTests.Rate walk of 3 kilometers" computerName="KARCAG-PC" duration="00:00:00.0003101" startTime="2023-04-09T13:08:32.5669876+02:00" endTime="2023-04-09T13:08:32.5669877+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="317ea094-3eeb-497d-be26-c16938babb86" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ValentinesDayTests.Rate romance movie" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="a293173a-581b-1322-9676-2bd25a5cf116">
+      <Execution id="629ceb80-fc32-4a26-8599-42668487db11" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate romance movie" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate chilling" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="395ebd10-a26f-adc4-3b1a-75599377ccf6">
+      <Execution id="8a1ea630-6f4c-426a-aa28-655b468fc473" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate chilling" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate Turkish restaurant" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="5600403c-053d-80dd-b0ed-25b14acec8e4">
+      <Execution id="ced803e2-989f-48a4-b949-d172c579678f" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate Turkish restaurant" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate walk of 2 kilometers" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="ccbcb7c1-43d7-83d3-ea5b-83c55d87a277">
+      <Execution id="2e81bef4-505a-4e2a-9ccc-8394e29929b8" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate walk of 2 kilometers" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate horror movie" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="c35a3084-bbb6-41a5-1584-5cc86344223b">
+      <Execution id="0eed7916-3ede-48d1-9223-eaf592c6116b" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate horror movie" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate board game" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="89028f87-cca5-1fb1-7e21-32b99afb000e">
+      <Execution id="1e999fd0-8c98-4a6f-8f30-3d94dc802862" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate board game" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate walk of 3 kilometers" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="e8b50448-c87c-5cb7-79d0-8de77ea69b05">
+      <Execution id="317ea094-3eeb-497d-be26-c16938babb86" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate walk of 3 kilometers" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate Korean restaurant" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="862fef45-c7b2-c091-ee8d-4b569060741f">
+      <Execution id="a2a99a64-1048-426f-ba2a-e10fa812b0c8" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate Korean restaurant" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate walk of 1 kilometer" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="99fc3147-73b6-8293-bff9-a4b44047db1b">
+      <Execution id="d8ea39e6-fbd9-47c9-883e-75166515911a" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate walk of 1 kilometer" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate walk over 5 kilometers" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="eb78a280-d9ba-3299-b304-aa4ba7b80ad3">
+      <Execution id="66c443e8-f449-4236-b620-3ea36145f1ab" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate walk over 5 kilometers" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate walk of 4 kilometers" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="a5926dde-360f-68e9-5e41-a167f8fc96ce">
+      <Execution id="42612a55-f7dd-47e1-96ac-3e658b3f3a1a" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate walk of 4 kilometers" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate crime movie" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="ecd00fde-3a5c-c5e1-a70a-af41263dd8ca">
+      <Execution id="a811565d-5af1-48f0-a86c-b4fa6e31631b" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate crime movie" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate walk of 5 kilometers" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="28ae8385-bec4-fc6b-ee7f-a23b4f6eca4c">
+      <Execution id="2a8f120b-62e6-45a3-9be6-d59324d4e977" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate walk of 5 kilometers" />
+    </UnitTest>
+    <UnitTest name="ValentinesDayTests.Rate thriller movie" storage="t:\repositories\myexercism\fsharp\valentines-day\bin\debug\net7.0\valentinesday.dll" id="cbb8a0fc-bc4a-a5de-8834-63c4589d0f60">
+      <Execution id="16074150-a034-4e60-be07-87f2d8ce812d" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\valentines-day\bin\Debug\net7.0\ValentinesDay.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ValentinesDayTests" name="Rate thriller movie" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="395ebd10-a26f-adc4-3b1a-75599377ccf6" executionId="8a1ea630-6f4c-426a-aa28-655b468fc473" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a293173a-581b-1322-9676-2bd25a5cf116" executionId="629ceb80-fc32-4a26-8599-42668487db11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5600403c-053d-80dd-b0ed-25b14acec8e4" executionId="ced803e2-989f-48a4-b949-d172c579678f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ecd00fde-3a5c-c5e1-a70a-af41263dd8ca" executionId="a811565d-5af1-48f0-a86c-b4fa6e31631b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb78a280-d9ba-3299-b304-aa4ba7b80ad3" executionId="66c443e8-f449-4236-b620-3ea36145f1ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5926dde-360f-68e9-5e41-a167f8fc96ce" executionId="42612a55-f7dd-47e1-96ac-3e658b3f3a1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbb8a0fc-bc4a-a5de-8834-63c4589d0f60" executionId="16074150-a034-4e60-be07-87f2d8ce812d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ccbcb7c1-43d7-83d3-ea5b-83c55d87a277" executionId="2e81bef4-505a-4e2a-9ccc-8394e29929b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="862fef45-c7b2-c091-ee8d-4b569060741f" executionId="a2a99a64-1048-426f-ba2a-e10fa812b0c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c35a3084-bbb6-41a5-1584-5cc86344223b" executionId="0eed7916-3ede-48d1-9223-eaf592c6116b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99fc3147-73b6-8293-bff9-a4b44047db1b" executionId="d8ea39e6-fbd9-47c9-883e-75166515911a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28ae8385-bec4-fc6b-ee7f-a23b4f6eca4c" executionId="2a8f120b-62e6-45a3-9be6-d59324d4e977" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89028f87-cca5-1fb1-7e21-32b99afb000e" executionId="1e999fd0-8c98-4a6f-8f30-3d94dc802862" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8b50448-c87c-5cb7-79d0-8de77ea69b05" executionId="317ea094-3eeb-497d-be26-c16938babb86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="14" executed="14" passed="14" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 7.0.4)&#xD;
+[xUnit.net 00:00:00.33]   Discovering: ValentinesDay&#xD;
+[xUnit.net 00:00:00.35]   Discovered:  ValentinesDay&#xD;
+[xUnit.net 00:00:00.35]   Starting:    ValentinesDay&#xD;
+[xUnit.net 00:00:00.45]   Finished:    ValentinesDay&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
