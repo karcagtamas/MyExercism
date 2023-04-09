@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="dc901932-dd68-4c11-be4d-6d2c3c93e0b3" name="karcagtamas@KARCAG-PC 2023-04-09 12:36:55" runUser="KARCAG-PC\karcagtamas" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-04-09T12:36:55.7068525+02:00" queuing="2023-04-09T12:36:55.7068527+02:00" start="2023-04-09T12:36:54.9894899+02:00" finish="2023-04-09T12:36:55.7511730+02:00" />
+  <TestSettings name="default" id="b21ad2e9-fd58-4394-89b8-329b956956e8">
+    <Deployment runDeploymentRoot="karcagtamas_KARCAG-PC_2023-04-09_12_36_55" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="3050b034-478f-4648-868e-4c4d414435e0" testId="2da3ed64-0685-ba1a-c772-912017cdfdf7" testName="LogLevelsTests.Reformat with leading and trailing white space" computerName="KARCAG-PC" duration="00:00:00.0002509" startTime="2023-04-09T12:36:55.6592182+02:00" endTime="2023-04-09T12:36:55.6592183+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3050b034-478f-4648-868e-4c4d414435e0" />
+    <UnitTestResult executionId="29092252-62cd-4241-8fe0-1d0f9c18caf7" testId="51ef929d-ccb5-949c-0887-1b897a873074" testName="LogLevelsTests.Warning log level" computerName="KARCAG-PC" duration="00:00:00.0002951" startTime="2023-04-09T12:36:55.6831995+02:00" endTime="2023-04-09T12:36:55.6831996+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29092252-62cd-4241-8fe0-1d0f9c18caf7" />
+    <UnitTestResult executionId="8b8c218d-d16a-40cd-8b32-6e17cc931763" testId="366c6da0-a02b-194b-bf22-5c2b3ca62093" testName="LogLevelsTests.Message with leading and trailing white space" computerName="KARCAG-PC" duration="00:00:00.0004377" startTime="2023-04-09T12:36:55.6565756+02:00" endTime="2023-04-09T12:36:55.6565756+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b8c218d-d16a-40cd-8b32-6e17cc931763" />
+    <UnitTestResult executionId="b43cdc7b-5f6f-4d1d-b962-599fc106e664" testId="e2ce1a8d-7d67-dcfe-0aed-b4a04167cd48" testName="LogLevelsTests.Error message" computerName="KARCAG-PC" duration="00:00:00.0003822" startTime="2023-04-09T12:36:55.6565588+02:00" endTime="2023-04-09T12:36:55.6565589+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b43cdc7b-5f6f-4d1d-b962-599fc106e664" />
+    <UnitTestResult executionId="3ba4d06a-3de4-4d3e-acc3-d4316074a4b3" testId="0507837b-2eb8-6bfa-c988-2e955479cb97" testName="LogLevelsTests.Info log level" computerName="KARCAG-PC" duration="00:00:00.0002270" startTime="2023-04-09T12:36:55.6600343+02:00" endTime="2023-04-09T12:36:55.6600344+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ba4d06a-3de4-4d3e-acc3-d4316074a4b3" />
+    <UnitTestResult executionId="87778308-1631-4f2d-97d4-c3a3951d233a" testId="049d6faf-f184-9642-74f7-508b65aad49d" testName="LogLevelsTests.Info reformat" computerName="KARCAG-PC" duration="00:00:00.0002655" startTime="2023-04-09T12:36:55.6831152+02:00" endTime="2023-04-09T12:36:55.6831152+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87778308-1631-4f2d-97d4-c3a3951d233a" />
+    <UnitTestResult executionId="1c9c2a37-f9e0-486b-abd6-1c00c65f5635" testId="e95b8a4b-daf2-2005-2c7a-4f4d204d7516" testName="LogLevelsTests.Info message" computerName="KARCAG-PC" duration="00:00:00.0002460" startTime="2023-04-09T12:36:55.6597961+02:00" endTime="2023-04-09T12:36:55.6597962+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c9c2a37-f9e0-486b-abd6-1c00c65f5635" />
+    <UnitTestResult executionId="8b84c783-ee37-4dd0-9220-7dbea9c9c84c" testId="17c61eba-34ad-afb5-adef-417a03da5de3" testName="LogLevelsTests.Warning message" computerName="KARCAG-PC" duration="00:00:00.0005390" startTime="2023-04-09T12:36:55.6562554+02:00" endTime="2023-04-09T12:36:55.6562554+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b84c783-ee37-4dd0-9220-7dbea9c9c84c" />
+    <UnitTestResult executionId="3777f7e1-b5bf-4825-bb60-e8a7e5f29c65" testId="7f011419-35f7-cb4b-c833-1c5f9117d69c" testName="LogLevelsTests.Error reformat" computerName="KARCAG-PC" duration="00:00:00.0002674" startTime="2023-04-09T12:36:55.6595172+02:00" endTime="2023-04-09T12:36:55.6595173+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3777f7e1-b5bf-4825-bb60-e8a7e5f29c65" />
+    <UnitTestResult executionId="8f61c15b-d2f3-44d2-bb46-e20c2929a3a8" testId="6baf0311-a493-6fbf-87dd-93b802c6f47c" testName="LogLevelsTests.Warning reformat" computerName="KARCAG-PC" duration="00:00:00.0044584" startTime="2023-04-09T12:36:55.6589378+02:00" endTime="2023-04-09T12:36:55.6589379+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f61c15b-d2f3-44d2-bb46-e20c2929a3a8" />
+    <UnitTestResult executionId="d896ed34-66f1-4bb8-acac-b12eb78f14a3" testId="5af0942e-579b-8d26-53f5-c3b4a65a3b0c" testName="LogLevelsTests.Error log level" computerName="KARCAG-PC" duration="00:00:00.0205574" startTime="2023-04-09T12:36:55.6535799+02:00" endTime="2023-04-09T12:36:55.6535958+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d896ed34-66f1-4bb8-acac-b12eb78f14a3" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="LogLevelsTests.Reformat with leading and trailing white space" storage="t:\repositories\myexercism\fsharp\log-levels\bin\debug\net7.0\loglevels.dll" id="2da3ed64-0685-ba1a-c772-912017cdfdf7">
+      <Execution id="3050b034-478f-4648-868e-4c4d414435e0" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\log-levels\bin\Debug\net7.0\LogLevels.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LogLevelsTests" name="Reformat with leading and trailing white space" />
+    </UnitTest>
+    <UnitTest name="LogLevelsTests.Info log level" storage="t:\repositories\myexercism\fsharp\log-levels\bin\debug\net7.0\loglevels.dll" id="0507837b-2eb8-6bfa-c988-2e955479cb97">
+      <Execution id="3ba4d06a-3de4-4d3e-acc3-d4316074a4b3" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\log-levels\bin\Debug\net7.0\LogLevels.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LogLevelsTests" name="Info log level" />
+    </UnitTest>
+    <UnitTest name="LogLevelsTests.Warning message" storage="t:\repositories\myexercism\fsharp\log-levels\bin\debug\net7.0\loglevels.dll" id="17c61eba-34ad-afb5-adef-417a03da5de3">
+      <Execution id="8b84c783-ee37-4dd0-9220-7dbea9c9c84c" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\log-levels\bin\Debug\net7.0\LogLevels.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LogLevelsTests" name="Warning message" />
+    </UnitTest>
+    <UnitTest name="LogLevelsTests.Info reformat" storage="t:\repositories\myexercism\fsharp\log-levels\bin\debug\net7.0\loglevels.dll" id="049d6faf-f184-9642-74f7-508b65aad49d">
+      <Execution id="87778308-1631-4f2d-97d4-c3a3951d233a" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\log-levels\bin\Debug\net7.0\LogLevels.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LogLevelsTests" name="Info reformat" />
+    </UnitTest>
+    <UnitTest name="LogLevelsTests.Error log level" storage="t:\repositories\myexercism\fsharp\log-levels\bin\debug\net7.0\loglevels.dll" id="5af0942e-579b-8d26-53f5-c3b4a65a3b0c">
+      <Execution id="d896ed34-66f1-4bb8-acac-b12eb78f14a3" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\log-levels\bin\Debug\net7.0\LogLevels.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LogLevelsTests" name="Error log level" />
+    </UnitTest>
+    <UnitTest name="LogLevelsTests.Info message" storage="t:\repositories\myexercism\fsharp\log-levels\bin\debug\net7.0\loglevels.dll" id="e95b8a4b-daf2-2005-2c7a-4f4d204d7516">
+      <Execution id="1c9c2a37-f9e0-486b-abd6-1c00c65f5635" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\log-levels\bin\Debug\net7.0\LogLevels.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LogLevelsTests" name="Info message" />
+    </UnitTest>
+    <UnitTest name="LogLevelsTests.Warning reformat" storage="t:\repositories\myexercism\fsharp\log-levels\bin\debug\net7.0\loglevels.dll" id="6baf0311-a493-6fbf-87dd-93b802c6f47c">
+      <Execution id="8f61c15b-d2f3-44d2-bb46-e20c2929a3a8" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\log-levels\bin\Debug\net7.0\LogLevels.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LogLevelsTests" name="Warning reformat" />
+    </UnitTest>
+    <UnitTest name="LogLevelsTests.Error message" storage="t:\repositories\myexercism\fsharp\log-levels\bin\debug\net7.0\loglevels.dll" id="e2ce1a8d-7d67-dcfe-0aed-b4a04167cd48">
+      <Execution id="b43cdc7b-5f6f-4d1d-b962-599fc106e664" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\log-levels\bin\Debug\net7.0\LogLevels.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LogLevelsTests" name="Error message" />
+    </UnitTest>
+    <UnitTest name="LogLevelsTests.Warning log level" storage="t:\repositories\myexercism\fsharp\log-levels\bin\debug\net7.0\loglevels.dll" id="51ef929d-ccb5-949c-0887-1b897a873074">
+      <Execution id="29092252-62cd-4241-8fe0-1d0f9c18caf7" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\log-levels\bin\Debug\net7.0\LogLevels.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LogLevelsTests" name="Warning log level" />
+    </UnitTest>
+    <UnitTest name="LogLevelsTests.Error reformat" storage="t:\repositories\myexercism\fsharp\log-levels\bin\debug\net7.0\loglevels.dll" id="7f011419-35f7-cb4b-c833-1c5f9117d69c">
+      <Execution id="3777f7e1-b5bf-4825-bb60-e8a7e5f29c65" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\log-levels\bin\Debug\net7.0\LogLevels.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LogLevelsTests" name="Error reformat" />
+    </UnitTest>
+    <UnitTest name="LogLevelsTests.Message with leading and trailing white space" storage="t:\repositories\myexercism\fsharp\log-levels\bin\debug\net7.0\loglevels.dll" id="366c6da0-a02b-194b-bf22-5c2b3ca62093">
+      <Execution id="8b8c218d-d16a-40cd-8b32-6e17cc931763" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\log-levels\bin\Debug\net7.0\LogLevels.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LogLevelsTests" name="Message with leading and trailing white space" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2da3ed64-0685-ba1a-c772-912017cdfdf7" executionId="3050b034-478f-4648-868e-4c4d414435e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51ef929d-ccb5-949c-0887-1b897a873074" executionId="29092252-62cd-4241-8fe0-1d0f9c18caf7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="366c6da0-a02b-194b-bf22-5c2b3ca62093" executionId="8b8c218d-d16a-40cd-8b32-6e17cc931763" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2ce1a8d-7d67-dcfe-0aed-b4a04167cd48" executionId="b43cdc7b-5f6f-4d1d-b962-599fc106e664" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0507837b-2eb8-6bfa-c988-2e955479cb97" executionId="3ba4d06a-3de4-4d3e-acc3-d4316074a4b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="049d6faf-f184-9642-74f7-508b65aad49d" executionId="87778308-1631-4f2d-97d4-c3a3951d233a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e95b8a4b-daf2-2005-2c7a-4f4d204d7516" executionId="1c9c2a37-f9e0-486b-abd6-1c00c65f5635" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17c61eba-34ad-afb5-adef-417a03da5de3" executionId="8b84c783-ee37-4dd0-9220-7dbea9c9c84c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f011419-35f7-cb4b-c833-1c5f9117d69c" executionId="3777f7e1-b5bf-4825-bb60-e8a7e5f29c65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6baf0311-a493-6fbf-87dd-93b802c6f47c" executionId="8f61c15b-d2f3-44d2-bb46-e20c2929a3a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5af0942e-579b-8d26-53f5-c3b4a65a3b0c" executionId="d896ed34-66f1-4bb8-acac-b12eb78f14a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 7.0.4)&#xD;
+[xUnit.net 00:00:00.26]   Discovering: LogLevels&#xD;
+[xUnit.net 00:00:00.28]   Discovered:  LogLevels&#xD;
+[xUnit.net 00:00:00.28]   Starting:    LogLevels&#xD;
+[xUnit.net 00:00:00.37]   Finished:    LogLevels&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
