@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="8996ad0c-c0d5-4720-8e63-8dfc2e067a65" name="karcagtamas@KARCAG-PC 2023-04-09 13:30:58" runUser="KARCAG-PC\karcagtamas" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-04-09T13:30:58.5691478+02:00" queuing="2023-04-09T13:30:58.5691487+02:00" start="2023-04-09T13:30:57.6737335+02:00" finish="2023-04-09T13:30:58.6331186+02:00" />
+  <TestSettings name="default" id="f4f44fe8-2180-4400-afcb-6401459c241c">
+    <Deployment runDeploymentRoot="karcagtamas_KARCAG-PC_2023-04-09_13_30_58" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d03473ae-88da-4769-9f1a-4a30c2b29488" testId="94b7e509-bb73-6fb4-ded6-5d55a92883b4" testName="KindergartenGardenTests.Full garden - for David" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5209377+02:00" endTime="2023-04-09T13:30:58.5209377+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d03473ae-88da-4769-9f1a-4a30c2b29488">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="46816632-8673-4af2-b141-7bafb6497fdf" testId="54f2272d-8f49-30d3-16a3-0a29bdc03308" testName="KindergartenGardenTests.Partial garden - multiple students for the same garden with three students - third student's garden" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5472848+02:00" endTime="2023-04-09T13:30:58.5472848+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46816632-8673-4af2-b141-7bafb6497fdf">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="793488cc-af78-4d68-a83a-981c32e8ec1a" testId="6d9201a3-1980-2e25-a23d-58091e47d192" testName="KindergartenGardenTests.Full garden - for Joseph" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5473847+02:00" endTime="2023-04-09T13:30:58.5473847+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="793488cc-af78-4d68-a83a-981c32e8ec1a">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b9e8238f-ef2f-418b-9345-47b468c51f74" testId="07fc684b-3fb0-f715-ba5f-8b3c898d6318" testName="KindergartenGardenTests.Full garden - for Bob, second student's garden" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5201657+02:00" endTime="2023-04-09T13:30:58.5201658+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9e8238f-ef2f-418b-9345-47b468c51f74">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fafbb57b-72f5-4932-999f-6b19d9609306" testId="5568d1e9-1843-ea37-102a-ee5e303095ca" testName="KindergartenGardenTests.Full garden - for Fred" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5205906+02:00" endTime="2023-04-09T13:30:58.5205906+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fafbb57b-72f5-4932-999f-6b19d9609306">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b7361d4-4024-4fa0-8a3a-abbf18391ce0" testId="8f0bb3b6-e70f-cab5-98d5-96492f85491c" testName="KindergartenGardenTests.Partial garden - multiple students for the same garden with three students - second student's garden" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5158073+02:00" endTime="2023-04-09T13:30:58.5158267+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b7361d4-4024-4fa0-8a3a-abbf18391ce0">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="764af472-06db-405d-a942-2f723a7a1439" testId="4dd7b27f-fa40-e7b8-53e0-4f38c439729f" testName="KindergartenGardenTests.Full garden - for Larry, last student's garden" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5195601+02:00" endTime="2023-04-09T13:30:58.5195601+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="764af472-06db-405d-a942-2f723a7a1439">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c8bdab52-4e21-432c-825b-da6a3c429911" testId="3d8eccfa-3eb6-854a-455c-0bcfc8f86bdb" testName="KindergartenGardenTests.Full garden - for Kincaid, second to last student's garden" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5477594+02:00" endTime="2023-04-09T13:30:58.5477595+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8bdab52-4e21-432c-825b-da6a3c429911">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="42edf1eb-5695-4b7f-ab1f-5c77545f44aa" testId="060c3d54-e7d9-f469-c5ec-39e1fa71392e" testName="KindergartenGardenTests.Full garden - for Charlie" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5478705+02:00" endTime="2023-04-09T13:30:58.5478705+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42edf1eb-5695-4b7f-ab1f-5c77545f44aa">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0fbcdcf-7e44-4e75-a0d7-e0f3637f61dc" testId="d3a39b82-1f25-b21a-c403-b8bf2a96427a" testName="KindergartenGardenTests.Full garden - for Alice, first student's garden" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5202994+02:00" endTime="2023-04-09T13:30:58.5202995+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0fbcdcf-7e44-4e75-a0d7-e0f3637f61dc">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5e601a41-cf68-4cd2-8f1a-fa7f13222c66" testId="dda89667-9fae-ea16-c3ae-311f0100d804" testName="KindergartenGardenTests.Full garden - for Ileana" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5204302+02:00" endTime="2023-04-09T13:30:58.5204302+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e601a41-cf68-4cd2-8f1a-fa7f13222c66">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5900e915-22f3-4cae-a05d-82cdc074ee70" testId="fd5dae11-b435-5ab1-c1f6-02cece48986e" testName="KindergartenGardenTests.Partial garden - garden with two students" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5466217+02:00" endTime="2023-04-09T13:30:58.5466218+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5900e915-22f3-4cae-a05d-82cdc074ee70">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="64d3b1be-a2ce-4166-8486-0b102eeba277" testId="10a5e4e3-4c01-0128-f167-ec44f223a3ea" testName="KindergartenGardenTests.Full garden - for Harriet" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5475072+02:00" endTime="2023-04-09T13:30:58.5475073+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64d3b1be-a2ce-4166-8486-0b102eeba277">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="213f88d1-c34a-4407-94b1-e57415c416e4" testId="fcebd569-2b17-05b4-c4a4-7dfbf45d7d5d" testName="KindergartenGardenTests.Full garden - for Eve" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5208226+02:00" endTime="2023-04-09T13:30:58.5208227+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="213f88d1-c34a-4407-94b1-e57415c416e4">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="23393fc2-75da-40a9-be47-08e1db269c2a" testId="4972caba-08ab-e578-4d86-5fff3b53eb37" testName="KindergartenGardenTests.Partial garden - garden with single student" computerName="KARCAG-PC" duration="00:00:00.0451693" startTime="2023-04-09T13:30:58.5681125+02:00" endTime="2023-04-09T13:30:58.5681128+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23393fc2-75da-40a9-be47-08e1db269c2a" />
+    <UnitTestResult executionId="a0418c9d-b2f0-465d-abe8-d63002ee6437" testId="5ab8f43f-cc09-9a29-bae2-5091e13a0d2f" testName="KindergartenGardenTests.Partial garden - different garden with single student" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5206979+02:00" endTime="2023-04-09T13:30:58.5206980+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0418c9d-b2f0-465d-abe8-d63002ee6437">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e8e1a78e-07d8-469c-a56a-0100258459f2" testId="8d1342fc-7120-d9cd-553f-978e520cd226" testName="KindergartenGardenTests.Full garden - for Ginny" computerName="KARCAG-PC" duration="00:00:00.0010000" startTime="2023-04-09T13:30:58.5476391+02:00" endTime="2023-04-09T13:30:58.5476391+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8e1a78e-07d8-469c-a56a-0100258459f2">
+      <Output>
+        <StdOut>Remove this Skip property to run this test</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="KindergartenGardenTests.Full garden - for Ginny" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="8d1342fc-7120-d9cd-553f-978e520cd226">
+      <Execution id="e8e1a78e-07d8-469c-a56a-0100258459f2" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for Ginny" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Full garden - for Joseph" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="6d9201a3-1980-2e25-a23d-58091e47d192">
+      <Execution id="793488cc-af78-4d68-a83a-981c32e8ec1a" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for Joseph" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Partial garden - different garden with single student" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="5ab8f43f-cc09-9a29-bae2-5091e13a0d2f">
+      <Execution id="a0418c9d-b2f0-465d-abe8-d63002ee6437" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Partial garden - different garden with single student" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Full garden - for Alice, first student's garden" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="d3a39b82-1f25-b21a-c403-b8bf2a96427a">
+      <Execution id="d0fbcdcf-7e44-4e75-a0d7-e0f3637f61dc" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for Alice, first student's garden" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Partial garden - multiple students for the same garden with three students - second student's garden" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="8f0bb3b6-e70f-cab5-98d5-96492f85491c">
+      <Execution id="9b7361d4-4024-4fa0-8a3a-abbf18391ce0" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Partial garden - multiple students for the same garden with three students - second student's garden" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Partial garden - garden with two students" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="fd5dae11-b435-5ab1-c1f6-02cece48986e">
+      <Execution id="5900e915-22f3-4cae-a05d-82cdc074ee70" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Partial garden - garden with two students" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Full garden - for Ileana" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="dda89667-9fae-ea16-c3ae-311f0100d804">
+      <Execution id="5e601a41-cf68-4cd2-8f1a-fa7f13222c66" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for Ileana" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Full garden - for Larry, last student's garden" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="4dd7b27f-fa40-e7b8-53e0-4f38c439729f">
+      <Execution id="764af472-06db-405d-a942-2f723a7a1439" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for Larry, last student's garden" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Full garden - for Bob, second student's garden" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="07fc684b-3fb0-f715-ba5f-8b3c898d6318">
+      <Execution id="b9e8238f-ef2f-418b-9345-47b468c51f74" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for Bob, second student's garden" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Full garden - for Fred" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="5568d1e9-1843-ea37-102a-ee5e303095ca">
+      <Execution id="fafbb57b-72f5-4932-999f-6b19d9609306" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for Fred" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Partial garden - garden with single student" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="4972caba-08ab-e578-4d86-5fff3b53eb37">
+      <Execution id="23393fc2-75da-40a9-be47-08e1db269c2a" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Partial garden - garden with single student" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Partial garden - multiple students for the same garden with three students - third student's garden" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="54f2272d-8f49-30d3-16a3-0a29bdc03308">
+      <Execution id="46816632-8673-4af2-b141-7bafb6497fdf" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Partial garden - multiple students for the same garden with three students - third student's garden" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Full garden - for Charlie" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="060c3d54-e7d9-f469-c5ec-39e1fa71392e">
+      <Execution id="42edf1eb-5695-4b7f-ab1f-5c77545f44aa" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for Charlie" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Full garden - for Kincaid, second to last student's garden" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="3d8eccfa-3eb6-854a-455c-0bcfc8f86bdb">
+      <Execution id="c8bdab52-4e21-432c-825b-da6a3c429911" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for Kincaid, second to last student's garden" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Full garden - for Eve" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="fcebd569-2b17-05b4-c4a4-7dfbf45d7d5d">
+      <Execution id="213f88d1-c34a-4407-94b1-e57415c416e4" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for Eve" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Full garden - for David" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="94b7e509-bb73-6fb4-ded6-5d55a92883b4">
+      <Execution id="d03473ae-88da-4769-9f1a-4a30c2b29488" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for David" />
+    </UnitTest>
+    <UnitTest name="KindergartenGardenTests.Full garden - for Harriet" storage="t:\repositories\myexercism\fsharp\kindergarten-garden\bin\debug\net7.0\kindergartengarden.dll" id="10a5e4e3-4c01-0128-f167-ec44f223a3ea">
+      <Execution id="64d3b1be-a2ce-4166-8486-0b102eeba277" />
+      <TestMethod codeBase="t:\Repositories\MyExercism\fsharp\kindergarten-garden\bin\Debug\net7.0\KindergartenGarden.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KindergartenGardenTests" name="Full garden - for Harriet" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="94b7e509-bb73-6fb4-ded6-5d55a92883b4" executionId="d03473ae-88da-4769-9f1a-4a30c2b29488" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54f2272d-8f49-30d3-16a3-0a29bdc03308" executionId="46816632-8673-4af2-b141-7bafb6497fdf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d9201a3-1980-2e25-a23d-58091e47d192" executionId="793488cc-af78-4d68-a83a-981c32e8ec1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07fc684b-3fb0-f715-ba5f-8b3c898d6318" executionId="b9e8238f-ef2f-418b-9345-47b468c51f74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5568d1e9-1843-ea37-102a-ee5e303095ca" executionId="fafbb57b-72f5-4932-999f-6b19d9609306" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f0bb3b6-e70f-cab5-98d5-96492f85491c" executionId="9b7361d4-4024-4fa0-8a3a-abbf18391ce0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4dd7b27f-fa40-e7b8-53e0-4f38c439729f" executionId="764af472-06db-405d-a942-2f723a7a1439" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d8eccfa-3eb6-854a-455c-0bcfc8f86bdb" executionId="c8bdab52-4e21-432c-825b-da6a3c429911" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="060c3d54-e7d9-f469-c5ec-39e1fa71392e" executionId="42edf1eb-5695-4b7f-ab1f-5c77545f44aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3a39b82-1f25-b21a-c403-b8bf2a96427a" executionId="d0fbcdcf-7e44-4e75-a0d7-e0f3637f61dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dda89667-9fae-ea16-c3ae-311f0100d804" executionId="5e601a41-cf68-4cd2-8f1a-fa7f13222c66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd5dae11-b435-5ab1-c1f6-02cece48986e" executionId="5900e915-22f3-4cae-a05d-82cdc074ee70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10a5e4e3-4c01-0128-f167-ec44f223a3ea" executionId="64d3b1be-a2ce-4166-8486-0b102eeba277" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcebd569-2b17-05b4-c4a4-7dfbf45d7d5d" executionId="213f88d1-c34a-4407-94b1-e57415c416e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4972caba-08ab-e578-4d86-5fff3b53eb37" executionId="23393fc2-75da-40a9-be47-08e1db269c2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ab8f43f-cc09-9a29-bae2-5091e13a0d2f" executionId="a0418c9d-b2f0-465d-abe8-d63002ee6437" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d1342fc-7120-d9cd-553f-978e520cd226" executionId="e8e1a78e-07d8-469c-a56a-0100258459f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 7.0.4)&#xD;
+[xUnit.net 00:00:00.33]   Discovering: KindergartenGarden&#xD;
+[xUnit.net 00:00:00.35]   Discovered:  KindergartenGarden&#xD;
+[xUnit.net 00:00:00.36]   Starting:    KindergartenGarden&#xD;
+[xUnit.net 00:00:00.38]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.39]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.39]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.39]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.39]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.39]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.39]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.39]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.39]       Remove this Skip property to run this test&#xD;
+Test 'KindergartenGardenTests.Partial garden - multiple students for the same garden with three students - second student's garden' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for Larry, last student's garden' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for Bob, second student's garden' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for Alice, first student's garden' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for Ileana' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for Fred' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Partial garden - different garden with single student' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for Eve' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for David' was skipped in the test run.&#xD;
+[xUnit.net 00:00:00.41]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.41]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.41]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.42]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.42]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.42]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.42]       Remove this Skip property to run this test&#xD;
+[xUnit.net 00:00:00.44]   Finished:    KindergartenGarden&#xD;
+Test 'KindergartenGardenTests.Partial garden - garden with two students' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Partial garden - multiple students for the same garden with three students - third student's garden' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for Joseph' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for Harriet' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for Ginny' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for Kincaid, second to last student's garden' was skipped in the test run.&#xD;
+Test 'KindergartenGardenTests.Full garden - for Charlie' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5150489+02:00">
+        <Text>[xUnit.net 00:00:00.38]     KindergartenGardenTests.Partial garden - multiple students for the same garden with three students - second student's garden [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5197207+02:00">
+        <Text>[xUnit.net 00:00:00.39]     KindergartenGardenTests.Full garden - for Larry, last student's garden [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5202765+02:00">
+        <Text>[xUnit.net 00:00:00.39]     KindergartenGardenTests.Full garden - for Bob, second student's garden [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5204080+02:00">
+        <Text>[xUnit.net 00:00:00.39]     KindergartenGardenTests.Full garden - for Alice, first student's garden [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5204327+02:00">
+        <Text>[xUnit.net 00:00:00.39]     KindergartenGardenTests.Full garden - for Ileana [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5207174+02:00">
+        <Text>[xUnit.net 00:00:00.39]     KindergartenGardenTests.Full garden - for Fred [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5207545+02:00">
+        <Text>[xUnit.net 00:00:00.39]     KindergartenGardenTests.Partial garden - different garden with single student [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5208701+02:00">
+        <Text>[xUnit.net 00:00:00.39]     KindergartenGardenTests.Full garden - for Eve [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5210246+02:00">
+        <Text>[xUnit.net 00:00:00.39]     KindergartenGardenTests.Full garden - for David [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5751038+02:00">
+        <Text>[xUnit.net 00:00:00.41]     KindergartenGardenTests.Partial garden - garden with two students [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5751182+02:00">
+        <Text>[xUnit.net 00:00:00.41]     KindergartenGardenTests.Partial garden - multiple students for the same garden with three students - third student's garden [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5751299+02:00">
+        <Text>[xUnit.net 00:00:00.41]     KindergartenGardenTests.Full garden - for Joseph [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5751471+02:00">
+        <Text>[xUnit.net 00:00:00.42]     KindergartenGardenTests.Full garden - for Harriet [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5751594+02:00">
+        <Text>[xUnit.net 00:00:00.42]     KindergartenGardenTests.Full garden - for Ginny [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5751715+02:00">
+        <Text>[xUnit.net 00:00:00.42]     KindergartenGardenTests.Full garden - for Kincaid, second to last student's garden [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="KARCAG-PC" outcome="Warning" timestamp="2023-04-09T13:30:58.5751850+02:00">
+        <Text>[xUnit.net 00:00:00.42]     KindergartenGardenTests.Full garden - for Charlie [SKIP]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
