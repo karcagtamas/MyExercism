@@ -1,0 +1,12 @@
+? C:\Users\karcagtamas\AppData\Local\Programs\stack\x86_64-windows\ghc-9.2.7\lib\x86_64-windows-ghc-9.2.7\rts-1.0.2\include\ghcversion.h
+: hash: 29d6607e92f065af06096e2cf6677b816f36cb00b9c9cf137b6a887fe0a21ffd
+T:\Repositories\MyExercism\haskell\hello-world\.stack-work\dist\8a54c84f\build\autogen\Paths_hello_world.hs:
+  hash: 25b4c712db656dfc3ae184cc76934b32c9b5bbf09daac8934dc72aaebc5ff1fd
+T:\Repositories\MyExercism\haskell\hello-world\.stack-work\dist\8a54c84f\build\autogen\cabal_macros.h:
+  hash: e1fe6d69a52e4367fbd34a65490d07083d3b18b0691809461a7ca19a17571bf3
+T:\Repositories\MyExercism\haskell\hello-world\hello-world.cabal:
+  hash: 2ce6de99509664a39c505acece3063216a7240dd8e722ccdff550d52306faab3
+T:\Repositories\MyExercism\haskell\hello-world\package.yaml:
+  hash: 160a1a88b7a5bd0f6f1ffd3e24f56cbba5e4d4fbd7f76ea73d649199ca9d76a5
+T:\Repositories\MyExercism\haskell\hello-world\src\HelloWorld.hs:
+  hash: 166722a5408adfc55649132fda695e6d531b9b170993936ca18f9e30555840b3
