@@ -1,3 +1,6 @@
 ﻿module Pangram
 
-let isPangram (input: string): bool = failwith "You need to implement this function."
+let allCharacters = "abcdefghijklmnopqrstuvwxyz"
+
+let isPangram (input: string) : bool =
+    input.ToLower() |> Seq.filter System.Char.IsLetter |> Set.ofSeq |> Seq.length = allCharacters.Length
