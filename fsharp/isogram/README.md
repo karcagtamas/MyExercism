@@ -1,5 +1,10 @@
 # Isogram
 
+Welcome to Isogram on Exercism's F# Track.
+If you need help running the tests or submitting your code, check out `HELP.md`.
+
+## Instructions
+
 Determine if a word or phrase is an isogram.
 
 An isogram (also known as a "nonpattern word") is a word or phrase without a repeating letter, however spaces and hyphens are allowed to appear multiple times.
@@ -13,22 +18,22 @@ Examples of isograms:
 
 The word *isograms*, however, is not an isogram, because the s repeats.
 
-## Running the tests
-
-To run the tests, run the command `dotnet test` from within the exercise directory.
-
-## Autoformatting the code
-
-F# source code can be formatted with the [Fantomas](https://github.com/fsprojects/fantomas) tool.
-
-After installing it with `dotnet tool restore`, run `dotnet fantomas .` to format code within the current directory.
-
-## Further information
-
-For more detailed information about the F# track, including how to get help if
-you're having trouble, please visit the exercism.io [F# language page](http://exercism.io/languages/fsharp/resources).
-
 ## Source
 
-Wikipedia [https://en.wikipedia.org/wiki/Isogram](https://en.wikipedia.org/wiki/Isogram)
+### Created by
 
+- @ErikSchierboom
+
+### Contributed to by
+
+- @balazsbotond
+- @jrr
+- @lestephane
+- @robkeim
+- @valentin-p
+- @vrnithinkumar
+- @wolf99
+
+### Based on
+
+Wikipedia - https://en.wikipedia.org/wiki/Isogram
