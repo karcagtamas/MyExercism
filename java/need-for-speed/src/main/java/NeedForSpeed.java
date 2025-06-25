@@ -11,6 +11,14 @@ class NeedForSpeed {
         this.batteryDrain = batteryDrain;
     }
 
+    public int getSpeed() {
+        return speed;
+    }
+
+    public int getBatteryDrain() {
+        return batteryDrain;
+    }
+
     public boolean batteryDrained() {
         return battery < batteryDrain;
     }
@@ -41,10 +49,6 @@ class RaceTrack {
     }
 
     public boolean canFinishRace(NeedForSpeed car) {
-        while (!car.batteryDrained()) {
-            car.drive();
-        }
-
-        return car.distanceDriven() >= distance;
+        return (100 / car.getBatteryDrain()) * car.getSpeed() >= distance;
     }
 }
