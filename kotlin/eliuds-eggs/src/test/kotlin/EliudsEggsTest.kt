@@ -12,7 +12,7 @@ class EliudsEggsTest {
 
     @Test
     fun `4 eggs`() = assertEquals(4, EliudsEggs.eggCount(89))
-    
+
     @Test
     fun `13 eggs`() = assertEquals(13, EliudsEggs.eggCount(2_000_000_000))
 }
