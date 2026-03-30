@@ -43,7 +43,7 @@ class SquaresTest {
     fun differenceOfSquares5() {
         assertEquals(170, Squares(5).difference())
     }
-    
+
     @Test
     fun differenceOfSquares100() {
         assertEquals(25164150, Squares(100).difference())
