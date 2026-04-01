@@ -6,16 +6,25 @@ object PrimeFactorCalculator {
 
     fun primeFactors(long: Long): List<Long> {
         var value = long
-
-        var n = 2L
         val factors = mutableListOf<Long>()
-        while (value > 1L) {
-            if (value % n == 0L) {
-                value /= n
+
+        while (value % 2L == 0L) {
+            factors.add(2L)
+            value /= 2L
+        }
+
+        var n = 3L
+
+        while (n * n <= value) {
+            while (value % n == 0L) {
                 factors.add(n)
-            } else {
-                n += 1
+                value /= n
             }
+            n += 2
+        }
+
+        if (value > 1) {
+            factors.add(value)
         }
 
         return factors
