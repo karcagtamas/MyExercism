@@ -2,20 +2,18 @@ import kotlin.to
 
 object ScrabbleScore {
 
-    private val scores = mapOf(
-        1 to listOf('A', 'E', 'I', 'O', 'U', 'L', 'N', 'R', 'S', 'T'),
-        2 to listOf('D', 'G'),
-        3 to listOf('B', 'C', 'M', 'P'),
-        4 to listOf('F', 'H', 'V', 'W', 'Y'),
-        5 to listOf('K'),
-        8 to listOf('J', 'X'),
-        10 to listOf('Q', 'Z'),
-    )
+    private val scores = IntArray(26).apply {
+        "AEIOULNRST".forEach { this[it - 'A'] = 1 }
+        "DG".forEach { this[it - 'A'] = 2 }
+        "BCMP".forEach { this[it - 'A'] = 3 }
+        "FHVWY".forEach { this[it - 'A'] = 4 }
+        "K".forEach { this[it - 'A'] = 5 }
+        "JX".forEach { this[it - 'A'] = 8 }
+        "QZ".forEach { this[it - 'A'] = 10 }
+    }
 
     fun scoreLetter(c: Char): Int {
-        return scores.filter { it.value.contains(c) }
-            .map { it.key }
-            .sum()
+        return scores[c - 'A']
     }
 
     fun scoreWord(word: String): Int {
