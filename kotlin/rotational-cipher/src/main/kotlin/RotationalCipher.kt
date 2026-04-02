@@ -2,14 +2,15 @@ class RotationalCipher(private val rot: Int) {
 
     fun encode(text: String): String {
         return text
-            .map { if (it.isLetter()) encode(it) else it }
+            .map { encode(it) }
             .joinToString("")
     }
 
     fun encode(char: Char): Char {
-        val a = if (char.isUpperCase()) 'A'.code else 'a'.code
-        val z = if (char.isUpperCase()) 'Z'.code else 'z'.code
-
-        return (((char.code - a + rot) % (z - a + 1)) + a).toChar()
+        return when (char) {
+            in 'a'..'z' -> ((char - 'a' + rot) % 26 + 'a'.code).toChar()
+            in 'A'..'Z' -> ((char - 'A' + rot) % 26 + 'A'.code).toChar()
+            else -> char
+        }
     }
 }
