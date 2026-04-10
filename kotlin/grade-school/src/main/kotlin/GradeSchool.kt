@@ -5,11 +5,7 @@ class School {
     val groups = sortedMapOf<Int, SortedSet<String>>()
 
     fun add(student: String, grade: Int) {
-        if (groups.containsKey(grade)) {
-            groups[grade]?.add(student)
-        } else {
-            groups[grade] = sortedSetOf(student)
-        }
+        groups.getOrPut(grade) { sortedSetOf() }.add(student)
     }
 
     fun grade(grade: Int): List<String> {
@@ -17,6 +13,10 @@ class School {
     }
 
     fun roster(): List<String> {
-        return groups.flatMap { it.value.toList() }
+        return buildList {
+            for (students in groups.values) {
+                addAll(students)
+            }
+        }
     }
 }
