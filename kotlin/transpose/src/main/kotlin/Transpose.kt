@@ -4,26 +4,33 @@ object Transpose {
         if (input.isEmpty()) return emptyList()
 
         val maxLen = input.maxOf { it.length }
+
+        // last row index that has a char for each column
+        val lastRowWithChar = IntArray(maxLen)
+
+        for (col in 0 until maxLen) {
+            for (row in input.indices.reversed()) {
+                if (col < input[row].length) {
+                    lastRowWithChar[col] = row
+                    break
+                }
+            }
+        }
+
         val result = mutableListOf<String>()
 
         for (col in 0 until maxLen) {
-            val row = StringBuilder()
+            val sb = StringBuilder()
 
-            for (line in input.indices) {
-                val current = input[line]
-
-                if (col < current.length) {
-                    row.append(current[col])
-                } else {
-                    val needSpace = (line + 1 until input.size).any { col < input[it].length }
-
-                    if (needSpace) {
-                        row.append(' ')
-                    }
+            for (row in input.indices) {
+                if (col < input[row].length) {
+                    sb.append(input[row][col])
+                } else if (row < lastRowWithChar[col]) {
+                    sb.append(' ')
                 }
             }
 
-            result.add(row.toString())
+            result.add(sb.toString())
         }
 
         return result
