@@ -7,21 +7,32 @@ data class FlowerFieldBoard(private val inputBoard: List<String>) {
     private val y = if (x > 0) inputBoard[0].length else 0
 
     fun withNumbers(): List<String> {
-        return inputBoard.mapIndexed { i, row ->
-            row.mapIndexed { j, f ->
-                when {
-                    f == '*' -> f
-                    else -> calc(i, j).let { if (it == 0) ' ' else it.digitToChar() }
+        return List(x) { i ->
+            buildString {
+                for (j in 0 until y) {
+                    if (inputBoard[i][j] == '*') {
+                        append('*')
+                    } else {
+                        val count = calc(i, j)
+
+                        append(if (count == 0) ' ' else '0' + count)
+                    }
                 }
-            }.joinToString("")
+            }
         }
     }
 
     private fun calc(i: Int, j: Int): Int {
-        return (max(0, i - 1)..min(x - 1, i + 1)).flatMap { it1 ->
-            (max(0, j - 1)..min(y - 1, j + 1)).map { it2 ->
-                if (inputBoard[it1][it2] == '*') 1 else 0
+        var count = 0
+
+        (max(0, i - 1)..min(x - 1, i + 1)).forEach { r ->
+            (max(0, j - 1)..min(y - 1, j + 1)).forEach { c ->
+                if (inputBoard[r][c] == '*') {
+                    count++
+                }
             }
-        }.sum()
+        }
+
+        return count
     }
 }
