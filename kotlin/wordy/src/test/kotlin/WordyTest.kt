@@ -82,7 +82,6 @@ class WordyTest {
     fun `missing number`() = Wordy.answer("What is 7 plus multiplied by -2?").toUnit()
 
     // Bonus Question
-    @Ignore
     @Test
     fun power() = assertEquals(32, Wordy.answer("What is 2 raised to the 5th power?"))
 
