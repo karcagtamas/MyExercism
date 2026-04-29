@@ -1,19 +1,7 @@
 import scala.util.Random
 
 class Robot {
-  var robotName: String = generateName
-
-  def genNum: Character = {
-    genChar("0123456789")
-  }
-
-  def genLetter: Character = {
-    genChar("abcdefghijklmopqrstxyz")
-  }
-
-  def genChar(src: String): Character = {
-    src.charAt((Random.nextFloat() * src.length).toInt)
-  }
+  private var robotName: String = generateName
 
   def reset(): Unit = {
     robotName = ""
@@ -26,7 +14,19 @@ class Robot {
     robotName
   }
 
-  def generateName: String = {
+  private def generateName: String = {
     s"${genLetter}${genLetter}${genNum}${genNum}${genNum}".toUpperCase()
+  }
+
+  private def genNum: Character = {
+    genChar("0123456789")
+  }
+
+  private def genLetter: Character = {
+    genChar("abcdefghijklmopqrstxyz")
+  }
+
+  private def genChar(src: String): Character = {
+    src.charAt((Random.nextFloat() * src.length).toInt)
   }
 }
