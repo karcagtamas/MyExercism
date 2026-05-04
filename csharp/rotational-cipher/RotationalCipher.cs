@@ -7,14 +7,15 @@ public static class RotationalCipher
 
     private static char Rotate(char character, int shiftKey)
     {
-        if ((character < 'A' || character > 'Z') && (character < 'a' || character > 'z'))
+        if (character >= 'a' && character <= 'z')
         {
-            return character;
+            return (char)(((character - 'a' + shiftKey) % 26) + 'a');
         }
-        
-        
-        int baseChar = character >= 'a' && character <= 'z' ? 'a' : 'A';
-        int num = (character - baseChar + shiftKey) % ('z' - 'a' + 1);
-        return (char)(num + baseChar);
+        else if (character >= 'A' && character <= 'Z')
+        {
+            return (char)(((character - 'A' + shiftKey) % 26) + 'A');
+        }
+
+        return character;
     }
 }
