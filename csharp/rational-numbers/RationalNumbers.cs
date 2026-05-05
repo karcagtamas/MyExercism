@@ -3,117 +3,126 @@ using System.Diagnostics;
 
 public static class RealNumberExtension
 {
-    public static double Expreal(this int realNumber, RationalNumber r) => r.Expreal(realNumber);
+    public static double Expreal(this int realNumber, RationalNumber r) =>
+        r.Expreal(realNumber);
 }
 
 public struct RationalNumber
 {
-    public int Numerator { get; set; }
-    public int Denominator { get; }
+    private readonly int numerator;
+    private readonly int denominator;
 
     public RationalNumber(int numerator, int denominator)
     {
-        Numerator = numerator;
-        Denominator = denominator;
-    }
+        if (denominator == 0)
+            throw new ArgumentException("Denominator cannot be zero.");
 
-    public static RationalNumber operator +(RationalNumber r1, RationalNumber r2)
-    {
-        int den = r1.Denominator * r2.Denominator;
-        int num = r1.Numerator * r2.Denominator + r2.Numerator * r1.Denominator;
-        return new RationalNumber(num, den).Reduce();
-    }
+        int gcd = Gcd(Math.Abs(numerator), Math.Abs(denominator));
 
-    public static RationalNumber operator -(RationalNumber r1, RationalNumber r2)
-    {
-        int den = r1.Denominator * r2.Denominator;
-        int num = r1.Numerator * r2.Denominator - r2.Numerator * r1.Denominator;
-        return new RationalNumber(num, den).Reduce();
-    }
+        numerator /= gcd;
+        denominator /= gcd;
 
-    public static RationalNumber operator *(RationalNumber r1, RationalNumber r2)
-    {
-        int den = r1.Denominator * r2.Denominator;
-        int num = r1.Numerator * r2.Numerator;
-        return new RationalNumber(num, den).Reduce();
-    }
-
-    public static RationalNumber operator /(RationalNumber r1, RationalNumber r2)
-    {
-        int den = r1.Denominator * r2.Numerator;
-        int num = r1.Numerator * r2.Denominator;
-        return new RationalNumber(num, den).Reduce();
-    }
-
-    public RationalNumber Abs()
-    {
-        int den = Denominator;
-        int num = Numerator;
-
-        if (den < 0)
+        // normalize sign
+        if (denominator < 0)
         {
-            den = -den;
-            num = -num;
+            numerator = -numerator;
+            denominator = -denominator;
         }
 
-        return new RationalNumber(num < 0 ? -num : num, den).Reduce();
+        this.numerator = numerator;
+        this.denominator = denominator;
     }
+
+    public int Numerator() => numerator;
+    public int Denominator() => denominator;
 
     public RationalNumber Reduce()
     {
-        int num = Numerator;
-        int den = Denominator;
-        bool f = true;
+        int gcd = Gcd(Math.Abs(numerator), Math.Abs(denominator));
 
-        while (f)
-        {
-            int a = num < den ? num : den;
-            a = a < 0 ? -a : a;
-            if (a <= 1)
-            {
-                break;
-            }
-
-            bool dec = true;
-            while (dec && f)
-            {
-                if (Denominator % a == 0 && Numerator % a == 0)
-                {
-                    num = Numerator / a;
-                    den = Denominator / a;
-                    dec = false;
-                }
-                else
-                {
-                    a--;
-                    if (a <= 1)
-                    {
-                        f = false;
-                    }
-                }
-            }
-
-            if (!dec)
-            {
-                break;
-            }
-        }
+        int num = numerator / gcd;
+        int den = denominator / gcd;
 
         if (den < 0)
         {
-            den = -den;
             num = -num;
+            den = -den;
         }
 
-        return new RationalNumber(num, num == 0 ? 1 : den);
-    }
-
-    public RationalNumber Exprational(int power)
-    {
-        int num = (int)Math.Pow(Numerator, power);
-        int den = (int)Math.Pow(Denominator, power);
         return new RationalNumber(num, den);
     }
 
-    public double Expreal(int baseNumber) => Math.Pow(baseNumber, (double)Numerator / Denominator);
+    public static RationalNumber operator +(RationalNumber r1, RationalNumber r2) =>
+        new RationalNumber(
+            r1.numerator * r2.denominator + r2.numerator * r1.denominator,
+            r1.denominator * r2.denominator
+        );
+
+    public static RationalNumber operator -(RationalNumber r1, RationalNumber r2) =>
+        new RationalNumber(
+            r1.numerator * r2.denominator - r2.numerator * r1.denominator,
+            r1.denominator * r2.denominator
+        );
+
+    public static RationalNumber operator *(RationalNumber r1, RationalNumber r2) =>
+        new RationalNumber(
+            r1.numerator * r2.numerator,
+            r1.denominator * r2.denominator
+        );
+
+    public static RationalNumber operator /(RationalNumber r1, RationalNumber r2) =>
+        new RationalNumber(
+            r1.numerator * r2.denominator,
+            r1.denominator * r2.numerator
+        );
+
+    public RationalNumber Abs() =>
+        new RationalNumber(Math.Abs(numerator), Math.Abs(denominator));
+
+    public RationalNumber Exprational(int power)
+    {
+        if (power == 0)
+            return new RationalNumber(1, 1);
+
+        if (power > 0)
+        {
+            return new RationalNumber(
+                IntPow(numerator, power),
+                IntPow(denominator, power)
+            );
+        }
+        else
+        {
+            int p = Math.Abs(power);
+            return new RationalNumber(
+                IntPow(denominator, p),
+                IntPow(numerator, p)
+            );
+        }
+    }
+
+    public double Expreal(double power) =>
+        Math.Pow(numerator, power) / Math.Pow(denominator, power);
+
+    public double Expreal(int realNumber) =>
+        Math.Pow(realNumber, (double)numerator / denominator);
+
+    private static int Gcd(int a, int b)
+    {
+        while (b != 0)
+        {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+
+    private static int IntPow(int baseVal, int exp)
+    {
+        int result = 1;
+        for (int i = 0; i < exp; i++)
+            result *= baseVal;
+        return result;
+    }
 }
