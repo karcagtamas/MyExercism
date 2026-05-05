@@ -1,37 +1,51 @@
 # Raindrops
 
-Convert a number to a string, the contents of which depend on the number's factors.
+Welcome to Raindrops on Exercism's C# Track.
+If you need help running the tests or submitting your code, check out `HELP.md`.
 
-- If the number has 3 as a factor, output 'Pling'.
-- If the number has 5 as a factor, output 'Plang'.
-- If the number has 7 as a factor, output 'Plong'.
-- If the number does not have 3, 5, or 7 as a factor,
-  just pass the number's digits straight through.
+## Introduction
+
+Raindrops is a slightly more complex version of the FizzBuzz challenge, a classic interview question.
+
+## Instructions
+
+Your task is to convert a number into its corresponding raindrop sounds.
+
+If a given number:
+
+- is divisible by 3, add "Pling" to the result.
+- is divisible by 5, add "Plang" to the result.
+- is divisible by 7, add "Plong" to the result.
+- **is not** divisible by 3, 5, or 7, the result should be the number as a string.
 
 ## Examples
 
-- 28's factors are 1, 2, 4, **7**, 14, 28.
-  - In raindrop-speak, this would be a simple "Plong".
-- 30's factors are 1, 2, **3**, **5**, 6, 10, 15, 30.
-  - In raindrop-speak, this would be a "PlingPlang".
-- 34 has four factors: 1, 2, 17, and 34.
-  - In raindrop-speak, this would be "34".
+- 28 is divisible by 7, but not 3 or 5, so the result would be `"Plong"`.
+- 30 is divisible by 3 and 5, but not 7, so the result would be `"PlingPlang"`.
+- 34 is not divisible by 3, 5, or 7, so the result would be `"34"`.
 
-## Running the tests
+~~~~exercism/note
+A common way to test if one number is evenly divisible by another is to compare the [remainder][remainder] or [modulus][modulo] to zero.
+Most languages provide operators or functions for one (or both) of these.
 
-To run the tests, run the command `dotnet test` from within the exercise directory.
-
-Initially, only the first test will be enabled. This is to encourage you to solve the exercise one step at a time.
-Once you get the first test passing, remove the `Skip` property from the next test and work on getting that test passing.
-Once none of the tests are skipped and they are all passing, you can submit your solution 
-using `exercism submit Raindrops.cs`
-
-## Further information
-
-For more detailed information about the C# track, including how to get help if
-you're having trouble, please visit the exercism.io [C# language page](http://exercism.io/languages/csharp/resources).
+[remainder]: https://exercism.org/docs/programming/operators/remainder
+[modulo]: https://en.wikipedia.org/wiki/Modulo_operation
+~~~~
 
 ## Source
 
-A variation on a famous interview question intended to weed out potential candidates. [http://jumpstartlab.com](http://jumpstartlab.com)
+### Created by
 
+- @bressain
+
+### Contributed to by
+
+- @ErikSchierboom
+- @j2jensen
+- @jwood803
+- @robkeim
+- @wolf99
+
+### Based on
+
+A variation on FizzBuzz, a famous technical interview question that is intended to weed out potential candidates. That question is itself derived from Fizz Buzz, a popular children's game for teaching division. - https://en.wikipedia.org/wiki/Fizz_buzz
