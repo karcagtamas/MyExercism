@@ -1,46 +1,56 @@
 # Collatz Conjecture
 
-The Collatz Conjecture or 3x+1 problem can be summarized as follows:
+Welcome to Collatz Conjecture on Exercism's C# Track.
+If you need help running the tests or submitting your code, check out `HELP.md`.
 
-Take any positive integer n. If n is even, divide n by 2 to get n / 2. If n is
-odd, multiply n by 3 and add 1 to get 3n + 1. Repeat the process indefinitely.
-The conjecture states that no matter which number you start with, you will
-always reach 1 eventually.
+## Introduction
 
-Given a number n, return the number of steps required to reach 1.
+One evening, you stumbled upon an old notebook filled with cryptic scribbles, as though someone had been obsessively chasing an idea.
+On one page, a single question stood out: **Can every number find its way to 1?**
+It was tied to something called the **Collatz Conjecture**, a puzzle that has baffled thinkers for decades.
 
-## Examples
+The rules were deceptively simple.
+Pick any positive integer.
 
-Starting with n = 12, the steps would be as follows:
+- If it's even, divide it by 2.
+- If it's odd, multiply it by 3 and add 1.
 
-0. 12
-1. 6
-2. 3
-3. 10
-4. 5
-5. 16
-6. 8
-7. 4
-8. 2
-9. 1
+Then, repeat these steps with the result, continuing indefinitely.
 
-Resulting in 9 steps. So for input n = 12, the return value would be 9.
+Curious, you picked number 12 to test and began the journey:
 
-## Running the tests
+12 ➜ 6 ➜ 3 ➜ 10 ➜ 5 ➜ 16 ➜ 8 ➜ 4 ➜ 2 ➜ 1
 
-To run the tests, run the command `dotnet test` from within the exercise directory.
+Counting from the second number (6), it took 9 steps to reach 1, and each time the rules repeated, the number kept changing.
+At first, the sequence seemed unpredictable — jumping up, down, and all over.
+Yet, the conjecture claims that no matter the starting number, we'll always end at 1.
 
-Initially, only the first test will be enabled. This is to encourage you to solve the exercise one step at a time.
-Once you get the first test passing, remove the `Skip` property from the next test and work on getting that test passing.
-Once none of the tests are skipped and they are all passing, you can submit your solution 
-using `exercism submit CollatzConjecture.cs`
+It was fascinating, but also puzzling.
+Why does this always seem to work?
+Could there be a number where the process breaks down, looping forever or escaping into infinity?
+The notebook suggested solving this could reveal something profound — and with it, fame, [fortune][collatz-prize], and a place in history awaits whoever could unlock its secrets.
 
-## Further information
+[collatz-prize]: https://mathprize.net/posts/collatz-conjecture/
 
-For more detailed information about the C# track, including how to get help if
-you're having trouble, please visit the exercism.io [C# language page](http://exercism.io/languages/csharp/resources).
+## Instructions
+
+Given a positive integer, return the number of steps it takes to reach 1 according to the rules of the Collatz Conjecture.
 
 ## Source
 
-An unsolved problem in mathematics named after mathematician Lothar Collatz [https://en.wikipedia.org/wiki/3x_%2B_1_problem](https://en.wikipedia.org/wiki/3x_%2B_1_problem)
+### Created by
 
+- @jpreese
+
+### Contributed to by
+
+- @ErikSchierboom
+- @FizzBuzz791
+- @j2jensen
+- @robkeim
+- @ruanha
+- @wolf99
+
+### Based on
+
+Wikipedia - https://en.wikipedia.org/wiki/Collatz_conjecture
