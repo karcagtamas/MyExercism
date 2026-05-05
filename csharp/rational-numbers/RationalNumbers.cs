@@ -6,10 +6,16 @@ public static class RealNumberExtension
     public static double Expreal(this int realNumber, RationalNumber r) => r.Expreal(realNumber);
 }
 
-public struct RationalNumber(int numerator, int denominator)
+public struct RationalNumber
 {
-    public int Numerator { get; set; } = numerator;
-    public int Denominator { get; } = denominator;
+    public int Numerator { get; set; }
+    public int Denominator { get; }
+
+    public RationalNumber(int numerator, int denominator)
+    {
+        Numerator = numerator;
+        Denominator = denominator;
+    }
 
     public static RationalNumber operator +(RationalNumber r1, RationalNumber r2)
     {
@@ -41,8 +47,8 @@ public struct RationalNumber(int numerator, int denominator)
 
     public RationalNumber Abs()
     {
-        int den = this.Denominator;
-        int num = this.Numerator;
+        int den = Denominator;
+        int num = Numerator;
 
         if (den < 0)
         {
@@ -55,8 +61,8 @@ public struct RationalNumber(int numerator, int denominator)
 
     public RationalNumber Reduce()
     {
-        int num = this.Numerator;
-        int den = this.Denominator;
+        int num = Numerator;
+        int den = Denominator;
         bool f = true;
 
         while (f)
@@ -71,10 +77,10 @@ public struct RationalNumber(int numerator, int denominator)
             bool dec = true;
             while (dec && f)
             {
-                if (this.Denominator % a == 0 && this.Numerator % a == 0)
+                if (Denominator % a == 0 && Numerator % a == 0)
                 {
-                    num = this.Numerator / a;
-                    den = this.Denominator / a;
+                    num = Numerator / a;
+                    den = Denominator / a;
                     dec = false;
                 }
                 else
