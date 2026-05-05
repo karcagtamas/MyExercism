@@ -11,30 +11,19 @@ public struct ComplexNumber
         _imaginary = imaginary;
     }
 
-    public double Real()
-    {
-        return _real;
-    }
+    public double Real() => _real;
 
-    public double Imaginary()
-    {
-        return _imaginary;
-    }
+    public double Imaginary() => _imaginary;
 
-    public ComplexNumber Mul(ComplexNumber other)
-    {
-        return new(Real() * other.Real() - Imaginary() * other.Imaginary(), Imaginary() * other.Real() + Real() * other.Imaginary());
-    }
+    public ComplexNumber Mul(ComplexNumber other) => new(Real() * other.Real() - Imaginary() * other.Imaginary(), Imaginary() * other.Real() + Real() * other.Imaginary());
 
-    public ComplexNumber Add(ComplexNumber other)
-    {
-        return new(Real() + other.Real(), Imaginary() + other.Imaginary());
-    }
+    public ComplexNumber Mul(int other) => new(Real() * other, Imaginary() * other);
 
-    public ComplexNumber Sub(ComplexNumber other)
-    {
-        return new(Real() - other.Real(), Imaginary() - other.Imaginary());
-    }
+    public ComplexNumber Add(ComplexNumber other) => new(Real() + other.Real(), Imaginary() + other.Imaginary());
+
+    public ComplexNumber Add(int other) => new(Real() + other, Imaginary());
+
+    public ComplexNumber Sub(ComplexNumber other) => new(Real() - other.Real(), Imaginary() - other.Imaginary());
 
     public ComplexNumber Div(ComplexNumber other)
     {
@@ -44,16 +33,12 @@ public struct ComplexNumber
         return new(real, imaginary);
     }
 
-    public double Abs()
-    {
-        return Math.Sqrt(Math.Pow(Real(), 2) + Math.Pow(Imaginary(), 2));
-    }
+    public ComplexNumber Div(int other) => new(Real() / other, Imaginary() / other);
 
-    public ComplexNumber Conjugate()
-    {
-        return new(Real(), -Imaginary());
-    }
-    
+    public double Abs() => Math.Sqrt(Math.Pow(Real(), 2) + Math.Pow(Imaginary(), 2));
+
+    public ComplexNumber Conjugate() => new(Real(), -Imaginary());
+
     public ComplexNumber Exp()
     {
         double first = Math.Pow(Math.E, Real());
