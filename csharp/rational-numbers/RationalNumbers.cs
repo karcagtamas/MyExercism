@@ -3,22 +3,13 @@ using System.Diagnostics;
 
 public static class RealNumberExtension
 {
-    public static double Expreal(this int realNumber, RationalNumber r)
-    {
-        return r.Expreal(realNumber);
-    }
+    public static double Expreal(this int realNumber, RationalNumber r) => r.Expreal(realNumber);
 }
 
-public struct RationalNumber
+public struct RationalNumber(int numerator, int denominator)
 {
-    public int Numerator { get; set; }
-    public int Denominator { get; }
-
-    public RationalNumber(int numerator, int denominator)
-    {
-        this.Numerator = numerator;
-        this.Denominator = denominator;
-    }
+    public int Numerator { get; set; } = numerator;
+    public int Denominator { get; } = denominator;
 
     public static RationalNumber operator +(RationalNumber r1, RationalNumber r2)
     {
@@ -113,13 +104,10 @@ public struct RationalNumber
 
     public RationalNumber Exprational(int power)
     {
-        int num = (int)Math.Pow(this.Numerator, power);
-        int den = (int)Math.Pow(this.Denominator, power);
+        int num = (int)Math.Pow(Numerator, power);
+        int den = (int)Math.Pow(Denominator, power);
         return new RationalNumber(num, den);
     }
 
-    public double Expreal(int baseNumber)
-    {
-        return Math.Pow(baseNumber, (double)Numerator / Denominator);
-    }
+    public double Expreal(int baseNumber) => Math.Pow(baseNumber, (double)Numerator / Denominator);
 }
