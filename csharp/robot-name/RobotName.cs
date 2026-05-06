@@ -5,21 +5,19 @@ public class Robot
 {
     private string name = "";
     private const string LETTERS = "QWERTZUIOPASDFGHJKLYXCVBNM";
-    private static HashSet<string> NAMES = new HashSet<string>();
+    private static readonly HashSet<string> NAMES = [];
     public string Name => name;
 
-    private static Random rnd = new Random();
+    private static readonly Random rnd = new();
 
-    public Robot()
-    {
-        this.Reset();
-    }
+    public Robot() => Reset();
 
     public void Reset()
     {
-        string newName = "";
+        string newName;
         do
         {
+            newName = "";
             newName += LETTERS[rnd.Next(0, LETTERS.Length)];
             newName += LETTERS[rnd.Next(0, LETTERS.Length)];
             newName += rnd.Next(0, 10);
@@ -27,6 +25,6 @@ public class Robot
             newName += rnd.Next(0, 10);
         } while (NAMES.Contains(newName));
         NAMES.Add(newName);
-        this.name = newName;
+        name = newName;
     }
 }
