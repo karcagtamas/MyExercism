@@ -1,32 +1,47 @@
 using System;
+using System.Text;
 
 public class SimpleCipher
 {
-    public SimpleCipher()
-    {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+    public SimpleCipher() => Key = GenerateKey();
 
-    public SimpleCipher(string key)
+    public SimpleCipher(string key) => Key = key;
+
+    public string Key { get; init; }
+
+    public string Encode(string plaintext) => Transform(plaintext, true);
+
+    public string Decode(string ciphertext) => Transform(ciphertext, false);
+
+    private string Transform(string text, bool encode)
     {
-        throw new NotImplementedException("You need to implement this function.");
-    }
-    
-    public string Key 
-    {
-        get
+        var result = new StringBuilder();
+
+        for (var i = 0; i < text.Length; i++)
         {
-            throw new NotImplementedException("You need to implement this function.");
+            var textOffset = text[i] - 'a';
+            var keyOffset = Key[i % Key.Length] - 'a';
+
+            var shifted = encode
+                ? (textOffset + keyOffset) % 26
+                : (textOffset - keyOffset + 26) % 26;
+
+            result.Append((char)(shifted + 'a'));
         }
+
+        return result.ToString();
     }
 
-    public string Encode(string plaintext)
+    private static string GenerateKey(int length = 100)
     {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+        var rnd = new Random();
+        var key = new StringBuilder();
 
-    public string Decode(string ciphertext)
-    {
-        throw new NotImplementedException("You need to implement this function.");
+        for (int i = 0; i < 100; i++)
+        {
+            key.Append((char)('a' + rnd.Next(26)));
+        }
+
+        return key.ToString();
     }
 }
