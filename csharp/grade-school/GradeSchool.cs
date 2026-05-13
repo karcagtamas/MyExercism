@@ -4,18 +4,25 @@ using System.Linq;
 
 public class GradeSchool
 {
-    private Dictionary<int, List<string>> _grades = new Dictionary<int, List<string>>();
+    private readonly Dictionary<int, List<string>> _grades = [];
 
-    public void Add(string student, int grade)
+    public bool Add(string student, int grade)
     {
+        if (ContainsAnyGrade(student))
+        {
+            return false;
+        }
+
         if (_grades.ContainsKey(grade))
         {
             _grades[grade].Add(student);
         }
         else
         {
-            _grades.Add(grade, new List<string> {student});
+            _grades.Add(grade, [student]);
         }
+
+        return true;
     }
 
     public IEnumerable<string> Roster()
@@ -29,15 +36,18 @@ public class GradeSchool
         return list;
     }
 
-    public IEnumerable<string> Grade(int grade)
+    public IEnumerable<string> Grade(int grade) => _grades.ContainsKey(grade) ? _grades[grade].OrderBy(x => x) : [];
+
+    private bool ContainsAnyGrade(string student)
     {
-        if (_grades.ContainsKey(grade))
+        foreach (var grade in _grades)
         {
-            return _grades[grade].OrderBy(x => x);
+            if (grade.Value.Contains(student))
+            {
+                return true;
+            }
         }
-        else
-        {
-            return new List<string>();
-        }
+
+        return false;
     }
 }
