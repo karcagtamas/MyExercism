@@ -1,27 +1,23 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Concurrent;
 
 public static class ParallelLetterFrequency
 {
-    public static Dictionary<char, int> Calculate(IEnumerable<string> texts)
+    public static Task<Dictionary<char, int>> Calculate(IEnumerable<string> texts)
     {
-        var result = new Dictionary<char, int>();
+        var result = new ConcurrentDictionary<char, int>();
 
         foreach (var text in texts)
         {
-            foreach (var c in text.ToLower().Trim().Where(c => c != ',' && (c < '0' || c > '9')))
+            foreach (var c in text)
             {
-                if (result.ContainsKey(c))
-                {
-                    result[c]++;
-                }
-                else
-                {
-                    result.Add(c, 1);
-                }
+                if (!char.IsLetter(c)) continue;
+
+                var lower = char.ToLower(c);
+
+                result.AddOrUpdate(lower, 1, (_, cnt) => cnt + 1);
             }
         }
 
-        return result;
+        return Task.FromResult(result.ToDictionary(kvp => kvp.Key, kvp => kvp.Value));
     }
 }
