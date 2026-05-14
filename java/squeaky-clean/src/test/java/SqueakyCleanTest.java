@@ -1,66 +1,92 @@
-import org.junit.Test;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SqueakyCleanTest {
 
     @Test
+    @Tag("task:1")
+    @DisplayName("The clean method returns empty string when invoked on empty string")
     public void empty() {
         assertThat(SqueakyClean.clean("")).isEmpty();
     }
 
     @Test
-    public void single_letter() {
+    @Tag("task:1")
+    @DisplayName("The clean method returns the same string when invoked on a single letter string")
+    public void singleLetter() {
         assertThat(SqueakyClean.clean("A")).isEqualTo("A");
     }
 
     @Test
+    @Tag("task:1")
+    @DisplayName("The clean method returns the same string when invoked on a string of three letters")
     public void string() {
-        assertThat(SqueakyClean.clean("àḃç")).isEqualTo("àḃç");
+        assertThat(SqueakyClean.clean("abc")).isEqualTo("abc");
     }
 
     @Test
+    @Tag("task:1")
+    @DisplayName("The clean method replaces whitespaces with underscores in the middle of the string")
     public void spaces() {
         assertThat(SqueakyClean.clean("my   Id")).isEqualTo("my___Id");
     }
 
     @Test
-    public void leading_and_trailing_spaces() {
+    @Tag("task:1")
+    @DisplayName("The clean method replaces leading and trailing whitespaces with underscores")
+    public void leadingAndTrailingSpaces() {
         assertThat(SqueakyClean.clean(" myId ")).isEqualTo("_myId_");
     }
 
     @Test
-    public void ctrl() {
-        assertThat(SqueakyClean.clean("my\0\r\u007FId")).isEqualTo("myCTRLCTRLCTRLId");
+    @Tag("task:2")
+    @DisplayName("The clean method converts kebab to camel case after removing a dash")
+    public void kebabToCamelCase() {
+        assertThat(SqueakyClean.clean("a-bc")).isEqualTo("aBc");
     }
 
     @Test
-    public void string_with_no_letters() {
-        assertThat(SqueakyClean.clean("\uD83D\uDE00\uD83D\uDE00\uD83D\uDE00")).isEmpty();
+    @Tag("task:2")
+    @DisplayName("The clean method returns a string in camel case after removing a dash and replaces a whitespace")
+    public void kebabToCamelCaseAndNumber() {
+        assertThat(SqueakyClean.clean("a-C ")).isEqualTo("aC_");
     }
 
     @Test
-    public void keep_only_letters() {
-        assertThat(SqueakyClean.clean("a1\uD83D\uDE002\uD83D\uDE003\uD83D\uDE00b")).isEqualTo("ab");
+    @Tag("task:2")
+    @DisplayName("The clean method returns a string in camel case and replaces leading and trailing whitespaces")
+    public void kebabToCamelCaseAndSpaces() {
+        assertThat(SqueakyClean.clean(" hello-world ")).isEqualTo("_helloWorld_");
     }
 
     @Test
-    public void kebab_to_camel_case() {
-        assertThat(SqueakyClean.clean("à-ḃç")).isEqualTo("àḂç");
+    @Tag("task:3")
+    @DisplayName("The clean method converts leetspeak to normal text after replacing numbers with chars")
+    public void leetspeakToNormalText() {
+        assertThat(SqueakyClean.clean("H3ll0 W0rld")).isEqualTo("Hello_World");
     }
 
     @Test
-    public void kebab_to_camel_case_no_letter() {
-        assertThat(SqueakyClean.clean("a-1C")).isEqualTo("aC");
+    @Tag("task:3")
+    @DisplayName("The clean method converts leetspeak to normal text with spaces and special characters")
+    public void leetspeakToNormalTextWithSpacesAndSpecialCharacters() {
+        assertThat(SqueakyClean.clean("¡1337sp34k is fun!")).isEqualTo("leetspeak_is_fun");
     }
 
     @Test
-    public void omit_lower_case_greek_letters() {
-        assertThat(SqueakyClean.clean("MyΟβιεγτFinder")).isEqualTo("MyΟFinder");
+    @Tag("task:4")
+    @DisplayName("The clean method removes all characters that are not letters")
+    public void specialCharacters() {
+        assertThat(SqueakyClean.clean("a$#.b")).isEqualTo("ab");
     }
 
     @Test
-    public void combine_conversions() {
-        assertThat(SqueakyClean.clean("9 -abcĐ\uD83D\uDE00ω\0")).isEqualTo("_AbcĐCTRL");
+    @Tag("task:4")
+    @DisplayName("The clean method removes all characters that are not letters and replaces spaces")
+    public void specialCharactersAndSpaces() {
+        assertThat(SqueakyClean.clean("¡hello world!. ")).isEqualTo("hello_world_");
     }
 }

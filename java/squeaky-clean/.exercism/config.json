@@ -1,7 +1,13 @@
 {
-  "blurb": "Learn about characters and StringBuilder by cleaning strings.",
   "authors": [
     "ystromm"
+  ],
+  "contributors": [
+    "jagdish-15",
+    "kahgoh",
+    "manumafe98",
+    "mrDonoghue",
+    "sanderploegsma"
   ],
   "files": {
     "solution": [
@@ -12,9 +18,13 @@
     ],
     "exemplar": [
       ".meta/src/reference/java/SqueakyClean.java"
+    ],
+    "invalidator": [
+      "build.gradle"
     ]
   },
   "forked_from": [
     "csharp/squeaky-clean"
-  ]
+  ],
+  "blurb": "Learn about characters and StringBuilder by cleaning strings."
 }

@@ -6,21 +6,93 @@ If you get stuck on the exercise, check out `HINTS.md`, but try and solve it wit
 
 ## Introduction
 
-The Java `char` type represents the smallest addressable components of text.
-Multiple `char`s can comprise a string such as `"word"` or `char`s can be
-processed independently. Their literals have single quotes e.g. `'A'`.
+## Chars
 
-Java `char`s support Unicode encoding so in addition to the Latin character set
-pretty much all the writing systems in use worldwide can be represented,
-e.g. the Greek letter `'β'`.
+### chars
 
-There are many builtin library methods to inspect and manipulate `char`s. These
-can be found as static methods of the `java.lang.Character` class.
+The Java `char` primitive type is a 16 bit representation of a single character.
+Multiple `char`s can comprise a string, such as `"word"`, or `char`s can be processed independently.
+A `char` literal is surrounded by single quotes (e.g. `'A'`).
 
-`char`s are sometimes used in conjunction with a `StringBuilder` object.
-This object has methods that allow a string to be constructed
-character by character and manipulated. At the end of the process
-`toString` can be called on it to output a complete string.
+```java
+char lowerA = 'a';
+char upperB = 'B';
+```
+
+### Getting the `char`s of a `String`
+
+The `String.toCharArray` method returns a String's chars as an array.
+As mentioned in arrays, you can use a `for` loop to iterate over the array.
+
+```java
+String text = "Hello";
+char[] asArray = text.toCharArray();
+
+for (char ch: asArray) {
+    System.out.println(ch);
+}
+
+// Outputs:
+// H
+// e
+// l
+// l
+// o
+```
+
+### The Character class
+
+There are many builtin library methods to inspect and manipulate `char`s.
+These can be found as static methods of the `java.lang.Character` class.
+Here are some examples:
+
+```java
+Character.isWhitespace(' ');    // true
+Character.isWhitespace('#');    // false
+
+Character.isLetter('a');        // true
+Character.isLetter('3');        // false
+
+Character.isDigit('6');         // true
+Character.isDigit('?');         // false
+```
+
+### Adding a `char` to a `String`
+
+The `+` operator can be used to add a `char` to a `String`.
+
+```java
+'a' + " banana"     // => "a banana"
+"banana " + 'a'     // => "banana a"
+```
+
+~~~~exercism/caution
+Becareful _not_ to use `+` to join two `char`s together to form a `String`!
+Adding two `char`s this way gives an `int`, _not_ a `String`!
+For example:
+
+```java
+'b' + 'c';
+// => 197 (not the String "bc")
+```
+
+This is because Java promotes the `char` to an `int` (see [4.2 Primitive Types and Values ][jls-primitives] of the [Java Language Specification][jls-main]).
+
+[jls-main]: https://docs.oracle.com/javase/specs/jls/se21/html/
+[jls-primitives]: https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.2
+~~~~
+
+However, when there are many characters to be added, it can be more efficient to use a `StringBuilder` instead:
+
+```java
+StringBuilder builder = new StringBuilder();
+builder.append('a');
+builder.append('b');
+builder.append('c');
+
+String builtString = builder.toString();
+// => abc
+```
 
 ## Instructions
 
@@ -41,22 +113,26 @@ SqueakyClean.clean("my   Id");
 // => "my___Id"
 ```
 
-## 2. Replace control characters with the upper case string "CTRL"
-
-Modify the (_static_) `SqueakyClean.clean()` method to replace control characters with the upper case string `"CTRL"`.
-
-```java
-SqueakyClean.clean("my\0Id");
-// => "myCTRLId",
-```
-
-## 3. Convert kebab-case to camelCase
+## 2. Convert kebab-case to camelCase
 
 Modify the (_static_) `SqueakyClean.clean()` method to convert kebab-case to camelCase.
 
 ```java
-SqueakyClean.clean("à-ḃç");
-// => "àḂç"
+SqueakyClean.clean("a-bc");
+// => "aBc"
+```
+
+## 3. Convert leetspeak to normal text
+
+Modify the (_static_) `SqueakyClean.clean()` method to convert [leetspeak][leet-speak] to normal text.
+
+For simplicity we will only be replacing `4`, `3`, `0`, `1` and `7` with `a`, `e`, `o`, `l`, and `t`, respectively.
+
+```java
+SqueakyClean.clean("H3ll0 W0rld");
+// => "Hello_World"
+SqueakyClean.clean("4 73s7");
+// => "a_test"
 ```
 
 ## 4. Omit characters that are not letters
@@ -64,21 +140,22 @@ SqueakyClean.clean("à-ḃç");
 Modify the (_static_) `SqueakyClean.clean()` method to omit any characters that are not letters.
 
 ```java
-SqueakyClean.clean("a1😀2😀3😀b");
+SqueakyClean.clean("a$#.b");
 // => "ab"
 ```
 
-## 5. Omit Greek lower case letters
-
-Modify the (_static_) `SqueakyClean.clean()` method to omit any Greek letters in the range 'α' to 'ω'.
-
-```java
-SqueakyClean.clean("MyΟβιεγτFinder");
-// => "MyΟFinder"
-```
+[leet-speak]: https://en.wikipedia.org/wiki/Leet
 
 ## Source
 
 ### Created by
 
 - @ystromm
+
+### Contributed to by
+
+- @jagdish-15
+- @kahgoh
+- @manumafe98
+- @mrDonoghue
+- @sanderploegsma

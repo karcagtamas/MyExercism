@@ -1,40 +1,34 @@
-import java.util.Arrays;
-import java.util.stream.Collectors;
-
 class SqueakyClean {
-	static String clean(String identifier) {
-		var stringBuilder = new StringBuilder();
-		var array = identifier.split("");
+    static String clean(String identifier) {
+        final var result = new StringBuilder();
 
+        var upperNext = false;
 
-		for (int i = 0; i < array.length; i++) {
-			var c = array[i];
+        for (var c : identifier.toCharArray()) {
+            if (c == ' ') {
+                result.append('_');
+            } else if (Character.isISOControl(c)) {
+                result.append("CTRL");
+            } else if (c == '-') {
+                upperNext = true;
+            } else if (c >= 'α' && c <= 'ω') {
+                continue;
+            } else if (c >= '0' && c <= '9') {
+                switch (c) {
+                    case '0': c = 'o'; break;
+                    case '1': c = 'l'; break;
+                    case '3': c = 'e'; break;
+                    case '4': c = 'a'; break;
+                    case '7': c = 't'; break;
+                }
+            }
 
-			if (c.isEmpty()) {
-				continue;
-			}
+            if (Character.isLetter(c)) {
+                result.append(upperNext ? Character.toUpperCase(c) : c);
+                upperNext = false;
+            }
+        }
 
-			var character = c.charAt(0);
-			if (c.equals(" ")) {
-				stringBuilder.append("_");
-			} else if (Character.isISOControl(character)) {
-				stringBuilder.append("CTRL");
-			} else if (character == '-') {
-				if (i < array.length - 1) {
-					var nextI = i + 1;
-
-					while (nextI < array.length - 1 && !Character.isLetter(array[nextI].charAt(0))) {
-						nextI++;
-					}
-
-					stringBuilder.append(array[nextI].toUpperCase());
-					i = nextI;
-				}
-			} else if (Character.isAlphabetic(character)) {
-				stringBuilder.append(c.replaceAll("[α-ω]", ""));
-			}
-		}
-
-		return stringBuilder.toString();
-	}
+        return result.toString();
+    }
 }
