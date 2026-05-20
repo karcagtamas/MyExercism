@@ -1,8 +1,4 @@
-// This file was auto-generated based on version 1.2.0 of the canonical data.
-
-using Xunit;
-
-public class TwoFerTest
+public class TwoFerTests
 {
     [Fact]
     public void No_name_given()

@@ -1,16 +1,28 @@
 # Two Fer
 
-`Two-fer` or `2-fer` is short for two for one. One for you and one for me.
+Welcome to Two Fer on Exercism's C# Track.
+If you need help running the tests or submitting your code, check out `HELP.md`.
 
-Given a name, return a string with the message:
+## Introduction
+
+In some English accents, when you say "two for" quickly, it sounds like "two fer".
+Two-for-one is a way of saying that if you buy one, you also get one for free.
+So the phrase "two-fer" often implies a two-for-one offer.
+
+Imagine a bakery that has a holiday offer where you can buy two cookies for the price of one ("two-fer one!").
+You take the offer and (very generously) decide to give the extra cookie to someone else in the queue.
+
+## Instructions
+
+Your task is to determine what you will say as you give away the extra cookie.
+
+If you know the person's name (e.g. if they're named Do-yun), then you will say:
 
 ```text
-One for X, one for me.
+One for Do-yun, one for me.
 ```
 
-Where X is the given name.
-
-However, if the name is missing, return the string:
+If you don't know the person's name, you will say _you_ instead.
 
 ```text
 One for you, one for me.
@@ -18,28 +30,30 @@ One for you, one for me.
 
 Here are some examples:
 
-|Name    |String to return 
-|:-------|:------------------
-|Alice   |One for Alice, one for me. 
-|Bob     |One for Bob, one for me.
-|        |One for you, one for me.
-|Zaphod  |One for Zaphod, one for me.
-
-## Running the tests
-
-To run the tests, run the command `dotnet test` from within the exercise directory.
-
-Initially, only the first test will be enabled. This is to encourage you to solve the exercise one step at a time.
-Once you get the first test passing, remove the `Skip` property from the next test and work on getting that test passing.
-Once none of the tests are skipped and they are all passing, you can submit your solution 
-using `exercism submit TwoFer.cs`
-
-## Further information
-
-For more detailed information about the C# track, including how to get help if
-you're having trouble, please visit the exercism.io [C# language page](http://exercism.io/languages/csharp/resources).
+| Name   | Dialogue                    |
+| :----- | :-------------------------- |
+| Alice  | One for Alice, one for me.  |
+| Bohdan | One for Bohdan, one for me. |
+|        | One for you, one for me.    |
+| Zaphod | One for Zaphod, one for me. |
 
 ## Source
 
-[https://github.com/exercism/problem-specifications/issues/757](https://github.com/exercism/problem-specifications/issues/757)
+### Created by
 
+- @jpreese
+
+### Contributed to by
+
+- @dmahnkopf
+- @ErikSchierboom
+- @j2jensen
+- @NextNebula
+- @robkeim
+- @sjwarner
+- @wolf99
+- @Zureka
+
+### Based on
+
+https://github.com/exercism/problem-specifications/issues/757
