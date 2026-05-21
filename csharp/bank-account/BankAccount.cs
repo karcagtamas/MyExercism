@@ -1,6 +1,6 @@
 public class BankAccount
 {
-    private readonly object sync = new();
+    private readonly Lock sync = new();
     private bool closed = true;
     private decimal balance = 0;
 
@@ -8,10 +8,10 @@ public class BankAccount
     {
         lock (sync)
         {
-            if (!closed) throw new InvalidOperationException();
+            EnsureClosed();
 
             closed = false;
-            balance = 0;
+            balance = 0m;
         }
     }
 
@@ -19,8 +19,7 @@ public class BankAccount
     {
         lock (sync)
         {
-            if (closed) throw new InvalidOperationException();
-
+            EnsureOpen();
             closed = true;
         }
     }
@@ -31,9 +30,8 @@ public class BankAccount
         {
             lock (sync)
             {
-                return closed
-                    ? throw new InvalidOperationException()
-                    : balance;
+                EnsureOpen();
+                return balance;
             }
         }
     }
@@ -41,11 +39,10 @@ public class BankAccount
     public void Deposit(decimal change)
     {
         if (change < 0) throw new InvalidOperationException();
-        
+
         lock (sync)
         {
-            if (closed) throw new InvalidOperationException();
-
+            EnsureOpen();
             balance += change;
         }
     }
@@ -56,10 +53,20 @@ public class BankAccount
 
         lock (sync)
         {
-            if (closed) throw new InvalidOperationException();
+            EnsureOpen();
             if (change > balance) throw new InvalidOperationException();
 
             balance -= change;
         }
+    }
+
+    private void EnsureOpen()
+    {
+        if (closed) throw new InvalidOperationException();
+    }
+
+    private void EnsureClosed()
+    {
+        if (!closed) throw new InvalidOperationException();
     }
 }
