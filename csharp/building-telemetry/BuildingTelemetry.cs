@@ -2,7 +2,7 @@ public class RemoteControlCar
 {
     private int batteryPercentage = 100;
     private int distanceDrivenInMeters = 0;
-    private string[] sponsors = new string[0];
+    private string[] sponsors = [];
     private int latestSerialNum = 0;
 
     public void Drive()
@@ -45,15 +45,11 @@ public class TelemetryClient(RemoteControlCar car)
 
     public string GetBatteryUsagePerMeter(int serialNum)
     {
-        if (car.GetTelemetryData(ref serialNum, out int batteryPercentage, out int distanceDrivenInMeters))
-        {
-            if (batteryPercentage >= 100) return "no data";
-
-            return $"usage-per-meter={(100 - batteryPercentage) / distanceDrivenInMeters}";
-        } 
-        else
+        if (!car.GetTelemetryData(ref serialNum, out int batteryPercentage, out int distanceDrivenInMeters))
         {
             return "no data";
         }
+
+        return batteryPercentage >= 100 ? "no data" : $"usage-per-meter={(100 - batteryPercentage) / distanceDrivenInMeters}";
     }
 }
