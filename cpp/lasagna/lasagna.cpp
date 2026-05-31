@@ -2,7 +2,7 @@
 // oven.
 int ovenTime()
 {
-    return 0;
+    return 40;
 }
 
 /* remainingOvenTime returns the remaining
