@@ -4,8 +4,9 @@ public static class ListOps
 
     public static List<T> Reverse<T>(List<T> input)
     {
-        input.Reverse();
-        return input;
+        var result = input.ToList();
+        result.Reverse();
+        return result;
     }
 
     public static List<TOut> Map<TIn, TOut>(List<TIn> input, Func<TIn, TOut> map) => [.. input.Select(map)];
