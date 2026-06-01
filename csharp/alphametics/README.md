@@ -1,9 +1,13 @@
 # Alphametics
 
-Write a function to solve alphametics puzzles.
+Welcome to Alphametics on Exercism's C# Track.
+If you need help running the tests or submitting your code, check out `HELP.md`.
 
-[Alphametics](https://en.wikipedia.org/wiki/Alphametics) is a puzzle where
-letters in words are replaced with numbers.
+## Instructions
+
+Given an alphametics puzzle, find the correct solution.
+
+[Alphametics][alphametics] is a puzzle where letters in words are replaced with numbers.
 
 For example `SEND + MORE = MONEY`:
 
@@ -23,32 +27,27 @@ Replacing these with valid numbers gives:
 1 0 6 5 2
 ```
 
-This is correct because every letter is replaced by a different number and the
-words, translated into numbers, then make a valid sum.
+This is correct because every letter is replaced by a different number and the words, translated into numbers, then make a valid sum.
 
-Each letter must represent a different digit, and the leading digit of
-a multi-digit number must not be zero.
+Each letter must represent a different digit, and the leading digit of a multi-digit number must not be zero.
 
-Write a function to solve alphametics puzzles.
+[alphametics]: https://en.wikipedia.org/wiki/Alphametics
 
 ## Hints
+
 - To parse the text, you could try to use the [Sprache](https://github.com/sprache/Sprache/blob/develop/README.md) library. You can also find a good tutorial [here](https://www.thomaslevesque.com/2017/02/23/easy-text-parsing-in-c-with-sprache/).
 - You can solve this exercise with a brute force algorithm, but this will possibly have a poor runtime performance.
-Try to find a more sophisticated solution. 
+  Try to find a more sophisticated solution.
 - Hint: You could try the column-wise addition algorithm that is usually taught in school.
 
+## Source
 
-## Running the tests
+### Created by
 
-To run the tests, run the command `dotnet test` from within the exercise directory.
+- @ErikSchierboom
 
-Initially, only the first test will be enabled. This is to encourage you to solve the exercise one step at a time.
-Once you get the first test passing, remove the `Skip` property from the next test and work on getting that test passing.
-Once none of the tests are skipped and they are all passing, you can submit your solution 
-using `exercism submit Alphametics.cs`
+### Contributed to by
 
-## Further information
-
-For more detailed information about the C# track, including how to get help if
-you're having trouble, please visit the exercism.io [C# language page](http://exercism.io/languages/csharp/resources).
-
+- @j2jensen
+- @robkeim
+- @wolf99
