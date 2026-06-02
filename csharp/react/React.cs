@@ -24,7 +24,7 @@ public class Reactor
 
         foreach (var cell in changed)
         {
-            cell.FireCallbacks();
+            cell.FireChanged();
         }
     }
 
@@ -57,8 +57,8 @@ public class ComputeCell : Cell
 {
     private readonly List<Cell> dependencies;
     private readonly Func<int[], int> compute;
-    private readonly Dictionary<int, Action<int>> callbacks = [];
-    private int nextId;
+
+    public event EventHandler<int>? Changed;
 
     public ComputeCell(IEnumerable<Cell> dependencies, Func<int[], int> compute, Reactor reactor) : base(compute([.. dependencies.Select(d => d.Value)]))
     {
@@ -70,23 +70,5 @@ public class ComputeCell : Cell
 
     internal void Recompute() => Value = compute([.. dependencies.Select(d => d.Value)]);
 
-    public IDisposable AddCallback(Action<int> callback)
-    {
-        int id = nextId++;
-        callbacks[id] = callback;
-        return new Subscription(() => callbacks.Remove(id));
-    }
-
-    internal void FireCallbacks()
-    {
-        foreach (var callback in callbacks.Values)
-        {
-            callback(Value);
-        }
-    }
-
-    private sealed class Subscription(Action cancel) : IDisposable
-    {
-        public void Dispose() => cancel();
-    }
+    internal void FireChanged() => Changed?.Invoke(this, Value);
 }
