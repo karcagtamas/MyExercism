@@ -3,29 +3,25 @@
 
 namespace nucleotide_count
 {
-    void counter::calc()
+    std::map<char, int> count(const std::string &sequence)
     {
-        for (size_t i = 0; i < dna.length(); i++)
+        std::map<char, int> counts = {
+            {'A', 0},
+            {'C', 0},
+            {'G', 0},
+            {'T', 0},
+        };
+
+        for (size_t i = 0; i < sequence.length(); i++)
         {
-            if (nuc.find(dna[i]) == nuc.end())
+            if (counts.find(sequence[i]) == counts.end())
             {
-                throw std::invalid_argument("Invalid nuc key");
+                throw std::invalid_argument("Invalid key");
             }
-            nuc.at(dna[i])++;
-        }
-    }
 
-    std::map<char, int> counter::nucleotide_counts() const
-    {
-        return nuc;
-    }
-
-    int counter::count(char v) const
-    {
-        if (nuc.find(v) == nuc.end())
-        {
-            throw std::invalid_argument("Invalid nuc key");
+            counts.at(sequence[i])++;
         }
-        return nuc.at(v);
+
+        return counts;
     }
 } // namespace nucleotide_count
