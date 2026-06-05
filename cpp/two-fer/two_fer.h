@@ -1,9 +1,9 @@
-#if !defined(TWO_FER_H)
-#define TWO_FER_H
+#pragma once
+#include <string>
 
-namespace two_fer
-{
+namespace two_fer {
 
-} // namespace two_fer
+    std::string two_fer();
+    std::string two_fer(std::string name);
 
-#endif //TWO_FER_H
+}  // namespace two_fer
