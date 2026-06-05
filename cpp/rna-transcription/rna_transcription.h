@@ -1,8 +1,9 @@
-#if !defined(RNA_TRANSCRIPTION_H)
-#define RNA_TRANSCRIPTION_H
+#pragma once
+#include <string>
 
 namespace rna_transcription {
 
-}  // namespace rna_transcription
+    char to_rna(const char c);
+    std::string to_rna(const std::string& sequence);
 
-#endif // RNA_TRANSCRIPTION_H
+}  // namespace rna_transcription
