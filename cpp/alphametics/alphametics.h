@@ -2,15 +2,17 @@
 #define ALPHAMETICS_H
 
 #include <optional>
-#include <map>
 #include <string>
+#include <vector>
+#include <unordered_map>
+#include <unordered_set>
 
 namespace alphametics
 {
 
-    long long word_value(const std::string &word, const std::map<char, int> &m);
+    bool dfs(int idx, const std::vector<char> &letters, std::unordered_map<char, int>& assign, int used, const std::unordered_map<char, long long> &coeff, const std::unordered_set<char> &leading);
 
-    std::optional<std::map<char, int>> solve(const std::string &puzzle);
+    std::optional<std::unordered_map<char, int>> solve(const std::string &puzzle);
 
 } // namespace alphametics
 

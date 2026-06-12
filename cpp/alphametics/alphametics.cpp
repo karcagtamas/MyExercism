@@ -1,115 +1,116 @@
 #include "alphametics.h"
 
-#include <vector>
-#include <set>
 #include <algorithm>
 
 namespace alphametics
 {
 
-    long long word_value(const std::string &word, const std::map<char, int> &m)
+    bool dfs(int idx, const std::vector<char> &letters, std::unordered_map<char, int> &assign, int used, const std::unordered_map<char, long long> &coeff, const std::unordered_set<char> &leading)
     {
-        long long value = 0;
-
-        for (char c : word)
+        if (idx == (int)letters.size())
         {
-            value = value * 10 + m.at(c);
-        }
-
-        return value;
-    }
-
-    std::optional<std::map<char, int>> solve(const std::string &puzzle)
-    {
-        std::vector<std::string> words;
-        std::set<char> letters;
-        std::set<char> leading;
-
-        std::string current;
-
-        for (char c : puzzle)
-        {
-            if (std::isalpha(c))
-            {
-                current += c;
-                letters.insert(c);
-            }
-            else
-            {
-                if (!current.empty())
-                {
-                    words.push_back(current);
-                    current.clear();
-                }
-            }
-        }
-
-        if (!current.empty())
-        {
-            words.push_back(current);
-        }
-
-        for (const auto &w : words)
-        {
-            if (w.size() > 1)
-            {
-                leading.insert(w.front());
-            }
-        }
-
-        std::vector<char> chars(letters.begin(), letters.end());
-
-        if (chars.size() > 10)
-        {
-            return std::nullopt;
-        }
-
-        std::vector<int> digits{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-
-        std::sort(digits.begin(), digits.end());
-
-        if (chars.size() > 10)
-            return std::nullopt;
-
-        do
-        {
-            std::map<char, int> mapping;
-
-            for (size_t i = 0; i < chars.size(); i++)
-            {
-                mapping[chars[i]] = digits[i];
-            }
-
-            bool ok = true;
-
-            for (char c : leading)
-            {
-                if (mapping[c] == 0)
-                {
-                    ok = false;
-                    break;
-                }
-            }
-
-            if (!ok)
-                continue;
-
             long long sum = 0;
 
-            for (size_t i = 0; i < words.size() - 1; i++)
+            for (auto &[c, w] : coeff)
             {
-                sum += word_value(words[i], mapping);
+                sum += w * assign[c];
             }
 
-            long long rhs = word_value(words.back(), mapping);
+            return sum == 0;
+        }
 
-            if (sum == rhs)
+        char c = letters[idx];
+
+        for (int d = 0; d <= 9; ++d)
+        {
+            if (used & (1 << d))
+                continue;
+
+            if (d == 0 && leading.count(c))
+                continue;
+
+            assign[c] = d;
+
+            if (dfs(idx + 1, letters, assign, used | (1 << d), coeff, leading))
+                return true;
+
+            assign.erase(c);
+        }
+
+        return false;
+    }
+
+    std::optional<std::unordered_map<char, int>> solve(const std::string &puzzle)
+    {
+        std::unordered_map<char, long long> coeff;
+        std::unordered_set<char> letters_set;
+        std::unordered_set<char> leading;
+
+        int sign = 1;
+
+        int n = (int)puzzle.size();
+        int pos = 0;
+
+        while (pos < n)
+        {
+            if (puzzle[pos] == ' ')
             {
-                return mapping;
+                pos++;
+                continue;
             }
-        } while (std::next_permutation(digits.begin(), digits.end()));
 
-        return std::nullopt;
+            if (puzzle[pos] == '+')
+            {
+                pos++;
+                continue;
+            }
+
+            if (puzzle[pos] == '=')
+            {
+                sign = -1;
+                pos++;
+                continue;
+            }
+
+            std::string word;
+
+            while (pos < n && std::isalpha(puzzle[pos]))
+            {
+                word += puzzle[pos];
+                pos++;
+            }
+
+            if (!word.empty())
+            {
+                if (word.size() > 1)
+                {
+                    leading.insert(word[0]);
+                }
+
+                long long place = 1;
+
+                for (int i = (int)word.size() - 1; i >= 0; i--)
+                {
+                    char c = word[i];
+                    coeff[c] += sign * place;
+                    letters_set.insert(c);
+                    place *= 10;
+                }
+            }
+        }
+
+        std::vector<char> letters(letters_set.begin(), letters_set.end());
+        std::unordered_map<char, int> assign;
+        int used = 0;
+
+        bool ok = dfs(0, letters, assign, used, coeff, leading);
+
+        if (!ok)
+        {
+            return std::nullopt;
+        }
+
+        return assign;
     }
 
 } // namespace alphametics
