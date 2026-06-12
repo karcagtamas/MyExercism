@@ -58,7 +58,15 @@ namespace alphametics
         }
 
         std::vector<char> chars(letters.begin(), letters.end());
+
+        if (chars.size() > 10)
+        {
+            return std::nullopt;
+        }
+
         std::vector<int> digits{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+        std::sort(digits.begin(), digits.end());
 
         if (chars.size() > 10)
             return std::nullopt;
