@@ -3,9 +3,9 @@
 namespace gigasecond
 {
 
-    std::chrono::system_clock::time_point advance(std::chrono::system_clock::time_point tp)
+    boost::posix_time::ptime advance(boost::posix_time::ptime tp)
     {
-        return tp + std::chrono::seconds{1'000'000'000};
+        return tp + boost::posix_time::seconds(1'000'000'000);
     }
 
 } // namespace gigasecond

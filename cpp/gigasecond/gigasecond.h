@@ -1,9 +1,9 @@
 #pragma once
-#include <chrono>
+#include "boost/date_time/posix_time/posix_time.hpp"
 
 namespace gigasecond
 {
 
-    std::chrono::system_clock::time_point advance(std::chrono::system_clock::time_point tp);
+    boost::posix_time::ptime advance(boost::posix_time::ptime tp);
 
 } // namespace gigasecond
