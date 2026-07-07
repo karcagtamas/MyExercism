@@ -1,70 +1,72 @@
-import org.junit.Ignore;
-import org.junit.Rule;
-import org.junit.Test;
-import org.junit.rules.ExpectedException;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 
 public class HammingTest {
 
-    @Rule
-    public ExpectedException expectedException = ExpectedException.none();
-
     @Test
+    @DisplayName("empty strands")
     public void testNoDistanceBetweenEmptyStrands() {
-        assertEquals(0, new Hamming("", "").getHammingDistance());
+        assertThat(new Hamming("", "").getHammingDistance()).isEqualTo(0);
     }
 
     @Test
+    @DisplayName("single letter identical strands")
     public void testNoDistanceBetweenShortIdenticalStrands() {
-        assertEquals(0, new Hamming("A", "A").getHammingDistance());
+        assertThat(new Hamming("A", "A").getHammingDistance()).isEqualTo(0);
     }
 
     @Test
+    @DisplayName("single letter different strands")
     public void testCompleteDistanceInSingleLetterDifferentStrands() {
-        assertEquals(1, new Hamming("G", "T").getHammingDistance());
+        assertThat(new Hamming("G", "T").getHammingDistance()).isEqualTo(1);
     }
 
     @Test
+    @DisplayName("long identical strands")
     public void testDistanceInLongIdenticalStrands() {
-        assertEquals(0, new Hamming("GGACTGAAATCTG", "GGACTGAAATCTG").getHammingDistance());
+        assertThat(new Hamming("GGACTGAAATCTG", "GGACTGAAATCTG").getHammingDistance()).isEqualTo(0);
     }
 
     @Test
+    @DisplayName("long different strands")
     public void testDistanceInLongDifferentStrands() {
-        assertEquals(9, new Hamming("GGACGGATTCTG", "AGGACGGATTCT").getHammingDistance());
+        assertThat(new Hamming("GGACGGATTCTG", "AGGACGGATTCT").getHammingDistance()).isEqualTo(9);
     }
 
     @Test
+    @DisplayName("disallow first strand longer")
     public void testValidatesFirstStrandNotLonger() {
-        expectedException.expect(IllegalArgumentException.class);
-        expectedException.expectMessage("leftStrand and rightStrand must be of equal length.");
-
-        new Hamming("AATG", "AAA");
+        assertThatExceptionOfType(IllegalArgumentException.class)
+                .isThrownBy(() -> new Hamming("AATG", "AAA"))
+                .withMessage("strands must be of equal length");
     }
 
     @Test
+    @DisplayName("disallow second strand longer")
     public void testValidatesSecondStrandNotLonger() {
-        expectedException.expect(IllegalArgumentException.class);
-        expectedException.expectMessage("leftStrand and rightStrand must be of equal length.");
-
-        new Hamming("ATA", "AGTG");
+        assertThatExceptionOfType(IllegalArgumentException.class)
+                .isThrownBy(() -> new Hamming("ATA", "AGTG"))
+                .withMessage("strands must be of equal length");
     }
 
     @Test
+    @DisplayName("disallow left empty strand")
     public void testDisallowLeftEmptyStrand() {
-        expectedException.expect(IllegalArgumentException.class);
-        expectedException.expectMessage("left strand must not be empty.");
-
-        new Hamming("", "G");
+        assertThatExceptionOfType(IllegalArgumentException.class)
+                .isThrownBy(() -> new Hamming("", "G"))
+                .withMessage("strands must be of equal length");
     }
 
     @Test
+    @DisplayName("disallow right empty strand")
     public void testDisallowRightEmptyStrand() {
-        expectedException.expect(IllegalArgumentException.class);
-        expectedException.expectMessage("right strand must not be empty.");
-
-        new Hamming("G", "");
+        assertThatExceptionOfType(IllegalArgumentException.class)
+                .isThrownBy(() -> new Hamming("G", ""))
+                .withMessage("strands must be of equal length");
     }
 
 }
