@@ -1,39 +1,38 @@
-import org.junit.Before;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class TwoferTest {
 
     private Twofer twofer;
 
-    @Before
+    @BeforeEach
     public void setup() {
         twofer = new Twofer();
     }
 
     @Test
+    @DisplayName("no name given")
     public void noNameGiven() {
-        String input = null;
-        String expected = "One for you, one for me.";
-
-        assertEquals(expected, twofer.twofer(input));
+        assertThat(twofer.twofer(null))
+                .isEqualTo("One for you, one for me.");
     }
 
     @Test
+    @DisplayName("a name given")
     public void aNameGiven() {
-        String input = "Alice";
-        String expected = "One for Alice, one for me.";
-
-        assertEquals(expected, twofer.twofer(input));
+        assertThat(twofer.twofer("Alice"))
+                .isEqualTo("One for Alice, one for me.");
     }
 
     @Test
+    @DisplayName("another name given")
     public void anotherNameGiven() {
-        String input = "Bob";
-        String expected = "One for Bob, one for me.";
-
-        assertEquals(expected, twofer.twofer(input));
+        assertThat(twofer.twofer("Bob"))
+                .isEqualTo("One for Bob, one for me.");
     }
+
 }
