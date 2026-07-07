@@ -7,8 +7,8 @@ class BirdWatcher {
         this.birdsPerDay = birdsPerDay.clone();
     }
 
-    public int[] getLastWeek() {
-        return birdsPerDay;
+    public static int[] getLastWeek() {
+        return new int[]{0, 2, 5, 3, 7, 8, 4};
     }
 
     public int getToday() {
@@ -32,6 +32,6 @@ class BirdWatcher {
     }
 
     public int getBusyDays() {
-        return (int)Arrays.stream(birdsPerDay).filter(x -> x >= 5).count();
+        return (int) Arrays.stream(birdsPerDay).filter(x -> x >= 5).count();
     }
 }
