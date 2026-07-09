@@ -16,7 +16,7 @@ public class GameMaster {
     }
 
     public String describe(Character character, Destination destination, TravelMethod travelMethod) {
-        return "%s %s %s".formatted(describe(character), describe(travelMethod), describe(destination));
+        return describe(character) + " " + describe(travelMethod) + " " + describe(destination);
     }
 
     public String describe(Character character, Destination destination) {
