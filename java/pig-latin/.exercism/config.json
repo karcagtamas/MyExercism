@@ -1,10 +1,10 @@
 {
-  "blurb": "Implement a program that translates from English to Pig Latin",
   "authors": [],
   "contributors": [
     "aadityakulkarni",
     "FridaTveit",
     "jackattack24",
+    "jagdish-15",
     "jmrunkle",
     "jtigger",
     "Kyle-Pu",
@@ -34,8 +34,12 @@
     ],
     "example": [
       ".meta/src/reference/java/PigLatinTranslator.java"
+    ],
+    "invalidator": [
+      "build.gradle"
     ]
   },
+  "blurb": "Implement a program that translates from English to Pig Latin.",
   "source": "The Pig Latin exercise at Test First Teaching by Ultrasaurus",
-  "source_url": "https://github.com/ultrasaurus/test-first-teaching/blob/master/learn_ruby/pig_latin/"
+  "source_url": "https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby/pig_latin"
 }
